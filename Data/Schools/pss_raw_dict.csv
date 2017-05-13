@@ -1,0 +1,347 @@
+POSITION,NAME,TYPE,LENGTH,QUESTION NUMBER,LABEL
+1,PFNLWT,NUM,8,Weighting Variable,Final Weight
+2,REPW1,NUM,8,Weighting Variable,Replicate Weight 1
+3,REPW2,NUM,8,Weighting Variable,Replicate Weight 2
+4,REPW3,NUM,8,Weighting Variable,Replicate Weight 3
+5,REPW4,NUM,8,Weighting Variable,Replicate Weight 4
+6,REPW5,NUM,8,Weighting Variable,Replicate Weight 5
+7,REPW6,NUM,8,Weighting Variable,Replicate Weight 6
+8,REPW7,NUM,8,Weighting Variable,Replicate Weight 7
+9,REPW8,NUM,8,Weighting Variable,Replicate Weight 8
+10,REPW9,NUM,8,Weighting Variable,Replicate Weight 9
+11,REPW10,NUM,8,Weighting Variable,Replicate Weight 10
+12,REPW11,NUM,8,Weighting Variable,Replicate Weight 11
+13,REPW12,NUM,8,Weighting Variable,Replicate Weight 12
+14,REPW13,NUM,8,Weighting Variable,Replicate Weight 13
+15,REPW14,NUM,8,Weighting Variable,Replicate Weight 14
+16,REPW15,NUM,8,Weighting Variable,Replicate Weight 15
+17,REPW16,NUM,8,Weighting Variable,Replicate Weight 16
+18,REPW17,NUM,8,Weighting Variable,Replicate Weight 17
+19,REPW18,NUM,8,Weighting Variable,Replicate Weight 18
+20,REPW19,NUM,8,Weighting Variable,Replicate Weight 19
+21,REPW20,NUM,8,Weighting Variable,Replicate Weight 20
+22,REPW21,NUM,8,Weighting Variable,Replicate Weight 21
+23,REPW22,NUM,8,Weighting Variable,Replicate Weight 22
+24,REPW23,NUM,8,Weighting Variable,Replicate Weight 23
+25,REPW24,NUM,8,Weighting Variable,Replicate Weight 24
+26,REPW25,NUM,8,Weighting Variable,Replicate Weight 25
+27,REPW26,NUM,8,Weighting Variable,Replicate Weight 26
+28,REPW27,NUM,8,Weighting Variable,Replicate Weight 27
+29,REPW28,NUM,8,Weighting Variable,Replicate Weight 28
+30,REPW29,NUM,8,Weighting Variable,Replicate Weight 29
+31,REPW30,NUM,8,Weighting Variable,Replicate Weight 30
+32,REPW31,NUM,8,Weighting Variable,Replicate Weight 31
+33,REPW32,NUM,8,Weighting Variable,Replicate Weight 32
+34,REPW33,NUM,8,Weighting Variable,Replicate Weight 33
+35,REPW34,NUM,8,Weighting Variable,Replicate Weight 34
+36,REPW35,NUM,8,Weighting Variable,Replicate Weight 35
+37,REPW36,NUM,8,Weighting Variable,Replicate Weight 36
+38,REPW37,NUM,8,Weighting Variable,Replicate Weight 37
+39,REPW38,NUM,8,Weighting Variable,Replicate Weight 38
+40,REPW39,NUM,8,Weighting Variable,Replicate Weight 39
+41,REPW40,NUM,8,Weighting Variable,Replicate Weight 40
+42,REPW41,NUM,8,Weighting Variable,Replicate Weight 41
+43,REPW42,NUM,8,Weighting Variable,Replicate Weight 42
+44,REPW43,NUM,8,Weighting Variable,Replicate Weight 43
+45,REPW44,NUM,8,Weighting Variable,Replicate Weight 44
+46,REPW45,NUM,8,Weighting Variable,Replicate Weight 45
+47,REPW46,NUM,8,Weighting Variable,Replicate Weight 46
+48,REPW47,NUM,8,Weighting Variable,Replicate Weight 47
+49,REPW48,NUM,8,Weighting Variable,Replicate Weight 48
+50,REPW49,NUM,8,Weighting Variable,Replicate Weight 49
+51,REPW50,NUM,8,Weighting Variable,Replicate Weight 50
+52,REPW51,NUM,8,Weighting Variable,Replicate Weight 51
+53,REPW52,NUM,8,Weighting Variable,Replicate Weight 52
+54,REPW53,NUM,8,Weighting Variable,Replicate Weight 53
+55,REPW54,NUM,8,Weighting Variable,Replicate Weight 54
+56,REPW55,NUM,8,Weighting Variable,Replicate Weight 55
+57,REPW56,NUM,8,Weighting Variable,Replicate Weight 56
+58,REPW57,NUM,8,Weighting Variable,Replicate Weight 57
+59,REPW58,NUM,8,Weighting Variable,Replicate Weight 58
+60,REPW59,NUM,8,Weighting Variable,Replicate Weight 59
+61,REPW60,NUM,8,Weighting Variable,Replicate Weight 60
+62,REPW61,NUM,8,Weighting Variable,Replicate Weight 61
+63,REPW62,NUM,8,Weighting Variable,Replicate Weight 62
+64,REPW63,NUM,8,Weighting Variable,Replicate Weight 63
+65,REPW64,NUM,8,Weighting Variable,Replicate Weight 64
+66,REPW65,NUM,8,Weighting Variable,Replicate Weight 65
+67,REPW66,NUM,8,Weighting Variable,Replicate Weight 66
+68,REPW67,NUM,8,Weighting Variable,Replicate Weight 67
+69,REPW68,NUM,8,Weighting Variable,Replicate Weight 68
+70,REPW69,NUM,8,Weighting Variable,Replicate Weight 69
+71,REPW70,NUM,8,Weighting Variable,Replicate Weight 70
+72,REPW71,NUM,8,Weighting Variable,Replicate Weight 71
+73,REPW72,NUM,8,Weighting Variable,Replicate Weight 72
+74,REPW73,NUM,8,Weighting Variable,Replicate Weight 73
+75,REPW74,NUM,8,Weighting Variable,Replicate Weight 74
+76,REPW75,NUM,8,Weighting Variable,Replicate Weight 75
+77,REPW76,NUM,8,Weighting Variable,Replicate Weight 76
+78,REPW77,NUM,8,Weighting Variable,Replicate Weight 77
+79,REPW78,NUM,8,Weighting Variable,Replicate Weight 78
+80,REPW79,NUM,8,Weighting Variable,Replicate Weight 79
+81,REPW80,NUM,8,Weighting Variable,Replicate Weight 80
+82,REPW81,NUM,8,Weighting Variable,Replicate Weight 81
+83,REPW82,NUM,8,Weighting Variable,Replicate Weight 82
+84,REPW83,NUM,8,Weighting Variable,Replicate Weight 83
+85,REPW84,NUM,8,Weighting Variable,Replicate Weight 84
+86,REPW85,NUM,8,Weighting Variable,Replicate Weight 85
+87,REPW86,NUM,8,Weighting Variable,Replicate Weight 86
+88,REPW87,NUM,8,Weighting Variable,Replicate Weight 87
+89,REPW88,NUM,8,Weighting Variable,Replicate Weight 88
+90,CSOURCE,NUM,8,Created Variable,Method of Interview
+91,P135,NUM,8,Q5A_GRD,5A Ungraded Offered
+92,P140,NUM,8,Q5A_ENRL,5A Ungraded Enrollment
+93,P145,NUM,8,Q5B_GRD,5B Nursery/Prekindergarten Offered
+94,P150,NUM,8,Q5B_ENRL,5B Nursery/Prekindergarten Enrollment
+95,P155,NUM,8,Q5C_GRD,5C Kindergarten Offered
+96,P160,NUM,8,Q5C_ENRL,5C Kindergarten Enrollment
+97,P165,NUM,8,Q5D_GRD,5D Transitional Kindergarten Offered
+98,P170,NUM,8,Q5D_ENRL,5D Transitional Kindergarten Enrollment
+99,P175,NUM,8,Q5E_GRD,5E Transitional First Grade Offered
+100,P180,NUM,8,Q5E_ENRL,5E Transitional First Grade Enrollment
+101,P185,NUM,8,Q5F_GRD,5F First Grade Offered
+102,P190,NUM,8,Q5F_ENRL,5F First Grade Enrollment
+103,P195,NUM,8,Q5G_GRD,5G Second Grade Offered
+104,P200,NUM,8,Q5G_ENRL,5G Second Grade Enrollment
+105,P205,NUM,8,Q5H_GRD,5H Third Grade Offered
+106,P210,NUM,8,Q5H_ENRL,5H Third Grade Enrollment
+107,P215,NUM,8,Q5I_GRD,5I Fourth Grade Offered
+108,P220,NUM,8,Q5I_ENRL,5I Fourth Grade Enrollment
+109,P225,NUM,8,Q5J_GRD,5J Fifth Grade Offered
+110,P230,NUM,8,Q5J_ENRL,5J Fifth Grade Enrollment
+111,P235,NUM,8,Q5K_GRD,5K Sixth Grade Offered
+112,P240,NUM,8,Q5K_ENRL,5K Sixth Grade Enrollment
+113,P245,NUM,8,Q5L_GRD,5L Seventh Grade Offered
+114,P250,NUM,8,Q5L_ENRL,5L Seventh Grade Enrollment
+115,P255,NUM,8,Q5M_GRD,5M Eighth Grade Offered
+116,P260,NUM,8,Q5M_ENRL,5M Eighth Grade Enrollment
+117,P265,NUM,8,Q5N_GRD,5N Ninth Grade Offered
+118,P270,NUM,8,Q5N_ENRL,5N Ninth Grade Enrollment
+119,P275,NUM,8,Q5O_GRD,5O Tenth Grade Offered
+120,P280,NUM,8,Q5O_ENRL,5O Tenth Grade Enrollment
+121,P285,NUM,8,Q5P_GRD,5P Eleventh Grade Offered
+122,P290,NUM,8,Q5P_ENRL,5P Eleventh Grade Enrollment
+123,P295,NUM,8,Q5Q_GRD,5Q Twelfth Grade Offered
+124,P300,NUM,8,Q5Q_ENRL,5Q Twelfth Grade Enrollment
+125,P305,NUM,8,Q6_TOTAL,6 Total Student Enrollment
+126,P320,NUM,8,Q7A,7A Hispanic Students
+127,P330,NUM,8,Q7B,7B White Students
+128,P325,NUM,8,Q7C,7C Black Students
+129,P316,NUM,8,Q7D,7D Asian Students
+130,P318,NUM,8,Q7E,7E Native Hawaiian/Pacific Islander Students
+131,P310,NUM,8,Q7F,7F American Indian/Alaska Native Students
+132,P332,NUM,8,Q7G,7G Students of two or more races
+133,P335,NUM,8,Q8A,8A Is Coeducational
+134,P340,NUM,8,Q8B,8B Male Students
+135,P345,NUM,8,Q9A,9A Students in 12th Grade Last Year
+136,P350,NUM,8,Q9B,9B Number of 12th Graders Last Year
+137,P360,NUM,8,Q9D,9D Percent to 4-Year College
+138,P365,NUM,8,Q10A,10A Length of School Day for Kindergarten
+139,P370,NUM,8,Q10B,10B Days Per Week for Kindergarten
+140,P385,NUM,8,Q11_FT,11 Full-Time Teachers
+141,P390,NUM,8,Q11_>3/4,11 3/4 Time Teachers
+142,P395,NUM,8,Q11_>1/2,11 1/2 Time Teachers
+143,P400,NUM,8,Q11_>1/4,11 1/4 Time Teachers
+144,P405,NUM,8,Q11_<1/4,11 Less Than 1/4 Time Teachers
+145,P410,NUM,8,Q11_TOTAL,11 Total Number of Teachers
+146,P415,NUM,8,Q12,12 Type of School
+147,P420,NUM,8,Q13A,13A School Supports Home Schooling
+148,P425,NUM,8,Q13B,13B Is School Located in Private Home
+149,P430,NUM,8,Q14A,14A Does School Have Religious Orientation
+150,P435,NUM,8,Q14B,14B Religious Affiliation
+151,P440,NUM,8,Q14C,14C Religious Orientation
+152,P445,NUM,8,Q14C_CATHOLIC,14C Type of Catholic School
+153,P450,NUM,8,Q15_0,15 No Associations
+154,P455,NUM,8,Q15_1,15 Accelerated Christian Education
+155,P460,NUM,8,Q15_2,15 American Association of Christian Schools
+156,P465,NUM,8,Q15_3,15 Assn of Christian Schools International
+157,P467,NUM,8,Q15_4,15 Assn of Christian Teachers and Schools
+158,P468,NUM,8,Q15_5,15 Assn of Classical and Christian Schools
+159,P470,NUM,8,Q15_6,15 Christian Schools International
+160,P480,NUM,8,Q15_7,15 Evangelical Lutheran Education Assn
+161,P485,NUM,8,Q15_8,15 Friends Council on Education
+162,P490,NUM,8,Q15_9,15 Gen Conference of SDA Church
+163,P492,NUM,8,Q15_10,15 Islamic School League of America
+164,P495,NUM,8,Q15_11,15 Jesuit Secondary Education Assn
+165,P500,NUM,8,Q15_12,15 National Assn of Episcopal Schools
+166,P505,NUM,8,Q15_13,15 National Catholic Educational Assn
+167,P510,NUM,8,Q15_14,15 National Christian School Assn
+168,P515,NUM,8,Q15_15,15 National Society of Hebrew Day Schools
+169,P520,NUM,8,Q15_16,15 Oral Roberts Univ Educational Fellowship
+170,P522,NUM,8,Q15_17,15 The Jewish Community Day School Network
+171,P525,NUM,8,Q15_18,15 Solomon Schechter Day Schools
+172,P530,NUM,8,Q15_19,15 Southern Baptist Assn of Christian Schools
+173,P535,NUM,8,Q15_20,15 Other Religious School Associations
+174,P540,NUM,8,Q15_21,15 American Montessori Society
+175,P542,NUM,8,Q15_22,15 Association Montessori International
+176,P545,NUM,8,Q15_23,15 Other Montessori Associations
+177,P550,NUM,8,Q15_24,15 Assn of Military Colleges and Schools
+178,P555,NUM,8,Q15_25,15 Assn of Waldorf Schools of North America
+179,P575,NUM,8,Q15_26,15 Natl Assn of Private Special Education Ctrs
+180,P580,NUM,8,Q15_27,15 Other Assns for Exceptional Children
+181,P585,NUM,8,Q15_28,15 European Council for Intntl Schls
+182,P590,NUM,8,Q15_29,15 National Assn for the Ed of Young Children
+183,P600,NUM,8,Q15_30,15 National Assn of Laboratory Schools
+184,P602,NUM,8,Q15_31,15 National Coalition of Girls' Schools
+185,P605,NUM,8,Q15_32,15 Other Special Emphasis Associations
+186,P610,NUM,8,Q15_33,15 Alternative School Network
+187,P620,NUM,8,Q15_34,15 National Assn of Independent Schools
+188,P622,NUM,8,Q15_35,15 State/Regional Independent School Assn
+189,P625,NUM,8,Q15_36,15 National Coalition of Alt Community Schools
+190,P630,NUM,8,Q15_37,15 National Independent PrivateSchools Assn
+191,P635,NUM,8,Q15_38,15 The Assn of Boarding Schools
+192,P640,NUM,8,Q15_39,15 Other School Associations
+193,P645,NUM,8,Q16,16 Days in School Year
+194,P650,NUM,8,Q17_HRS,17 Length of Student School Day-Hours
+195,P655,NUM,8,Q17_MIN,17 Length of Student School Day-Minutes
+196,P660,NUM,8,Q18,18 Library
+197,P665,NUM,8,Q19,19 Minutes to Complete Questionnaire
+198,PPIN,CHAR,8,Frame Variable,Permanent Identification Number
+199,PINST,CHAR,50,Frame Variable,School Name
+200,PADDRS,CHAR,50,Frame Variable,Mailing Address
+201,PCITY,CHAR,28,Frame Variable,Mailing City
+202,PSTABB,CHAR,2,Frame Variable,Mailing State Postal Code
+203,PZIP,CHAR,5,Frame Variable,Mailing Zip Code
+204,PZIP4,CHAR,4,Frame Variable,Mailing Zip4 Code
+205,PCNTY,CHAR,3,Frame Variable,ANSI County Code
+206,PCNTNM,CHAR,40,Frame Variable,County Name
+207,PL_ADD,CHAR,50,Frame Variable,Location Address
+208,PL_CIT,CHAR,28,Frame Variable,Location City
+209,PL_STABB,CHAR,2,Frame Variable,Location State Postal Code
+210,PL_ZIP,CHAR,5,Frame Variable,Location Zip Code
+211,PL_ZIP4,CHAR,4,Frame Variable,Location Zip4 Code
+212,REGION,NUM,8,Created Variable,Census Region
+213,PSTANSI,NUM,8,Frame Variable,ANSI State Code
+214,ULOCALE12,NUM,8,Created Variable,Urban-centric locale code
+215,LATITUDE12,NUM,8,Created Variable,Latitude
+216,LONGITUDE12,NUM,8,Created Variable,Longitude
+217,LOGR2012,NUM,8,Created Variable,2011-12 Lowest Grade Level Recode
+218,HIGR2012,NUM,8,Created Variable,2011-12 Highest Grade Level Recode
+219,FRAME,CHAR,4,Created Variable,Universe frame
+220,TABFLAG,NUM,8,Created Variable,Tabulation flag
+221,TYPOLOGY,NUM,8,Created Variable,School Typology
+222,RELIG,NUM,8,Created Variable,Affiliation
+223,ORIENT,NUM,8,Created Variable,School orientation
+224,DIOCESE,NUM,8,Created Variable,Diocese or archdiocese
+225,LEVEL,NUM,8,Created Variable,Level of Instruction
+226,NUMSTUDS,NUM,8,Created Variable,"Total number of students (K-12, UG)"
+227,SIZE,NUM,8,Created Variable,"School size (K-12, UG)"
+228,NUMTEACH,NUM,8,Created Variable,Number of K-12 teachers (FTE)
+229,UCOMMTYP,NUM,8,Created Variable,Urban-centric community type
+230,TOTHRS,NUM,8,Created Variable,Length of school day in hours
+231,MALES,NUM,8,Created Variable,"Number of male students (K-12, UG)"
+232,F_P135,NUM,8,Imputation Flag,Imputation Flag For P135
+233,F_P140,NUM,8,Imputation Flag,Imputation Flag For P140
+234,F_P145,NUM,8,Imputation Flag,Imputation Flag For P145
+235,F_P150,NUM,8,Imputation Flag,Imputation Flag For P150
+236,F_P155,NUM,8,Imputation Flag,Imputation Flag For P155
+237,F_P160,NUM,8,Imputation Flag,Imputation Flag For P160
+238,F_P165,NUM,8,Imputation Flag,Imputation Flag For P165
+239,F_P170,NUM,8,Imputation Flag,Imputation Flag For P170
+240,F_P175,NUM,8,Imputation Flag,Imputation Flag For P175
+241,F_P180,NUM,8,Imputation Flag,Imputation Flag For P180
+242,F_P185,NUM,8,Imputation Flag,Imputation Flag For P185
+243,F_P190,NUM,8,Imputation Flag,Imputation Flag For P190
+244,F_P195,NUM,8,Imputation Flag,Imputation Flag For P195
+245,F_P200,NUM,8,Imputation Flag,Imputation Flag For P200
+246,F_P205,NUM,8,Imputation Flag,Imputation Flag For P205
+247,F_P210,NUM,8,Imputation Flag,Imputation Flag For P210
+248,F_P215,NUM,8,Imputation Flag,Imputation Flag For P215
+249,F_P220,NUM,8,Imputation Flag,Imputation Flag For P220
+250,F_P225,NUM,8,Imputation Flag,Imputation Flag For P225
+251,F_P230,NUM,8,Imputation Flag,Imputation Flag For P230
+252,F_P235,NUM,8,Imputation Flag,Imputation Flag For P235
+253,F_P240,NUM,8,Imputation Flag,Imputation Flag For P240
+254,F_P245,NUM,8,Imputation Flag,Imputation Flag For P245
+255,F_P250,NUM,8,Imputation Flag,Imputation Flag For P250
+256,F_P255,NUM,8,Imputation Flag,Imputation Flag For P255
+257,F_P260,NUM,8,Imputation Flag,Imputation Flag For P260
+258,F_P265,NUM,8,Imputation Flag,Imputation Flag For P265
+259,F_P270,NUM,8,Imputation Flag,Imputation Flag For P270
+260,F_P275,NUM,8,Imputation Flag,Imputation Flag For P275
+261,F_P280,NUM,8,Imputation Flag,Imputation Flag For P280
+262,F_P285,NUM,8,Imputation Flag,Imputation Flag For P285
+263,F_P290,NUM,8,Imputation Flag,Imputation Flag For P290
+264,F_P295,NUM,8,Imputation Flag,Imputation Flag For P295
+265,F_P300,NUM,8,Imputation Flag,Imputation Flag For P300
+266,F_P305,NUM,8,Imputation Flag,Imputation Flag For P305
+267,F_P320,NUM,8,Imputation Flag,Imputation Flag For P320
+268,F_P330,NUM,8,Imputation Flag,Imputation Flag For P330
+269,F_P325,NUM,8,Imputation Flag,Imputation Flag For P325
+270,F_P316,NUM,8,Imputation Flag,Imputation Flag For P316
+271,F_P318,NUM,8,Imputation Flag,Imputation Flag For P318
+272,F_P310,NUM,8,Imputation Flag,Imputation Flag For P310
+273,F_P332,NUM,8,Imputation Flag,Imputation Flag For P332
+274,F_P335,NUM,8,Imputation Flag,Imputation Flag For P335
+275,F_P340,NUM,  8,Imputation Flag,Imputation Flag For P340
+276,F_P345,NUM,  8,Imputation Flag,Imputation Flag For P345
+277,F_P350,NUM,  8,Imputation Flag,Imputation Flag For P350
+278,F_P360,NUM,  8,Imputation Flag,Imputation Flag For P360
+279,F_P365,NUM,  8,Imputation Flag,Imputation Flag For P365
+280,F_P370,NUM,  8,Imputation Flag,Imputation Flag For P370
+281,F_P385,NUM,  8,Imputation Flag,Imputation Flag For P385
+282,F_P390,NUM,  8,Imputation Flag,Imputation Flag For P390
+283,F_P395,NUM,  8,Imputation Flag,Imputation Flag For P395
+284,F_P400,NUM,  8,Imputation Flag,Imputation Flag For P400
+285,F_P405,NUM,  8,Imputation Flag,Imputation Flag For P405
+286,F_P410,NUM,  8,Imputation Flag,Imputation Flag For P410
+287,F_P415,NUM,  8,Imputation Flag,Imputation Flag For P415
+288,F_P420,NUM,  8,Imputation Flag,Imputation Flag For P420
+289,F_P425,NUM,  8,Imputation Flag,Imputation Flag For P425
+290,F_P430,NUM,  8,Imputation Flag,Imputation Flag For P430
+291,F_P435,NUM,  8,Imputation Flag,Imputation Flag For P435
+292,F_P440,NUM,  8,Imputation Flag,Imputation Flag For P440
+293,F_P445,NUM,  8,Imputation Flag,Imputation Flag For P445
+294,F_P450,NUM,  8,Imputation Flag,Imputation Flag For P450
+295,F_P455,NUM,  8,Imputation Flag,Imputation Flag For P455
+296,F_P460,NUM,  8,Imputation Flag,Imputation Flag For P460
+297,F_P465,NUM,  8,Imputation Flag,Imputation Flag For P465
+298,F_P467,NUM,  8,Imputation Flag,Imputation Flag For P467
+299,F_P468,NUM,  8,Imputation Flag,Imputation Flag For P468
+300,F_P470,NUM,  8,Imputation Flag,Imputation Flag For P470
+301,F_P480,NUM,  8,Imputation Flag,Imputation Flag For P480
+302,F_P485,NUM,  8,Imputation Flag,Imputation Flag For P485
+303,F_P490,NUM,  8,Imputation Flag,Imputation Flag For P490
+304,F_P492,NUM,  8,Imputation Flag,Imputation Flag For P492
+305,F_P495,NUM,  8,Imputation Flag,Imputation Flag For P495
+306,F_P500,NUM,  8,Imputation Flag,Imputation Flag For P500
+307,F_P505,NUM,  8,Imputation Flag,Imputation Flag For P505
+308,F_P510,NUM,  8,Imputation Flag,Imputation Flag For P510
+309,F_P515,NUM,  8,Imputation Flag,Imputation Flag For P515
+310,F_P520,NUM,  8,Imputation Flag,Imputation Flag For P520
+311,F_P522,NUM,  8,Imputation Flag,Imputation Flag For P522
+312,F_P525,NUM,  8,Imputation Flag,Imputation Flag For P525
+313,F_P530,NUM,  8,Imputation Flag,Imputation Flag For P530
+314,F_P535,NUM,  8,Imputation Flag,Imputation Flag For P535
+315,F_P540,NUM,  8,Imputation Flag,Imputation Flag For P540
+316,F_P542,NUM,  8,Imputation Flag,Imputation Flag For P542
+317,F_P545,NUM,  8,Imputation Flag,Imputation Flag For P545
+318,F_P550,NUM,  8,Imputation Flag,Imputation Flag For P550
+319,F_P555,NUM,  8,Imputation Flag,Imputation Flag For P555
+320,F_P575,NUM,  8,Imputation Flag,Imputation Flag For P575
+321,F_P580,NUM,  8,Imputation Flag,Imputation Flag For P580
+322,F_P585,NUM,  8,Imputation Flag,Imputation Flag For P585
+323,F_P590,NUM,  8,Imputation Flag,Imputation Flag For P590
+324,F_P600,NUM,8,Imputation Flag,Imputation Flag For P600
+325,F_P602,NUM,8,Imputation Flag,Imputation Flag For P602
+326,F_P605,NUM,8,Imputation Flag,Imputation Flag For P605
+327,F_P610,NUM,8,Imputation Flag,Imputation Flag For P610
+328,F_P620,NUM,8,Imputation Flag,Imputation Flag For P620
+329,F_P622,NUM,8,Imputation Flag,Imputation Flag For P622
+330,F_P625,NUM,8,Imputation Flag,Imputation Flag For P625
+331,F_P630,NUM,8,Imputation Flag,Imputation Flag For P630
+332,F_P635,NUM,8,Imputation Flag,Imputation Flag For P635
+333,F_P640,NUM,8,Imputation Flag,Imputation Flag For P640
+334,F_P645,NUM,8,Imputation Flag,Imputation Flag For P645
+335,F_P650,NUM,8,Imputation Flag,Imputation Flag For P650
+336,F_P655,NUM,8,Imputation Flag,Imputation Flag For P655
+337,F_P660,NUM,8,Imputation Flag,Imputation Flag For P660
+338,S_KG,NUM,8,Created Variable,Total number of kindergarten students
+339,P_INDIAN,NUM,8,Created Variable,Percentage of American Indian or Alaskan Native students
+340,P_ASIAN,NUM,8,Created Variable,Percentage of Asian students
+341,P_PACIFIC,NUM,8,Created Variable,Percentage of Native Hawaiian or Pacific Islander students
+342,P_HISP,NUM,8,Created Variable,Percentage of Hispanic students
+343,P_WHITE,NUM,8,Created Variable,Percentage of White students
+344,P_BLACK,NUM,8,Created Variable,Percentage of Black students
+345,P_TR,NUM,8,Created Variable,Percentage of students of two or more races
+346,STTCH_RT,NUM,8,Created Variable,Student teacher ratio

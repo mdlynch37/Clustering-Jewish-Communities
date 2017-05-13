@@ -1,0 +1,3110 @@
+FIPS_County,Region,County,County_State,Region_States
+1073,Birmingham Tuscaloosa Area,Jefferson County,AL,AL
+1117,Birmingham Tuscaloosa Area,Shelby County,AL,AL
+1125,Birmingham Tuscaloosa Area,Tuscaloosa County,AL,AL
+1005,Central & Southeast Region,Barbour County,AL,AL
+1011,Central & Southeast Region,Bullock County,AL,AL
+1013,Central & Southeast Region,Butler County,AL,AL
+1023,Central & Southeast Region,Choctaw County,AL,AL
+1025,Central & Southeast Region,Clarke County,AL,AL
+1031,Central & Southeast Region,Coffee County,AL,AL
+1035,Central & Southeast Region,Conecuh County,AL,AL
+1039,Central & Southeast Region,Covington County,AL,AL
+1041,Central & Southeast Region,Crenshaw County,AL,AL
+1045,Central & Southeast Region,Dale County,AL,AL
+1047,Central & Southeast Region,Dallas County,AL,AL
+1053,Central & Southeast Region,Escambia County,AL,AL
+1087,Central & Southeast Region,Macon County,AL,AL
+1091,Central & Southeast Region,Marengo County,AL,AL
+1099,Central & Southeast Region,Monroe County,AL,AL
+1105,Central & Southeast Region,Perry County,AL,AL
+1109,Central & Southeast Region,Pike County,AL,AL
+1129,Central & Southeast Region,Washington County,AL,AL
+1131,Central & Southeast Region,Wilcox County,AL,AL
+1001,Central & Southeast Region,Autauga County,AL,AL
+1007,Central & Southeast Region,Bibb County,AL,AL
+1017,Central & Southeast Region,Chambers County,AL,AL
+1021,Central & Southeast Region,Chilton County,AL,AL
+1027,Central & Southeast Region,Clay County,AL,AL
+1037,Central & Southeast Region,Coosa County,AL,AL
+1051,Central & Southeast Region,Elmore County,AL,AL
+1061,Central & Southeast Region,Geneva County,AL,AL
+1063,Central & Southeast Region,Greene County,AL,AL
+1065,Central & Southeast Region,Hale County,AL,AL
+1067,Central & Southeast Region,Henry County,AL,AL
+1069,Central & Southeast Region,Houston County,AL,AL
+1081,Central & Southeast Region,Lee County,AL,AL
+1085,Central & Southeast Region,Lowndes County,AL,AL
+1101,Central & Southeast Region,Montgomery County,AL,AL
+1107,Central & Southeast Region,Pickens County,AL,AL
+1111,Central & Southeast Region,Randolph County,AL,AL
+1113,Central & Southeast Region,Russell County,AL,AL
+1119,Central & Southeast Region,Sumter County,AL,AL
+1121,Central & Southeast Region,Talladega County,AL,AL
+1123,Central & Southeast Region,Tallapoosa County,AL,AL
+1003,Mobile-Pensacola Region,Baldwin County,AL,AL-FL-MS
+1097,Mobile-Pensacola Region,Mobile County,AL,AL-FL-MS
+12033,Mobile-Pensacola Region,Escambia County,FL,AL-FL-MS
+12091,Mobile-Pensacola Region,Okaloosa County,FL,AL-FL-MS
+12113,Mobile-Pensacola Region,Santa Rosa County,FL,AL-FL-MS
+28059,Mobile-Pensacola Region,Jackson County,MS,AL-FL-MS
+1055,Northern Region,Etowah County,AL,AL
+1009,Northern Region,Blount County,AL,AL
+1015,Northern Region,Calhoun County,AL,AL
+1019,Northern Region,Cherokee County,AL,AL
+1029,Northern Region,Cleburne County,AL,AL
+1033,Northern Region,Colbert County,AL,AL
+1043,Northern Region,Cullman County,AL,AL
+1049,Northern Region,DeKalb County,AL,AL
+1057,Northern Region,Fayette County,AL,AL
+1059,Northern Region,Franklin County,AL,AL
+1071,Northern Region,Jackson County,AL,AL
+1075,Northern Region,Lamar County,AL,AL
+1077,Northern Region,Lauderdale County,AL,AL
+1079,Northern Region,Lawrence County,AL,AL
+1083,Northern Region,Limestone County,AL,AL
+1089,Northern Region,Madison County,AL,AL
+1093,Northern Region,Marion County,AL,AL
+1095,Northern Region,Marshall County,AL,AL
+1103,Northern Region,Morgan County,AL,AL
+1115,Northern Region,St. Clair County,AL,AL
+1127,Northern Region,Walker County,AL,AL
+1133,Northern Region,Winston County,AL,AL
+4015,Outlying Region,Mohave County,AZ,AZ-CA
+4007,Outlying Region,Gila County,AZ,AZ-CA
+4009,Outlying Region,Graham County,AZ,AZ-CA
+4017,Outlying Region,Navajo County,AZ,AZ-CA
+4027,Outlying Region,Yuma County,AZ,AZ-CA
+4001,Outlying Region,Apache County,AZ,AZ-CA
+4011,Outlying Region,Greenlee County,AZ,AZ-CA
+4012,Outlying Region,La Paz County,AZ,AZ-CA
+6025,Outlying Region,Imperial County,CA,AZ-CA
+4021,Phoenix & Scottsdale Area,Pinal County,AZ,AZ
+4013,Phoenix & Scottsdale Area,Maricopa County,AZ,AZ
+4025,Phoenix & Scottsdale Area,Yavapai County,AZ,AZ
+4005,Phoenix & Scottsdale Area,Coconino County,AZ,AZ
+4003,Tucson Area,Cochise County,AZ,AZ
+4019,Tucson Area,Pima County,AZ,AZ
+4023,Tucson Area,Santa Cruz County,AZ,AZ
+5025,Eastern Region,Cleveland County,AR,AR
+5031,Eastern Region,Craighead County,AR,AR
+5069,Eastern Region,Jefferson County,AR,AR
+5079,Eastern Region,Lincoln County,AR,AR
+5081,Eastern Region,Little River County,AR,AR
+5091,Eastern Region,Miller County,AR,AR
+5111,Eastern Region,Poinsett County,AR,AR
+5001,Eastern Region,Arkansas County,AR,AR
+5003,Eastern Region,Ashley County,AR,AR
+5011,Eastern Region,Bradley County,AR,AR
+5013,Eastern Region,Calhoun County,AR,AR
+5017,Eastern Region,Chicot County,AR,AR
+5021,Eastern Region,Clay County,AR,AR
+5023,Eastern Region,Cleburne County,AR,AR
+5027,Eastern Region,Columbia County,AR,AR
+5037,Eastern Region,Cross County,AR,AR
+5039,Eastern Region,Dallas County,AR,AR
+5041,Eastern Region,Desha County,AR,AR
+5043,Eastern Region,Drew County,AR,AR
+5049,Eastern Region,Fulton County,AR,AR
+5055,Eastern Region,Greene County,AR,AR
+5057,Eastern Region,Hempstead County,AR,AR
+5063,Eastern Region,Independence County,AR,AR
+5065,Eastern Region,Izard County,AR,AR
+5067,Eastern Region,Jackson County,AR,AR
+5073,Eastern Region,Lafayette County,AR,AR
+5075,Eastern Region,Lawrence County,AR,AR
+5077,Eastern Region,Lee County,AR,AR
+5093,Eastern Region,Mississippi County,AR,AR
+5095,Eastern Region,Monroe County,AR,AR
+5099,Eastern Region,Nevada County,AR,AR
+5103,Eastern Region,Ouachita County,AR,AR
+5107,Eastern Region,Phillips County,AR,AR
+5117,Eastern Region,Prairie County,AR,AR
+5121,Eastern Region,Randolph County,AR,AR
+5135,Eastern Region,Sharp County,AR,AR
+5123,Eastern Region,St. Francis County,AR,AR
+5137,Eastern Region,Stone County,AR,AR
+5139,Eastern Region,Union County,AR,AR
+5141,Eastern Region,Van Buren County,AR,AR
+5147,Eastern Region,Woodruff County,AR,AR
+5035,Eastern Region,Crittenden County,AR,AR
+5053,Eastern Region,Grant County,AR,AR
+5127,Little Rock & Hot Springs Region,Scott County,AR,AR
+5133,Little Rock & Hot Springs Region,Sevier County,AR,AR
+5149,Little Rock & Hot Springs Region,Yell County,AR,AR
+5019,Little Rock & Hot Springs Region,Clark County,AR,AR
+5045,Little Rock & Hot Springs Region,Faulkner County,AR,AR
+5051,Little Rock & Hot Springs Region,Garland County,AR,AR
+5059,Little Rock & Hot Springs Region,Hot Spring County,AR,AR
+5061,Little Rock & Hot Springs Region,Howard County,AR,AR
+5085,Little Rock & Hot Springs Region,Lonoke County,AR,AR
+5097,Little Rock & Hot Springs Region,Montgomery County,AR,AR
+5105,Little Rock & Hot Springs Region,Perry County,AR,AR
+5109,Little Rock & Hot Springs Region,Pike County,AR,AR
+5113,Little Rock & Hot Springs Region,Polk County,AR,AR
+5119,Little Rock & Hot Springs Region,Pulaski County,AR,AR
+5125,Little Rock & Hot Springs Region,Saline County,AR,AR
+5145,Little Rock & Hot Springs Region,White County,AR,AR
+5005,Northwest Region,Baxter County,AR,AR
+5007,Northwest Region,Benton County,AR,AR
+5009,Northwest Region,Boone County,AR,AR
+5015,Northwest Region,Carroll County,AR,AR
+5033,Northwest Region,Crawford County,AR,AR
+5047,Northwest Region,Franklin County,AR,AR
+5071,Northwest Region,Johnson County,AR,AR
+5083,Northwest Region,Logan County,AR,AR
+5087,Northwest Region,Madison County,AR,AR
+5089,Northwest Region,Marion County,AR,AR
+5101,Northwest Region,Newton County,AR,AR
+5115,Northwest Region,Pope County,AR,AR
+5129,Northwest Region,Searcy County,AR,AR
+5131,Northwest Region,Sebastian County,AR,AR
+5143,Northwest Region,Washington County,AR,AR
+5029,Northwest Region,Conway County,AR,AR
+6053,Central Coast,Monterey County,CA,CA
+6079,Central Coast,San Luis Obispo County,CA,CA
+6083,Central Coast,Santa Barbara County,CA,CA
+6111,Central Coast,Ventura County,CA,CA
+6001,East Bay,Alameda County,CA,CA
+6037,Los Angeles Area,Los Angeles County,CA,CA
+6013,Northern Bay Area,Contra Costa County,CA,CA
+6095,Northern Bay Area,Solano County,CA,CA
+6055,Northern Bay Area,Napa County,CA,CA
+6089,Northern Region,Shasta County,CA,CA
+6011,Northern Region,Colusa County,CA,CA
+6015,Northern Region,Del Norte County,CA,CA
+6021,Northern Region,Glenn County,CA,CA
+6023,Northern Region,Humboldt County,CA,CA
+6035,Northern Region,Lassen County,CA,CA
+6045,Northern Region,Mendocino County,CA,CA
+6049,Northern Region,Modoc County,CA,CA
+6063,Northern Region,Plumas County,CA,CA
+6091,Northern Region,Sierra County,CA,CA
+6093,Northern Region,Siskiyou County,CA,CA
+6101,Northern Region,Sutter County,CA,CA
+6103,Northern Region,Tehama County,CA,CA
+6105,Northern Region,Trinity County,CA,CA
+6115,Northern Region,Yuba County,CA,CA
+6007,Northern Region,Butte County,CA,CA
+6033,Northern Region,Lake County,CA,CA
+6047,Northern San Joaquin Valley,Merced County,CA,CA
+6077,Northern San Joaquin Valley,San Joaquin County,CA,CA
+6099,Northern San Joaquin Valley,Stanislaus County,CA,CA
+6059,Orange County,Orange County,CA,CA
+6065,Riverside Region,Riverside County,CA,CA
+6067,Sacramento & Davis,Sacramento County,CA,CA
+6113,Sacramento & Davis,Yolo County,CA,CA
+6071,San Bernadino Region,San Bernardino County,CA,CA
+6073,San Diego Area,San Diego County,CA,CA
+6041,San Francisco Area,Marin County,CA,CA
+6075,San Francisco Area,San Francisco County,CA,CA
+6081,San Francisco Area,San Mateo County,CA,CA
+6097,San Francisco Area,Sonoma County,CA,CA
+6069,Santa Cruz & San Jose Area,San Benito County,CA,CA
+6085,Santa Cruz & San Jose Area,Santa Clara County,CA,CA
+6087,Santa Cruz & San Jose Area,Santa Cruz County,CA,CA
+6061,Sierra Nevada Mountains,Placer County,CA,CA
+6003,Sierra Nevada Mountains,Alpine County,CA,CA
+6005,Sierra Nevada Mountains,Amador County,CA,CA
+6009,Sierra Nevada Mountains,Calaveras County,CA,CA
+6027,Sierra Nevada Mountains,Inyo County,CA,CA
+6039,Sierra Nevada Mountains,Madera County,CA,CA
+6043,Sierra Nevada Mountains,Mariposa County,CA,CA
+6051,Sierra Nevada Mountains,Mono County,CA,CA
+6057,Sierra Nevada Mountains,Nevada County,CA,CA
+6109,Sierra Nevada Mountains,Tuolumne County,CA,CA
+6017,Sierra Nevada Mountains,El Dorado County,CA,CA
+6019,Southern San Joaquin Valley,Fresno County,CA,CA
+6029,Southern San Joaquin Valley,Kern County,CA,CA
+6031,Southern San Joaquin Valley,Kings County,CA,CA
+6107,Southern San Joaquin Valley,Tulare County,CA,CA
+8041,Colorado Springs & Pueblo,El Paso County,CO,CO
+8101,Colorado Springs & Pueblo,Pueblo County,CO,CO
+8119,Colorado Springs & Pueblo,Teller County,CO,CO
+8001,Denver & Boulder Region,Adams County,CO,CO
+8005,Denver & Boulder Region,Arapahoe County,CO,CO
+8013,Denver & Boulder Region,Boulder County,CO,CO
+8014,Denver & Boulder Region,Broomfield County,CO,CO
+8019,Denver & Boulder Region,Clear Creek County,CO,CO
+8031,Denver & Boulder Region,Denver County,CO,CO
+8035,Denver & Boulder Region,Douglas County,CO,CO
+8039,Denver & Boulder Region,Elbert County,CO,CO
+8047,Denver & Boulder Region,Gilpin County,CO,CO
+8049,Denver & Boulder Region,Grand County,CO,CO
+8059,Denver & Boulder Region,Jefferson County,CO,CO
+8093,Denver & Boulder Region,Park County,CO,CO
+8117,Denver & Boulder Region,Summit County,CO,CO
+8069,Fort Collins-Cheyenne Area,Larimer County,CO,CO-WY
+8123,Fort Collins-Cheyenne Area,Weld County,CO,CO-WY
+56001,Fort Collins-Cheyenne Area,Albany County,WY,CO-WY
+56021,Fort Collins-Cheyenne Area,Laramie County,WY,CO-WY
+8003,Outlying Colorado Region,Alamosa County,CO,CO
+8007,Outlying Colorado Region,Archuleta County,CO,CO
+8009,Outlying Colorado Region,Baca County,CO,CO
+8011,Outlying Colorado Region,Bent County,CO,CO
+8015,Outlying Colorado Region,Chaffee County,CO,CO
+8017,Outlying Colorado Region,Cheyenne County,CO,CO
+8021,Outlying Colorado Region,Conejos County,CO,CO
+8023,Outlying Colorado Region,Costilla County,CO,CO
+8025,Outlying Colorado Region,Crowley County,CO,CO
+8027,Outlying Colorado Region,Custer County,CO,CO
+8029,Outlying Colorado Region,Delta County,CO,CO
+8033,Outlying Colorado Region,Dolores County,CO,CO
+8037,Outlying Colorado Region,Eagle County,CO,CO
+8043,Outlying Colorado Region,Fremont County,CO,CO
+8045,Outlying Colorado Region,Garfield County,CO,CO
+8051,Outlying Colorado Region,Gunnison County,CO,CO
+8053,Outlying Colorado Region,Hinsdale County,CO,CO
+8055,Outlying Colorado Region,Huerfano County,CO,CO
+8057,Outlying Colorado Region,Jackson County,CO,CO
+8061,Outlying Colorado Region,Kiowa County,CO,CO
+8063,Outlying Colorado Region,Kit Carson County,CO,CO
+8065,Outlying Colorado Region,Lake County,CO,CO
+8071,Outlying Colorado Region,Las Animas County,CO,CO
+8073,Outlying Colorado Region,Lincoln County,CO,CO
+8075,Outlying Colorado Region,Logan County,CO,CO
+8077,Outlying Colorado Region,Mesa County,CO,CO
+8079,Outlying Colorado Region,Mineral County,CO,CO
+8081,Outlying Colorado Region,Moffat County,CO,CO
+8085,Outlying Colorado Region,Montrose County,CO,CO
+8087,Outlying Colorado Region,Morgan County,CO,CO
+8089,Outlying Colorado Region,Otero County,CO,CO
+8091,Outlying Colorado Region,Ouray County,CO,CO
+8095,Outlying Colorado Region,Phillips County,CO,CO
+8097,Outlying Colorado Region,Pitkin County,CO,CO
+8099,Outlying Colorado Region,Prowers County,CO,CO
+8103,Outlying Colorado Region,Rio Blanco County,CO,CO
+8105,Outlying Colorado Region,Rio Grande County,CO,CO
+8107,Outlying Colorado Region,Routt County,CO,CO
+8109,Outlying Colorado Region,Saguache County,CO,CO
+8111,Outlying Colorado Region,San Juan County,CO,CO
+8113,Outlying Colorado Region,San Miguel County,CO,CO
+8115,Outlying Colorado Region,Sedgwick County,CO,CO
+8121,Outlying Colorado Region,Washington County,CO,CO
+8125,Outlying Colorado Region,Yuma County,CO,CO
+9007,Coastal Region,Middlesex County,CT,CT
+9001,Coastal Region,Fairfield County,CT,CT
+9009,Coastal Region,New Haven County,CT,CT
+9011,Coastal Region,New London County,CT,CT
+9013,Northern Region,Tolland County,CT,CT
+9003,Northern Region,Hartford County,CT,CT
+9005,Northern Region,Litchfield County,CT,CT
+9015,Northern Region,Windham County,CT,CT
+10001,All Counties,Kent County,DE,DE
+10003,All Counties,New Castle County,DE,DE
+10005,All Counties,Sussex County,DE,DE
+11001,Washington DC & Northwest Suburbs,District of Columbia,DC,MD-DC
+24031,Washington DC & Northwest Suburbs,Montgomery County,MD,MD-DC
+12053,Central Florida,Hernando County,FL,FL
+12069,Central Florida,Lake County,FL,FL
+12095,Central Florida,Orange County,FL,FL
+12117,Central Florida,Seminole County,FL,FL
+12119,Central Florida,Sumter County,FL,FL
+12009,Eastern Coastal Region,Brevard County,FL,FL
+12061,Eastern Coastal Region,Indian River County,FL,FL
+12085,Eastern Coastal Region,Martin County,FL,FL
+12111,Eastern Coastal Region,St. Lucie County,FL,FL
+12127,Eastern Coastal Region,Volusia County,FL,FL
+12011,Fort Lauderdale Area,Broward County,FL,FL
+12031,Jacksonville Area,Duval County,FL,FL
+12089,Jacksonville Area,Nassau County,FL,FL
+12109,Jacksonville Area,St. Johns County,FL,FL
+12035,Jacksonville Area,Flagler County,FL,FL
+12086,Miami-Dade Region,Miami-Dade County,FL,FL
+12001,North Central Region,Alachua County,FL,FL
+12003,North Central Region,Baker County,FL,FL
+12007,North Central Region,Bradford County,FL,FL
+12017,North Central Region,Citrus County,FL,FL
+12019,North Central Region,Clay County,FL,FL
+12023,North Central Region,Columbia County,FL,FL
+12029,North Central Region,Dixie County,FL,FL
+12041,North Central Region,Gilchrist County,FL,FL
+12047,North Central Region,Hamilton County,FL,FL
+12067,North Central Region,Lafayette County,FL,FL
+12075,North Central Region,Levy County,FL,FL
+12083,North Central Region,Marion County,FL,FL
+12107,North Central Region,Putnam County,FL,FL
+12121,North Central Region,Suwannee County,FL,FL
+12125,North Central Region,Union County,FL,FL
+12099,Palm Beach Area,Palm Beach County,FL,FL
+12027,South Central Region,DeSoto County,FL,FL
+12043,South Central Region,Glades County,FL,FL
+12049,South Central Region,Hardee County,FL,FL
+12051,South Central Region,Hendry County,FL,FL
+12055,South Central Region,Highlands County,FL,FL
+12093,South Central Region,Okeechobee County,FL,FL
+12097,South Central Region,Osceola County,FL,FL
+12105,South Central Region,Polk County,FL,FL
+12015,Southwest Coastal Region,Charlotte County,FL,FL
+12021,Southwest Coastal Region,Collier County,FL,FL
+12071,Southwest Coastal Region,Lee County,FL,FL
+12081,Southwest Coastal Region,Manatee County,FL,FL
+12087,Southwest Coastal Region,Monroe County,FL,FL
+12115,Southwest Coastal Region,Sarasota County,FL,FL
+12005,Tallahassee & Eastern Panhandle Region,Bay County,FL,FL
+12013,Tallahassee & Eastern Panhandle Region,Calhoun County,FL,FL
+12037,Tallahassee & Eastern Panhandle Region,Franklin County,FL,FL
+12039,Tallahassee & Eastern Panhandle Region,Gadsden County,FL,FL
+12045,Tallahassee & Eastern Panhandle Region,Gulf County,FL,FL
+12059,Tallahassee & Eastern Panhandle Region,Holmes County,FL,FL
+12063,Tallahassee & Eastern Panhandle Region,Jackson County,FL,FL
+12065,Tallahassee & Eastern Panhandle Region,Jefferson County,FL,FL
+12073,Tallahassee & Eastern Panhandle Region,Leon County,FL,FL
+12077,Tallahassee & Eastern Panhandle Region,Liberty County,FL,FL
+12079,Tallahassee & Eastern Panhandle Region,Madison County,FL,FL
+12123,Tallahassee & Eastern Panhandle Region,Taylor County,FL,FL
+12129,Tallahassee & Eastern Panhandle Region,Wakulla County,FL,FL
+12131,Tallahassee & Eastern Panhandle Region,Walton County,FL,FL
+12133,Tallahassee & Eastern Panhandle Region,Washington County,FL,FL
+12057,Tampa Area,Hillsborough County,FL,FL
+12101,Tampa Area,Pasco County,FL,FL
+12103,Tampa Area,Pinellas County,FL,FL
+13089,Atlanta Area,DeKalb County,GA,GA
+13121,Atlanta Area,Fulton County,GA,GA
+13015,Blue Ridge Mountain Region,Bartow County,GA,GA
+13227,Blue Ridge Mountain Region,Pickens County,GA,GA
+13085,Blue Ridge Mountain Region,Dawson County,GA,GA
+13047,Blue Ridge Mountain Region,Catoosa County,GA,GA
+13083,Blue Ridge Mountain Region,Dade County,GA,GA
+13295,Blue Ridge Mountain Region,Walker County,GA,GA
+13213,Blue Ridge Mountain Region,Murray County,GA,GA
+13313,Blue Ridge Mountain Region,Whitfield County,GA,GA
+13115,Blue Ridge Mountain Region,Floyd County,GA,GA
+13129,Blue Ridge Mountain Region,Gordon County,GA,GA
+13137,Blue Ridge Mountain Region,Habersham County,GA,GA
+13055,Blue Ridge Mountain Region,Chattooga County,GA,GA
+13257,Blue Ridge Mountain Region,Stephens County,GA,GA
+13111,Blue Ridge Mountain Region,Fannin County,GA,GA
+13187,Blue Ridge Mountain Region,Lumpkin County,GA,GA
+13241,Blue Ridge Mountain Region,Rabun County,GA,GA
+13281,Blue Ridge Mountain Region,Towns County,GA,GA
+13291,Blue Ridge Mountain Region,Union County,GA,GA
+13311,Blue Ridge Mountain Region,White County,GA,GA
+13123,Blue Ridge Mountain Region,Gilmer County,GA,GA
+13025,Coastal Region,Brantley County,GA,GA
+13191,Coastal Region,McIntosh County,GA,GA
+13127,Coastal Region,Glynn County,GA,GA
+13179,Coastal Region,Liberty County,GA,GA
+13183,Coastal Region,Long County,GA,GA
+13029,Coastal Region,Bryan County,GA,GA
+13051,Coastal Region,Chatham County,GA,GA
+13103,Coastal Region,Effingham County,GA,GA
+13027,Coastal Region,Brooks County,GA,GA
+13101,Coastal Region,Echols County,GA,GA
+13173,Coastal Region,Lanier County,GA,GA
+13185,Coastal Region,Lowndes County,GA,GA
+13069,Coastal Region,Coffee County,GA,GA
+13305,Coastal Region,Wayne County,GA,GA
+13039,Coastal Region,Camden County,GA,GA
+13031,Coastal Region,Bulloch County,GA,GA
+13279,Coastal Region,Toombs County,GA,GA
+13229,Coastal Region,Pierce County,GA,GA
+13299,Coastal Region,Ware County,GA,GA
+13001,Coastal Region,Appling County,GA,GA
+13003,Coastal Region,Atkinson County,GA,GA
+13005,Coastal Region,Bacon County,GA,GA
+13019,Coastal Region,Berrien County,GA,GA
+13043,Coastal Region,Candler County,GA,GA
+13049,Coastal Region,Charlton County,GA,GA
+13065,Coastal Region,Clinch County,GA,GA
+13075,Coastal Region,Cook County,GA,GA
+13109,Coastal Region,Evans County,GA,GA
+13161,Coastal Region,Jeff Davis County,GA,GA
+13251,Coastal Region,Screven County,GA,GA
+13267,Coastal Region,Tattnall County,GA,GA
+13247,Eastern Piedmont Region,Rockdale County,GA,GA
+13013,Eastern Piedmont Region,Barrow County,GA,GA
+13211,Eastern Piedmont Region,Morgan County,GA,GA
+13159,Eastern Piedmont Region,Jasper County,GA,GA
+13117,Eastern Piedmont Region,Forsyth County,GA,GA
+13297,Eastern Piedmont Region,Walton County,GA,GA
+13217,Eastern Piedmont Region,Newton County,GA,GA
+13057,Eastern Piedmont Region,Cherokee County,GA,GA
+13195,Eastern Piedmont Region,Madison County,GA,GA
+13219,Eastern Piedmont Region,Oconee County,GA,GA
+13221,Eastern Piedmont Region,Oglethorpe County,GA,GA
+13059,Eastern Piedmont Region,Clarke County,GA,GA
+13181,Eastern Piedmont Region,Lincoln County,GA,GA
+13189,Eastern Piedmont Region,McDuffie County,GA,GA
+13073,Eastern Piedmont Region,Columbia County,GA,GA
+13139,Eastern Piedmont Region,Hall County,GA,GA
+13169,Eastern Piedmont Region,Jones County,GA,GA
+13157,Eastern Piedmont Region,Jackson County,GA,GA
+13009,Eastern Piedmont Region,Baldwin County,GA,GA
+13141,Eastern Piedmont Region,Hancock County,GA,GA
+13011,Eastern Piedmont Region,Banks County,GA,GA
+13105,Eastern Piedmont Region,Elbert County,GA,GA
+13119,Eastern Piedmont Region,Franklin County,GA,GA
+13133,Eastern Piedmont Region,Greene County,GA,GA
+13147,Eastern Piedmont Region,Hart County,GA,GA
+13237,Eastern Piedmont Region,Putnam County,GA,GA
+13265,Eastern Piedmont Region,Taliaferro County,GA,GA
+13301,Eastern Piedmont Region,Warren County,GA,GA
+13317,Eastern Piedmont Region,Wilkes County,GA,GA
+13063,Greater Atlanta Suburbs,Clayton County,GA,GA
+13135,Greater Atlanta Suburbs,Gwinnett County,GA,GA
+13067,Greater Atlanta Suburbs,Cobb County,GA,GA
+13007,Upper Coastal Plain Region,Baker County,GA,GA
+13095,Upper Coastal Plain Region,Dougherty County,GA,GA
+13177,Upper Coastal Plain Region,Lee County,GA,GA
+13273,Upper Coastal Plain Region,Terrell County,GA,GA
+13321,Upper Coastal Plain Region,Worth County,GA,GA
+13033,Upper Coastal Plain Region,Burke County,GA,GA
+13245,Upper Coastal Plain Region,Richmond County,GA,GA
+13053,Upper Coastal Plain Region,Chattahoochee County,GA,GA
+13197,Upper Coastal Plain Region,Marion County,GA,GA
+13079,Upper Coastal Plain Region,Crawford County,GA,GA
+13289,Upper Coastal Plain Region,Twiggs County,GA,GA
+13021,Upper Coastal Plain Region,Bibb County,GA,GA
+13153,Upper Coastal Plain Region,Houston County,GA,GA
+13225,Upper Coastal Plain Region,Peach County,GA,GA
+13235,Upper Coastal Plain Region,Pulaski County,GA,GA
+13249,Upper Coastal Plain Region,Schley County,GA,GA
+13261,Upper Coastal Plain Region,Sumter County,GA,GA
+13087,Upper Coastal Plain Region,Decatur County,GA,GA
+13081,Upper Coastal Plain Region,Crisp County,GA,GA
+13167,Upper Coastal Plain Region,Johnson County,GA,GA
+13175,Upper Coastal Plain Region,Laurens County,GA,GA
+13017,Upper Coastal Plain Region,Ben Hill County,GA,GA
+13071,Upper Coastal Plain Region,Colquitt County,GA,GA
+13275,Upper Coastal Plain Region,Thomas County,GA,GA
+13277,Upper Coastal Plain Region,Tift County,GA,GA
+13209,Upper Coastal Plain Region,Montgomery County,GA,GA
+13023,Upper Coastal Plain Region,Bleckley County,GA,GA
+13037,Upper Coastal Plain Region,Calhoun County,GA,GA
+13061,Upper Coastal Plain Region,Clay County,GA,GA
+13091,Upper Coastal Plain Region,Dodge County,GA,GA
+13093,Upper Coastal Plain Region,Dooly County,GA,GA
+13099,Upper Coastal Plain Region,Early County,GA,GA
+13107,Upper Coastal Plain Region,Emanuel County,GA,GA
+13125,Upper Coastal Plain Region,Glascock County,GA,GA
+13155,Upper Coastal Plain Region,Irwin County,GA,GA
+13163,Upper Coastal Plain Region,Jefferson County,GA,GA
+13165,Upper Coastal Plain Region,Jenkins County,GA,GA
+13193,Upper Coastal Plain Region,Macon County,GA,GA
+13201,Upper Coastal Plain Region,Miller County,GA,GA
+13205,Upper Coastal Plain Region,Mitchell County,GA,GA
+13243,Upper Coastal Plain Region,Randolph County,GA,GA
+13253,Upper Coastal Plain Region,Seminole County,GA,GA
+13259,Upper Coastal Plain Region,Stewart County,GA,GA
+13269,Upper Coastal Plain Region,Taylor County,GA,GA
+13271,Upper Coastal Plain Region,Telfair County,GA,GA
+13287,Upper Coastal Plain Region,Turner County,GA,GA
+13307,Upper Coastal Plain Region,Webster County,GA,GA
+13315,Upper Coastal Plain Region,Wilcox County,GA,GA
+13319,Upper Coastal Plain Region,Wilkinson County,GA,GA
+13303,Upper Coastal Plain Region,Washington County,GA,GA
+13131,Upper Coastal Plain Region,Grady County,GA,GA
+13283,Upper Coastal Plain Region,Treutlen County,GA,GA
+13309,Upper Coastal Plain Region,Wheeler County,GA,GA
+13239,Upper Coastal Plain Region,Quitman County,GA,GA
+13151,Western Piedmont Region,Henry County,GA,GA
+13223,Western Piedmont Region,Paulding County,GA,GA
+13097,Western Piedmont Region,Douglas County,GA,GA
+13045,Western Piedmont Region,Carroll County,GA,GA
+13255,Western Piedmont Region,Spalding County,GA,GA
+13143,Western Piedmont Region,Haralson County,GA,GA
+13035,Western Piedmont Region,Butts County,GA,GA
+13199,Western Piedmont Region,Meriwether County,GA,GA
+13231,Western Piedmont Region,Pike County,GA,GA
+13171,Western Piedmont Region,Lamar County,GA,GA
+13149,Western Piedmont Region,Heard County,GA,GA
+13077,Western Piedmont Region,Coweta County,GA,GA
+13113,Western Piedmont Region,Fayette County,GA,GA
+13145,Western Piedmont Region,Harris County,GA,GA
+13215,Western Piedmont Region,Muscogee County,GA,GA
+13207,Western Piedmont Region,Monroe County,GA,GA
+13233,Western Piedmont Region,Polk County,GA,GA
+13285,Western Piedmont Region,Troup County,GA,GA
+13293,Western Piedmont Region,Upson County,GA,GA
+13263,Western Piedmont Region,Talbot County,GA,GA
+16037,All Counties (excl. Lewiston & Moscow),Custer County,ID,ID
+16005,All Counties (excl. Lewiston & Moscow),Bannock County,ID,ID
+16019,All Counties (excl. Lewiston & Moscow),Bonneville County,ID,ID
+16001,All Counties (excl. Lewiston & Moscow),Ada County,ID,ID
+16011,All Counties (excl. Lewiston & Moscow),Bingham County,ID,ID
+16015,All Counties (excl. Lewiston & Moscow),Boise County,ID,ID
+16027,All Counties (excl. Lewiston & Moscow),Canyon County,ID,ID
+16045,All Counties (excl. Lewiston & Moscow),Gem County,ID,ID
+16073,All Counties (excl. Lewiston & Moscow),Owyhee County,ID,ID
+16031,All Counties (excl. Lewiston & Moscow),Cassia County,ID,ID
+16067,All Counties (excl. Lewiston & Moscow),Minidoka County,ID,ID
+16013,All Counties (excl. Lewiston & Moscow),Blaine County,ID,ID
+16025,All Counties (excl. Lewiston & Moscow),Camas County,ID,ID
+16063,All Counties (excl. Lewiston & Moscow),Lincoln County,ID,ID
+16023,All Counties (excl. Lewiston & Moscow),Butte County,ID,ID
+16051,All Counties (excl. Lewiston & Moscow),Jefferson County,ID,ID
+16081,All Counties (excl. Lewiston & Moscow),Teton County,ID,ID
+16041,All Counties (excl. Lewiston & Moscow),Franklin County,ID,ID
+16039,All Counties (excl. Lewiston & Moscow),Elmore County,ID,ID
+16075,All Counties (excl. Lewiston & Moscow),Payette County,ID,ID
+16043,All Counties (excl. Lewiston & Moscow),Fremont County,ID,ID
+16065,All Counties (excl. Lewiston & Moscow),Madison County,ID,ID
+16017,All Counties (excl. Lewiston & Moscow),Bonner County,ID,ID
+16053,All Counties (excl. Lewiston & Moscow),Jerome County,ID,ID
+16083,All Counties (excl. Lewiston & Moscow),Twin Falls County,ID,ID
+16021,All Counties (excl. Lewiston & Moscow),Boundary County,ID,ID
+16003,All Counties (excl. Lewiston & Moscow),Adams County,ID,ID
+16007,All Counties (excl. Lewiston & Moscow),Bear Lake County,ID,ID
+16029,All Counties (excl. Lewiston & Moscow),Caribou County,ID,ID
+16033,All Counties (excl. Lewiston & Moscow),Clark County,ID,ID
+16035,All Counties (excl. Lewiston & Moscow),Clearwater County,ID,ID
+16047,All Counties (excl. Lewiston & Moscow),Gooding County,ID,ID
+16049,All Counties (excl. Lewiston & Moscow),Idaho County,ID,ID
+16059,All Counties (excl. Lewiston & Moscow),Lemhi County,ID,ID
+16061,All Counties (excl. Lewiston & Moscow),Lewis County,ID,ID
+16071,All Counties (excl. Lewiston & Moscow),Oneida County,ID,ID
+16077,All Counties (excl. Lewiston & Moscow),Power County,ID,ID
+16079,All Counties (excl. Lewiston & Moscow),Shoshone County,ID,ID
+16085,All Counties (excl. Lewiston & Moscow),Valley County,ID,ID
+16087,All Counties (excl. Lewiston & Moscow),Washington County,ID,ID
+17091,Central Region,Kankakee County,IL,IL
+17143,Central Region,Peoria County,IL,IL
+17001,Central Region,Adams County,IL,IL
+17009,Central Region,Brown County,IL,IL
+17017,Central Region,Cass County,IL,IL
+17019,Central Region,Champaign County,IL,IL
+17021,Central Region,Christian County,IL,IL
+17029,Central Region,Coles County,IL,IL
+17039,Central Region,De Witt County,IL,IL
+17041,Central Region,Douglas County,IL,IL
+17045,Central Region,Edgar County,IL,IL
+17053,Central Region,Ford County,IL,IL
+17057,Central Region,Fulton County,IL,IL
+17067,Central Region,Hancock County,IL,IL
+17071,Central Region,Henderson County,IL,IL
+17075,Central Region,Iroquois County,IL,IL
+17095,Central Region,Knox County,IL,IL
+17105,Central Region,Livingston County,IL,IL
+17107,Central Region,Logan County,IL,IL
+17115,Central Region,Macon County,IL,IL
+17123,Central Region,Marshall County,IL,IL
+17125,Central Region,Mason County,IL,IL
+17109,Central Region,McDonough County,IL,IL
+17113,Central Region,McLean County,IL,IL
+17129,Central Region,Menard County,IL,IL
+17137,Central Region,Morgan County,IL,IL
+17139,Central Region,Moultrie County,IL,IL
+17147,Central Region,Piatt County,IL,IL
+17149,Central Region,Pike County,IL,IL
+17167,Central Region,Sangamon County,IL,IL
+17169,Central Region,Schuyler County,IL,IL
+17171,Central Region,Scott County,IL,IL
+17175,Central Region,Stark County,IL,IL
+17179,Central Region,Tazewell County,IL,IL
+17183,Central Region,Vermilion County,IL,IL
+17187,Central Region,Warren County,IL,IL
+17203,Central Region,Woodford County,IL,IL
+17031,Chicago & North Shore,Cook County,IL,IL
+17097,Chicago & North Shore,Lake County,IL,IL
+17043,Chicago Suburbs ,DuPage County,IL,IL
+17089,Chicago Suburbs ,Kane County,IL,IL
+17111,Chicago Suburbs ,McHenry County,IL,IL
+17197,Chicago Suburbs ,Will County,IL,IL
+17007,Northwestern Region,Boone County,IL,IL
+17011,Northwestern Region,Bureau County,IL,IL
+17015,Northwestern Region,Carroll County,IL,IL
+17037,Northwestern Region,DeKalb County,IL,IL
+17063,Northwestern Region,Grundy County,IL,IL
+17073,Northwestern Region,Henry County,IL,IL
+17085,Northwestern Region,Jo Daviess County,IL,IL
+17093,Northwestern Region,Kendall County,IL,IL
+17099,Northwestern Region,LaSalle County,IL,IL
+17103,Northwestern Region,Lee County,IL,IL
+17131,Northwestern Region,Mercer County,IL,IL
+17141,Northwestern Region,Ogle County,IL,IL
+17155,Northwestern Region,Putnam County,IL,IL
+17161,Northwestern Region,Rock Island County,IL,IL
+17177,Northwestern Region,Stephenson County,IL,IL
+17195,Northwestern Region,Whiteside County,IL,IL
+17201,Northwestern Region,Winnebago County,IL,IL
+17005,Southern Region,Bond County,IL,IL
+17013,Southern Region,Calhoun County,IL,IL
+17027,Southern Region,Clinton County,IL,IL
+17133,Southern Region,Monroe County,IL,IL
+17003,Southern Region,Alexander County,IL,IL
+17023,Southern Region,Clark County,IL,IL
+17025,Southern Region,Clay County,IL,IL
+17033,Southern Region,Crawford County,IL,IL
+17035,Southern Region,Cumberland County,IL,IL
+17047,Southern Region,Edwards County,IL,IL
+17049,Southern Region,Effingham County,IL,IL
+17051,Southern Region,Fayette County,IL,IL
+17055,Southern Region,Franklin County,IL,IL
+17059,Southern Region,Gallatin County,IL,IL
+17061,Southern Region,Greene County,IL,IL
+17065,Southern Region,Hamilton County,IL,IL
+17069,Southern Region,Hardin County,IL,IL
+17077,Southern Region,Jackson County,IL,IL
+17079,Southern Region,Jasper County,IL,IL
+17081,Southern Region,Jefferson County,IL,IL
+17083,Southern Region,Jersey County,IL,IL
+17087,Southern Region,Johnson County,IL,IL
+17101,Southern Region,Lawrence County,IL,IL
+17117,Southern Region,Macoupin County,IL,IL
+17119,Southern Region,Madison County,IL,IL
+17121,Southern Region,Marion County,IL,IL
+17127,Southern Region,Massac County,IL,IL
+17135,Southern Region,Montgomery County,IL,IL
+17145,Southern Region,Perry County,IL,IL
+17151,Southern Region,Pope County,IL,IL
+17153,Southern Region,Pulaski County,IL,IL
+17157,Southern Region,Randolph County,IL,IL
+17159,Southern Region,Richland County,IL,IL
+17165,Southern Region,Saline County,IL,IL
+17173,Southern Region,Shelby County,IL,IL
+17163,Southern Region,St. Clair County,IL,IL
+17181,Southern Region,Union County,IL,IL
+17185,Southern Region,Wabash County,IL,IL
+17189,Southern Region,Washington County,IL,IL
+17191,Southern Region,Wayne County,IL,IL
+17193,Southern Region,White County,IL,IL
+17199,Southern Region,Williamson County,IL,IL
+18091,Gary & South Bend Area,LaPorte County,IN,IN
+18141,Gary & South Bend Area,St. Joseph County,IN,IN
+18089,Gary & South Bend Area,Lake County,IN,IN
+18127,Gary & South Bend Area,Porter County,IN,IN
+18097,Indianapolis Area,Marion County,IN,IN
+18057,Indianapolis Area,Hamilton County,IN,IN
+18059,Northeastern Region,Hancock County,IN,IN
+18095,Northeastern Region,Madison County,IN,IN
+18003,Northeastern Region,Allen County,IN,IN
+18035,Northeastern Region,Delaware County,IN,IN
+18039,Northeastern Region,Elkhart County,IN,IN
+18179,Northeastern Region,Wells County,IN,IN
+18183,Northeastern Region,Whitley County,IN,IN
+18033,Northeastern Region,DeKalb County,IN,IN
+18001,Northeastern Region,Adams County,IN,IN
+18009,Northeastern Region,Blackford County,IN,IN
+18053,Northeastern Region,Grant County,IN,IN
+18065,Northeastern Region,Henry County,IN,IN
+18069,Northeastern Region,Huntington County,IN,IN
+18075,Northeastern Region,Jay County,IN,IN
+18085,Northeastern Region,Kosciusko County,IN,IN
+18087,Northeastern Region,LaGrange County,IN,IN
+18113,Northeastern Region,Noble County,IN,IN
+18135,Northeastern Region,Randolph County,IN,IN
+18151,Northeastern Region,Steuben County,IN,IN
+18169,Northeastern Region,Wabash County,IN,IN
+18177,Northeastern Region,Wayne County,IN,IN
+18133,Northwestern Region,Putnam County,IN,IN
+18011,Northwestern Region,Boone County,IN,IN
+18045,Northwestern Region,Fountain County,IN,IN
+18063,Northwestern Region,Hendricks County,IN,IN
+18107,Northwestern Region,Montgomery County,IN,IN
+18121,Northwestern Region,Parke County,IN,IN
+18159,Northwestern Region,Tipton County,IN,IN
+18171,Northwestern Region,Warren County,IN,IN
+18165,Northwestern Region,Vermillion County,IN,IN
+18157,Northwestern Region,Tippecanoe County,IN,IN
+18007,Northwestern Region,Benton County,IN,IN
+18015,Northwestern Region,Carroll County,IN,IN
+18067,Northwestern Region,Howard County,IN,IN
+18023,Northwestern Region,Clinton County,IN,IN
+18017,Northwestern Region,Cass County,IN,IN
+18049,Northwestern Region,Fulton County,IN,IN
+18099,Northwestern Region,Marshall County,IN,IN
+18103,Northwestern Region,Miami County,IN,IN
+18131,Northwestern Region,Pulaski County,IN,IN
+18149,Northwestern Region,Starke County,IN,IN
+18181,Northwestern Region,White County,IN,IN
+18073,Northwestern Region,Jasper County,IN,IN
+18111,Northwestern Region,Newton County,IN,IN
+18013,Southern Region,Brown County,IN,IN
+18081,Southern Region,Johnson County,IN,IN
+18109,Southern Region,Morgan County,IN,IN
+18145,Southern Region,Shelby County,IN,IN
+18105,Southern Region,Monroe County,IN,IN
+18119,Southern Region,Owen County,IN,IN
+18029,Southern Region,Dearborn County,IN,IN
+18161,Southern Region,Union County,IN,IN
+18173,Southern Region,Warrick County,IN,IN
+18005,Southern Region,Bartholomew County,IN,IN
+18019,Southern Region,Clark County,IN,IN
+18021,Southern Region,Clay County,IN,IN
+18043,Southern Region,Floyd County,IN,IN
+18061,Southern Region,Harrison County,IN,IN
+18129,Southern Region,Posey County,IN,IN
+18143,Southern Region,Scott County,IN,IN
+18153,Southern Region,Sullivan County,IN,IN
+18163,Southern Region,Vanderburgh County,IN,IN
+18167,Southern Region,Vigo County,IN,IN
+18175,Southern Region,Washington County,IN,IN
+18027,Southern Region,Daviess County,IN,IN
+18031,Southern Region,Decatur County,IN,IN
+18037,Southern Region,Dubois County,IN,IN
+18041,Southern Region,Fayette County,IN,IN
+18047,Southern Region,Franklin County,IN,IN
+18051,Southern Region,Gibson County,IN,IN
+18055,Southern Region,Greene County,IN,IN
+18071,Southern Region,Jackson County,IN,IN
+18077,Southern Region,Jefferson County,IN,IN
+18079,Southern Region,Jennings County,IN,IN
+18083,Southern Region,Knox County,IN,IN
+18093,Southern Region,Lawrence County,IN,IN
+18101,Southern Region,Martin County,IN,IN
+18123,Southern Region,Perry County,IN,IN
+18125,Southern Region,Pike County,IN,IN
+18137,Southern Region,Ripley County,IN,IN
+18139,Southern Region,Rush County,IN,IN
+18147,Southern Region,Spencer County,IN,IN
+18155,Southern Region,Switzerland County,IN,IN
+18115,Southern Region,Ohio County,IN,IN
+18025,Southern Region,Crawford County,IN,IN
+18117,Southern Region,Orange County,IN,IN
+19011,Cedar Rapids & Southeastern Region,Benton County,IA,IA
+19013,Cedar Rapids & Southeastern Region,Black Hawk County,IA,IA
+19019,Cedar Rapids & Southeastern Region,Buchanan County,IA,IA
+19031,Cedar Rapids & Southeastern Region,Cedar County,IA,IA
+19045,Cedar Rapids & Southeastern Region,Clinton County,IA,IA
+19055,Cedar Rapids & Southeastern Region,Delaware County,IA,IA
+19057,Cedar Rapids & Southeastern Region,Des Moines County,IA,IA
+19061,Cedar Rapids & Southeastern Region,Dubuque County,IA,IA
+19087,Cedar Rapids & Southeastern Region,Henry County,IA,IA
+19095,Cedar Rapids & Southeastern Region,Iowa County,IA,IA
+19097,Cedar Rapids & Southeastern Region,Jackson County,IA,IA
+19101,Cedar Rapids & Southeastern Region,Jefferson County,IA,IA
+19103,Cedar Rapids & Southeastern Region,Johnson County,IA,IA
+19105,Cedar Rapids & Southeastern Region,Jones County,IA,IA
+19107,Cedar Rapids & Southeastern Region,Keokuk County,IA,IA
+19111,Cedar Rapids & Southeastern Region,Lee County,IA,IA
+19113,Cedar Rapids & Southeastern Region,Linn County,IA,IA
+19115,Cedar Rapids & Southeastern Region,Louisa County,IA,IA
+19139,Cedar Rapids & Southeastern Region,Muscatine County,IA,IA
+19163,Cedar Rapids & Southeastern Region,Scott County,IA,IA
+19177,Cedar Rapids & Southeastern Region,Van Buren County,IA,IA
+19183,Cedar Rapids & Southeastern Region,Washington County,IA,IA
+19001,Central Region,Adair County,IA,IA
+19007,Central Region,Appanoose County,IA,IA
+19015,Central Region,Boone County,IA,IA
+19039,Central Region,Clarke County,IA,IA
+19049,Central Region,Dallas County,IA,IA
+19051,Central Region,Davis County,IA,IA
+19053,Central Region,Decatur County,IA,IA
+19073,Central Region,Greene County,IA,IA
+19075,Central Region,Grundy County,IA,IA
+19077,Central Region,Guthrie County,IA,IA
+19079,Central Region,Hamilton County,IA,IA
+19083,Central Region,Hardin County,IA,IA
+19099,Central Region,Jasper County,IA,IA
+19117,Central Region,Lucas County,IA,IA
+19121,Central Region,Madison County,IA,IA
+19123,Central Region,Mahaska County,IA,IA
+19125,Central Region,Marion County,IA,IA
+19127,Central Region,Marshall County,IA,IA
+19135,Central Region,Monroe County,IA,IA
+19153,Central Region,Polk County,IA,IA
+19157,Central Region,Poweshiek County,IA,IA
+19159,Central Region,Ringgold County,IA,IA
+19169,Central Region,Story County,IA,IA
+19171,Central Region,Tama County,IA,IA
+19175,Central Region,Union County,IA,IA
+19179,Central Region,Wapello County,IA,IA
+19181,Central Region,Warren County,IA,IA
+19185,Central Region,Wayne County,IA,IA
+19187,Central Region,Webster County,IA,IA
+19003,Northern & Western Regions,Adams County,IA,IA
+19005,Northern & Western Regions,Allamakee County,IA,IA
+19009,Northern & Western Regions,Audubon County,IA,IA
+19017,Northern & Western Regions,Bremer County,IA,IA
+19021,Northern & Western Regions,Buena Vista County,IA,IA
+19023,Northern & Western Regions,Butler County,IA,IA
+19025,Northern & Western Regions,Calhoun County,IA,IA
+19027,Northern & Western Regions,Carroll County,IA,IA
+19029,Northern & Western Regions,Cass County,IA,IA
+19033,Northern & Western Regions,Cerro Gordo County,IA,IA
+19035,Northern & Western Regions,Cherokee County,IA,IA
+19037,Northern & Western Regions,Chickasaw County,IA,IA
+19041,Northern & Western Regions,Clay County,IA,IA
+19043,Northern & Western Regions,Clayton County,IA,IA
+19047,Northern & Western Regions,Crawford County,IA,IA
+19059,Northern & Western Regions,Dickinson County,IA,IA
+19063,Northern & Western Regions,Emmet County,IA,IA
+19065,Northern & Western Regions,Fayette County,IA,IA
+19067,Northern & Western Regions,Floyd County,IA,IA
+19069,Northern & Western Regions,Franklin County,IA,IA
+19071,Northern & Western Regions,Fremont County,IA,IA
+19081,Northern & Western Regions,Hancock County,IA,IA
+19085,Northern & Western Regions,Harrison County,IA,IA
+19089,Northern & Western Regions,Howard County,IA,IA
+19091,Northern & Western Regions,Humboldt County,IA,IA
+19093,Northern & Western Regions,Ida County,IA,IA
+19109,Northern & Western Regions,Kossuth County,IA,IA
+19119,Northern & Western Regions,Lyon County,IA,IA
+19129,Northern & Western Regions,Mills County,IA,IA
+19131,Northern & Western Regions,Mitchell County,IA,IA
+19133,Northern & Western Regions,Monona County,IA,IA
+19137,Northern & Western Regions,Montgomery County,IA,IA
+19141,Northern & Western Regions,O'Brien County,IA,IA
+19143,Northern & Western Regions,Osceola County,IA,IA
+19145,Northern & Western Regions,Page County,IA,IA
+19147,Northern & Western Regions,Palo Alto County,IA,IA
+19149,Northern & Western Regions,Plymouth County,IA,IA
+19151,Northern & Western Regions,Pocahontas County,IA,IA
+19161,Northern & Western Regions,Sac County,IA,IA
+19165,Northern & Western Regions,Shelby County,IA,IA
+19167,Northern & Western Regions,Sioux County,IA,IA
+19173,Northern & Western Regions,Taylor County,IA,IA
+19189,Northern & Western Regions,Winnebago County,IA,IA
+19191,Northern & Western Regions,Winneshiek County,IA,IA
+19193,Northern & Western Regions,Woodbury County,IA,IA
+19195,Northern & Western Regions,Worth County,IA,IA
+19197,Northern & Western Regions,Wright County,IA,IA
+20001,Eastern Region,Allen County,KS,KS
+20103,Eastern Region,Leavenworth County,KS,KS
+20107,Eastern Region,Linn County,KS,KS
+20121,Eastern Region,Miami County,KS,KS
+20209,Eastern Region,Wyandotte County,KS,KS
+20015,Eastern Region,Butler County,KS,KS
+20043,Eastern Region,Doniphan County,KS,KS
+20085,Eastern Region,Jackson County,KS,KS
+20087,Eastern Region,Jefferson County,KS,KS
+20139,Eastern Region,Osage County,KS,KS
+20149,Eastern Region,Pottawatomie County,KS,KS
+20161,Eastern Region,Riley County,KS,KS
+20177,Eastern Region,Shawnee County,KS,KS
+20197,Eastern Region,Wabaunsee County,KS,KS
+20003,Eastern Region,Anderson County,KS,KS
+20005,Eastern Region,Atchison County,KS,KS
+20011,Eastern Region,Bourbon County,KS,KS
+20013,Eastern Region,Brown County,KS,KS
+20017,Eastern Region,Chase County,KS,KS
+20019,Eastern Region,Chautauqua County,KS,KS
+20021,Eastern Region,Cherokee County,KS,KS
+20027,Eastern Region,Clay County,KS,KS
+20031,Eastern Region,Coffey County,KS,KS
+20035,Eastern Region,Cowley County,KS,KS
+20037,Eastern Region,Crawford County,KS,KS
+20041,Eastern Region,Dickinson County,KS,KS
+20049,Eastern Region,Elk County,KS,KS
+20059,Eastern Region,Franklin County,KS,KS
+20061,Eastern Region,Geary County,KS,KS
+20073,Eastern Region,Greenwood County,KS,KS
+20099,Eastern Region,Labette County,KS,KS
+20111,Eastern Region,Lyon County,KS,KS
+20115,Eastern Region,Marion County,KS,KS
+20117,Eastern Region,Marshall County,KS,KS
+20125,Eastern Region,Montgomery County,KS,KS
+20127,Eastern Region,Morris County,KS,KS
+20131,Eastern Region,Nemaha County,KS,KS
+20133,Eastern Region,Neosho County,KS,KS
+20201,Eastern Region,Washington County,KS,KS
+20205,Eastern Region,Wilson County,KS,KS
+20207,Eastern Region,Woodson County,KS,KS
+20045,Kansas City & Suburbs,Douglas County,KS,KS-MO
+20091,Kansas City & Suburbs,Johnson County,KS,KS-MO
+29095,Kansas City & Suburbs,Jackson County,MO,KS-MO
+20007,Western Region,Barber County,KS,KS
+20009,Western Region,Barton County,KS,KS
+20023,Western Region,Cheyenne County,KS,KS
+20025,Western Region,Clark County,KS,KS
+20029,Western Region,Cloud County,KS,KS
+20033,Western Region,Comanche County,KS,KS
+20039,Western Region,Decatur County,KS,KS
+20047,Western Region,Edwards County,KS,KS
+20051,Western Region,Ellis County,KS,KS
+20053,Western Region,Ellsworth County,KS,KS
+20055,Western Region,Finney County,KS,KS
+20057,Western Region,Ford County,KS,KS
+20063,Western Region,Gove County,KS,KS
+20065,Western Region,Graham County,KS,KS
+20067,Western Region,Grant County,KS,KS
+20069,Western Region,Gray County,KS,KS
+20071,Western Region,Greeley County,KS,KS
+20075,Western Region,Hamilton County,KS,KS
+20077,Western Region,Harper County,KS,KS
+20079,Western Region,Harvey County,KS,KS
+20081,Western Region,Haskell County,KS,KS
+20083,Western Region,Hodgeman County,KS,KS
+20089,Western Region,Jewell County,KS,KS
+20093,Western Region,Kearny County,KS,KS
+20095,Western Region,Kingman County,KS,KS
+20097,Western Region,Kiowa County,KS,KS
+20101,Western Region,Lane County,KS,KS
+20105,Western Region,Lincoln County,KS,KS
+20109,Western Region,Logan County,KS,KS
+20113,Western Region,McPherson County,KS,KS
+20119,Western Region,Meade County,KS,KS
+20123,Western Region,Mitchell County,KS,KS
+20129,Western Region,Morton County,KS,KS
+20135,Western Region,Ness County,KS,KS
+20137,Western Region,Norton County,KS,KS
+20141,Western Region,Osborne County,KS,KS
+20143,Western Region,Ottawa County,KS,KS
+20145,Western Region,Pawnee County,KS,KS
+20147,Western Region,Phillips County,KS,KS
+20151,Western Region,Pratt County,KS,KS
+20153,Western Region,Rawlins County,KS,KS
+20155,Western Region,Reno County,KS,KS
+20157,Western Region,Republic County,KS,KS
+20159,Western Region,Rice County,KS,KS
+20163,Western Region,Rooks County,KS,KS
+20165,Western Region,Rush County,KS,KS
+20167,Western Region,Russell County,KS,KS
+20169,Western Region,Saline County,KS,KS
+20171,Western Region,Scott County,KS,KS
+20173,Western Region,Sedgwick County,KS,KS
+20175,Western Region,Seward County,KS,KS
+20179,Western Region,Sheridan County,KS,KS
+20181,Western Region,Sherman County,KS,KS
+20183,Western Region,Smith County,KS,KS
+20185,Western Region,Stafford County,KS,KS
+20187,Western Region,Stanton County,KS,KS
+20189,Western Region,Stevens County,KS,KS
+20191,Western Region,Sumner County,KS,KS
+20193,Western Region,Thomas County,KS,KS
+20195,Western Region,Trego County,KS,KS
+20199,Western Region,Wallace County,KS,KS
+20203,Western Region,Wichita County,KS,KS
+21015,Eastern Region,Boone County,KY,KY
+21081,Eastern Region,Grant County,KY,KY
+21191,Eastern Region,Pendleton County,KY,KY
+21077,Eastern Region,Gallatin County,KY,KY
+21023,Eastern Region,Bracken County,KY,KY
+21089,Eastern Region,Greenup County,KY,KY
+21019,Eastern Region,Boyd County,KY,KY
+21017,Eastern Region,Bourbon County,KY,KY
+21049,Eastern Region,Clark County,KY,KY
+21113,Eastern Region,Jessamine County,KY,KY
+21209,Eastern Region,Scott County,KY,KY
+21239,Eastern Region,Woodford County,KY,KY
+21067,Eastern Region,Fayette County,KY,KY
+21121,Eastern Region,Knox County,KY,KY
+21125,Eastern Region,Laurel County,KY,KY
+21235,Eastern Region,Whitley County,KY,KY
+21161,Eastern Region,Mason County,KY,KY
+21013,Eastern Region,Bell County,KY,KY
+21011,Eastern Region,Bath County,KY,KY
+21165,Eastern Region,Menifee County,KY,KY
+21173,Eastern Region,Montgomery County,KY,KY
+21151,Eastern Region,Madison County,KY,KY
+21203,Eastern Region,Rockcastle County,KY,KY
+21025,Eastern Region,Breathitt County,KY,KY
+21041,Eastern Region,Carroll County,KY,KY
+21043,Eastern Region,Carter County,KY,KY
+21051,Eastern Region,Clay County,KY,KY
+21063,Eastern Region,Elliott County,KY,KY
+21065,Eastern Region,Estill County,KY,KY
+21069,Eastern Region,Fleming County,KY,KY
+21071,Eastern Region,Floyd County,KY,KY
+21079,Eastern Region,Garrard County,KY,KY
+21095,Eastern Region,Harlan County,KY,KY
+21097,Eastern Region,Harrison County,KY,KY
+21109,Eastern Region,Jackson County,KY,KY
+21115,Eastern Region,Johnson County,KY,KY
+21119,Eastern Region,Knott County,KY,KY
+21127,Eastern Region,Lawrence County,KY,KY
+21129,Eastern Region,Lee County,KY,KY
+21131,Eastern Region,Leslie County,KY,KY
+21133,Eastern Region,Letcher County,KY,KY
+21135,Eastern Region,Lewis County,KY,KY
+21153,Eastern Region,Magoffin County,KY,KY
+21159,Eastern Region,Martin County,KY,KY
+21167,Eastern Region,Mercer County,KY,KY
+21175,Eastern Region,Morgan County,KY,KY
+21181,Eastern Region,Nicholas County,KY,KY
+21187,Eastern Region,Owen County,KY,KY
+21193,Eastern Region,Perry County,KY,KY
+21195,Eastern Region,Pike County,KY,KY
+21197,Eastern Region,Powell County,KY,KY
+21201,Eastern Region,Robertson County,KY,KY
+21205,Eastern Region,Rowan County,KY,KY
+21237,Eastern Region,Wolfe County,KY,KY
+21189,Eastern Region,Owsley County,KY,KY
+21073,Louisville & Surrounding Region,Franklin County,KY,KY
+21005,Louisville & Surrounding Region,Anderson County,KY,KY
+21029,Louisville & Surrounding Region,Bullitt County,KY,KY
+21103,Louisville & Surrounding Region,Henry County,KY,KY
+21215,Louisville & Surrounding Region,Spencer County,KY,KY
+21223,Louisville & Surrounding Region,Trimble County,KY,KY
+21111,Louisville & Surrounding Region,Jefferson County,KY,KY
+21185,Louisville & Surrounding Region,Oldham County,KY,KY
+21211,Louisville & Surrounding Region,Shelby County,KY,KY
+21001,Western Region,Adair County,KY,KY
+21003,Western Region,Allen County,KY,KY
+21007,Western Region,Ballard County,KY,KY
+21009,Western Region,Barren County,KY,KY
+21021,Western Region,Boyle County,KY,KY
+21027,Western Region,Breckinridge County,KY,KY
+21031,Western Region,Butler County,KY,KY
+21033,Western Region,Caldwell County,KY,KY
+21035,Western Region,Calloway County,KY,KY
+21039,Western Region,Carlisle County,KY,KY
+21045,Western Region,Casey County,KY,KY
+21047,Western Region,Christian County,KY,KY
+21053,Western Region,Clinton County,KY,KY
+21055,Western Region,Crittenden County,KY,KY
+21057,Western Region,Cumberland County,KY,KY
+21059,Western Region,Daviess County,KY,KY
+21061,Western Region,Edmonson County,KY,KY
+21075,Western Region,Fulton County,KY,KY
+21083,Western Region,Graves County,KY,KY
+21085,Western Region,Grayson County,KY,KY
+21087,Western Region,Green County,KY,KY
+21091,Western Region,Hancock County,KY,KY
+21093,Western Region,Hardin County,KY,KY
+21099,Western Region,Hart County,KY,KY
+21101,Western Region,Henderson County,KY,KY
+21105,Western Region,Hickman County,KY,KY
+21107,Western Region,Hopkins County,KY,KY
+21123,Western Region,Larue County,KY,KY
+21137,Western Region,Lincoln County,KY,KY
+21139,Western Region,Livingston County,KY,KY
+21141,Western Region,Logan County,KY,KY
+21143,Western Region,Lyon County,KY,KY
+21145,Western Region,McCracken County,KY,KY
+21147,Western Region,McCreary County,KY,KY
+21149,Western Region,McLean County,KY,KY
+21155,Western Region,Marion County,KY,KY
+21157,Western Region,Marshall County,KY,KY
+21163,Western Region,Meade County,KY,KY
+21169,Western Region,Metcalfe County,KY,KY
+21171,Western Region,Monroe County,KY,KY
+21177,Western Region,Muhlenberg County,KY,KY
+21179,Western Region,Nelson County,KY,KY
+21183,Western Region,Ohio County,KY,KY
+21199,Western Region,Pulaski County,KY,KY
+21207,Western Region,Russell County,KY,KY
+21213,Western Region,Simpson County,KY,KY
+21217,Western Region,Taylor County,KY,KY
+21219,Western Region,Todd County,KY,KY
+21221,Western Region,Trigg County,KY,KY
+21225,Western Region,Union County,KY,KY
+21227,Western Region,Warren County,KY,KY
+21229,Western Region,Washington County,KY,KY
+21231,Western Region,Wayne County,KY,KY
+21233,Western Region,Webster County,KY,KY
+22005,Baton Rouge & Nearby Parishes,Ascension Parish,LA,LA
+22033,Baton Rouge & Nearby Parishes,East Baton Rouge Parish,LA,LA
+22037,Baton Rouge & Nearby Parishes,East Feliciana Parish,LA,LA
+22047,Baton Rouge & Nearby Parishes,Iberville Parish,LA,LA
+22063,Baton Rouge & Nearby Parishes,Livingston Parish,LA,LA
+22077,Baton Rouge & Nearby Parishes,Pointe Coupee Parish,LA,LA
+22091,Baton Rouge & Nearby Parishes,St. Helena Parish,LA,LA
+22097,Baton Rouge & Nearby Parishes,St. Landry Parish,LA,LA
+22105,Baton Rouge & Nearby Parishes,Tangipahoa Parish,LA,LA
+22117,Baton Rouge & Nearby Parishes,Washington Parish,LA,LA
+22121,Baton Rouge & Nearby Parishes,West Baton Rouge Parish,LA,LA
+22125,Baton Rouge & Nearby Parishes,West Feliciana Parish,LA,LA
+22051,New Orleans & Surrounding Parishes,Jefferson Parish,LA,LA
+22071,New Orleans & Surrounding Parishes,Orleans Parish,LA,LA
+22089,New Orleans & Surrounding Parishes,St. Charles Parish,LA,LA
+22093,New Orleans & Surrounding Parishes,St. James Parish,LA,LA
+22095,New Orleans & Surrounding Parishes,St. John the Baptist Parish,LA,LA
+22103,New Orleans & Surrounding Parishes,St. Tammany Parish,LA,LA
+22009,Northern Parishes,Avoyelles Parish,LA,LA
+22013,Northern Parishes,Bienville Parish,LA,LA
+22015,Northern Parishes,Bossier Parish,LA,LA
+22017,Northern Parishes,Caddo Parish,LA,LA
+22021,Northern Parishes,Caldwell Parish,LA,LA
+22025,Northern Parishes,Catahoula Parish,LA,LA
+22027,Northern Parishes,Claiborne Parish,LA,LA
+22029,Northern Parishes,Concordia Parish,LA,LA
+22031,Northern Parishes,De Soto Parish,LA,LA
+22035,Northern Parishes,East Carroll Parish,LA,LA
+22041,Northern Parishes,Franklin Parish,LA,LA
+22043,Northern Parishes,Grant Parish,LA,LA
+22049,Northern Parishes,Jackson Parish,LA,LA
+22059,Northern Parishes,La Salle Parish,LA,LA
+22061,Northern Parishes,Lincoln Parish,LA,LA
+22065,Northern Parishes,Madison Parish,LA,LA
+22067,Northern Parishes,Morehouse Parish,LA,LA
+22069,Northern Parishes,Natchitoches Parish,LA,LA
+22073,Northern Parishes,Ouachita Parish,LA,LA
+22079,Northern Parishes,Rapides Parish,LA,LA
+22081,Northern Parishes,Red River Parish,LA,LA
+22083,Northern Parishes,Richland Parish,LA,LA
+22085,Northern Parishes,Sabine Parish,LA,LA
+22107,Northern Parishes,Tensas Parish,LA,LA
+22111,Northern Parishes,Union Parish,LA,LA
+22115,Northern Parishes,Vernon Parish,LA,LA
+22119,Northern Parishes,Webster Parish,LA,LA
+22123,Northern Parishes,West Carroll Parish,LA,LA
+22127,Northern Parishes,Winn Parish,LA,LA
+22001,Southern Region,Acadia Parish,LA,LA
+22003,Southern Region,Allen Parish,LA,LA
+22007,Southern Region,Assumption Parish,LA,LA
+22011,Southern Region,Beauregard Parish,LA,LA
+22019,Southern Region,Calcasieu Parish,LA,LA
+22023,Southern Region,Cameron Parish,LA,LA
+22039,Southern Region,Evangeline Parish,LA,LA
+22045,Southern Region,Iberia Parish,LA,LA
+22053,Southern Region,Jefferson Davis Parish,LA,LA
+22055,Southern Region,Lafayette Parish,LA,LA
+22057,Southern Region,Lafourche Parish,LA,LA
+22075,Southern Region,Plaquemines Parish,LA,LA
+22087,Southern Region,St. Bernard Parish,LA,LA
+22099,Southern Region,St. Martin Parish,LA,LA
+22101,Southern Region,St. Mary Parish,LA,LA
+22109,Southern Region,Terrebonne Parish,LA,LA
+22113,Southern Region,Vermilion Parish,LA,LA
+23019,All Counties,Penobscot County,ME,ME
+23011,All Counties,Kennebec County,ME,ME
+23001,All Counties,Androscoggin County,ME,ME
+23031,All Counties,York County,ME,ME
+23005,All Counties,Cumberland County,ME,ME
+23023,All Counties,Sagadahoc County,ME,ME
+23003,All Counties,Aroostook County,ME,ME
+23007,All Counties,Franklin County,ME,ME
+23009,All Counties,Hancock County,ME,ME
+23017,All Counties,Oxford County,ME,ME
+23021,All Counties,Piscataquis County,ME,ME
+23025,All Counties,Somerset County,ME,ME
+23027,All Counties,Waldo County,ME,ME
+23029,All Counties,Washington County,ME,ME
+23013,All Counties,Knox County,ME,ME
+23015,All Counties,Lincoln County,ME,ME
+24510,Baltimore Area,Baltimore city,MD,MD
+24005,Baltimore Area,Baltimore County,MD,MD
+24013,Baltimore Suburbs,Carroll County,MD,MD
+24025,Baltimore Suburbs,Harford County,MD,MD
+24003,Baltimore Suburbs,Anne Arundel County,MD,MD
+24027,Baltimore Suburbs,Howard County,MD,MD
+24035,Eastern Shore Region,Queen Anne's County,MD,MD
+24037,Eastern Shore Region,St. Mary's County,MD,MD
+24019,Eastern Shore Region,Dorchester County,MD,MD
+24001,Eastern Shore Region,Allegany County,MD,MD
+24041,Eastern Shore Region,Talbot County,MD,MD
+24043,Eastern Shore Region,Washington County,MD,MD
+24015,Eastern Shore Region,Cecil County,MD,MD
+24039,Eastern Shore Region,Somerset County,MD,MD
+24045,Eastern Shore Region,Wicomico County,MD,MD
+24047,Eastern Shore Region,Worcester County,MD,MD
+24011,Eastern Shore Region,Caroline County,MD,MD
+24029,Eastern Shore Region,Kent County,MD,MD
+24023,Eastern Shore Region,Garrett County,MD,MD
+24021,Prince George & Nearby Areas,Frederick County,MD,MD
+24033,Prince George & Nearby Areas,Prince George's County,MD,MD
+24017,Prince George & Nearby Areas,Charles County,MD,MD
+24009,Prince George & Nearby Areas,Calvert County,MD,MD
+25009,Boston & North Shore,Essex County,MA,MA
+25025,Boston & North Shore,Suffolk County,MA,MA
+25005,"Bristol, Cape & Islands",Bristol County,MA,MA
+25001,"Bristol, Cape & Islands",Barnstable County,MA,MA
+25007,"Bristol, Cape & Islands",Dukes County,MA,MA
+25019,"Bristol, Cape & Islands",Nantucket County,MA,MA
+25017,Cambridge-Newton & Surrounding Suburbs,Middlesex County,MA,MA
+25011,Central & Western Regions,Franklin County,MA,MA
+25003,Central & Western Regions,Berkshire County,MA,MA
+25015,Central & Western Regions,Hampshire County,MA,MA
+25013,Central & Western Regions,Hampden County,MA,MA
+25027,Central & Western Regions,Worcester County,MA,MA
+25023,Plymouth & Norfolk Areas,Plymouth County,MA,MA
+25021,Plymouth & Norfolk Areas,Norfolk County,MA,MA
+26065,"Ann Arbor, Lansing & Surrounding Region",Ingham County,MI,MI
+26075,"Ann Arbor, Lansing & Surrounding Region",Jackson County,MI,MI
+26093,"Ann Arbor, Lansing & Surrounding Region",Livingston County,MI,MI
+26161,"Ann Arbor, Lansing & Surrounding Region",Washtenaw County,MI,MI
+26163,Detroit,Wayne County,MI,MI
+26017,Eastern Central Region,Bay County,MI,MI
+26037,Eastern Central Region,Clinton County,MI,MI
+26049,Eastern Central Region,Genesee County,MI,MI
+26057,Eastern Central Region,Gratiot County,MI,MI
+26063,Eastern Central Region,Huron County,MI,MI
+26087,Eastern Central Region,Lapeer County,MI,MI
+26111,Eastern Central Region,Midland County,MI,MI
+26145,Eastern Central Region,Saginaw County,MI,MI
+26151,Eastern Central Region,Sanilac County,MI,MI
+26155,Eastern Central Region,Shiawassee County,MI,MI
+26147,Eastern Central Region,St. Clair County,MI,MI
+26157,Eastern Central Region,Tuscola County,MI,MI
+26099,Northern Detroit Suburbs,Macomb County,MI,MI
+26125,Northern Detroit Suburbs,Oakland County,MI,MI
+26007,Northern Region,Alpena County,MI,MI
+26019,Northern Region,Benzie County,MI,MI
+26033,Northern Region,Chippewa County,MI,MI
+26041,Northern Region,Delta County,MI,MI
+26043,Northern Region,Dickinson County,MI,MI
+26055,Northern Region,Grand Traverse County,MI,MI
+26061,Northern Region,Houghton County,MI,MI
+26073,Northern Region,Isabella County,MI,MI
+26079,Northern Region,Kalkaska County,MI,MI
+26083,Northern Region,Keweenaw County,MI,MI
+26089,Northern Region,Leelanau County,MI,MI
+26103,Northern Region,Marquette County,MI,MI
+26105,Northern Region,Mason County,MI,MI
+26107,Northern Region,Mecosta County,MI,MI
+26109,Northern Region,Menominee County,MI,MI
+26113,Northern Region,Missaukee County,MI,MI
+26165,Northern Region,Wexford County,MI,MI
+26001,Northern Region,Alcona County,MI,MI
+26003,Northern Region,Alger County,MI,MI
+26009,Northern Region,Antrim County,MI,MI
+26011,Northern Region,Arenac County,MI,MI
+26013,Northern Region,Baraga County,MI,MI
+26029,Northern Region,Charlevoix County,MI,MI
+26031,Northern Region,Cheboygan County,MI,MI
+26035,Northern Region,Clare County,MI,MI
+26039,Northern Region,Crawford County,MI,MI
+26047,Northern Region,Emmet County,MI,MI
+26051,Northern Region,Gladwin County,MI,MI
+26053,Northern Region,Gogebic County,MI,MI
+26069,Northern Region,Iosco County,MI,MI
+26071,Northern Region,Iron County,MI,MI
+26085,Northern Region,Lake County,MI,MI
+26095,Northern Region,Luce County,MI,MI
+26097,Northern Region,Mackinac County,MI,MI
+26101,Northern Region,Manistee County,MI,MI
+26119,Northern Region,Montmorency County,MI,MI
+26123,Northern Region,Newaygo County,MI,MI
+26127,Northern Region,Oceana County,MI,MI
+26129,Northern Region,Ogemaw County,MI,MI
+26131,Northern Region,Ontonagon County,MI,MI
+26133,Northern Region,Osceola County,MI,MI
+26135,Northern Region,Oscoda County,MI,MI
+26137,Northern Region,Otsego County,MI,MI
+26141,Northern Region,Presque Isle County,MI,MI
+26143,Northern Region,Roscommon County,MI,MI
+26153,Northern Region,Schoolcraft County,MI,MI
+26015,Southwestern Region,Barry County,MI,MI
+26021,Southwestern Region,Berrien County,MI,MI
+26023,Southwestern Region,Branch County,MI,MI
+26025,Southwestern Region,Calhoun County,MI,MI
+26027,Southwestern Region,Cass County,MI,MI
+26045,Southwestern Region,Eaton County,MI,MI
+26059,Southwestern Region,Hillsdale County,MI,MI
+26077,Southwestern Region,Kalamazoo County,MI,MI
+26149,Southwestern Region,St. Joseph County,MI,MI
+26159,Southwestern Region,Van Buren County,MI,MI
+26005,Western Central Region,Allegan County,MI,MI
+26067,Western Central Region,Ionia County,MI,MI
+26081,Western Central Region,Kent County,MI,MI
+26117,Western Central Region,Montcalm County,MI,MI
+26121,Western Central Region,Muskegon County,MI,MI
+26139,Western Central Region,Ottawa County,MI,MI
+27053,Minneapolis & Western Suburbs,Hennepin County,MN,MN
+27001,Northern Region,Aitkin County,MN,MN
+27003,Northern Region,Anoka County,MN,MN
+27005,Northern Region,Becker County,MN,MN
+27007,Northern Region,Beltrami County,MN,MN
+27009,Northern Region,Benton County,MN,MN
+27017,Northern Region,Carlton County,MN,MN
+27021,Northern Region,Cass County,MN,MN
+27025,Northern Region,Chisago County,MN,MN
+27027,Northern Region,Clay County,MN,MN
+27029,Northern Region,Clearwater County,MN,MN
+27031,Northern Region,Cook County,MN,MN
+27035,Northern Region,Crow Wing County,MN,MN
+27041,Northern Region,Douglas County,MN,MN
+27051,Northern Region,Grant County,MN,MN
+27057,Northern Region,Hubbard County,MN,MN
+27059,Northern Region,Isanti County,MN,MN
+27061,Northern Region,Itasca County,MN,MN
+27065,Northern Region,Kanabec County,MN,MN
+27069,Northern Region,Kittson County,MN,MN
+27071,Northern Region,Koochiching County,MN,MN
+27073,Northern Region,Lac qui Parle County,MN,MN
+27075,Northern Region,Lake County,MN,MN
+27087,Northern Region,Mahnomen County,MN,MN
+27089,Northern Region,Marshall County,MN,MN
+27095,Northern Region,Mille Lacs County,MN,MN
+27097,Northern Region,Morrison County,MN,MN
+27107,Northern Region,Norman County,MN,MN
+27111,Northern Region,Otter Tail County,MN,MN
+27113,Northern Region,Pennington County,MN,MN
+27115,Northern Region,Pine County,MN,MN
+27119,Northern Region,Polk County,MN,MN
+27121,Northern Region,Pope County,MN,MN
+27125,Northern Region,Red Lake County,MN,MN
+27135,Northern Region,Roseau County,MN,MN
+27141,Northern Region,Sherburne County,MN,MN
+27137,Northern Region,St. Louis County,MN,MN
+27145,Northern Region,Stearns County,MN,MN
+27149,Northern Region,Stevens County,MN,MN
+27153,Northern Region,Todd County,MN,MN
+27155,Northern Region,Traverse County,MN,MN
+27159,Northern Region,Wadena County,MN,MN
+27163,Northern Region,Washington County,MN,MN
+27167,Northern Region,Wilkin County,MN,MN
+27171,Northern Region,Wright County,MN,MN
+27077,Northern Region,Lake of the Woods County,MN,MN
+27011,Southern Region,Big Stone County,MN,MN
+27023,Southern Region,Chippewa County,MN,MN
+27067,Southern Region,Kandiyohi County,MN,MN
+27093,Southern Region,Meeker County,MN,MN
+27151,Southern Region,Swift County,MN,MN
+27013,Southern Region,Blue Earth County,MN,MN
+27015,Southern Region,Brown County,MN,MN
+27033,Southern Region,Cottonwood County,MN,MN
+27039,Southern Region,Dodge County,MN,MN
+27043,Southern Region,Faribault County,MN,MN
+27045,Southern Region,Fillmore County,MN,MN
+27047,Southern Region,Freeborn County,MN,MN
+27049,Southern Region,Goodhue County,MN,MN
+27055,Southern Region,Houston County,MN,MN
+27063,Southern Region,Jackson County,MN,MN
+27079,Southern Region,Le Sueur County,MN,MN
+27081,Southern Region,Lincoln County,MN,MN
+27083,Southern Region,Lyon County,MN,MN
+27091,Southern Region,Martin County,MN,MN
+27085,Southern Region,McLeod County,MN,MN
+27099,Southern Region,Mower County,MN,MN
+27101,Southern Region,Murray County,MN,MN
+27103,Southern Region,Nicollet County,MN,MN
+27105,Southern Region,Nobles County,MN,MN
+27109,Southern Region,Olmsted County,MN,MN
+27117,Southern Region,Pipestone County,MN,MN
+27127,Southern Region,Redwood County,MN,MN
+27129,Southern Region,Renville County,MN,MN
+27143,Southern Region,Sibley County,MN,MN
+27147,Southern Region,Steele County,MN,MN
+27157,Southern Region,Wabasha County,MN,MN
+27161,Southern Region,Waseca County,MN,MN
+27165,Southern Region,Watonwan County,MN,MN
+27169,Southern Region,Winona County,MN,MN
+27173,Southern Region,Yellow Medicine County,MN,MN
+27133,Southern Region,Rock County,MN,MN
+27019,St. Paul & Surrounding Area,Carver County,MN,MN-WI
+27037,St. Paul & Surrounding Area,Dakota County,MN,MN-WI
+27123,St. Paul & Surrounding Area,Ramsey County,MN,MN-WI
+27139,St. Paul & Surrounding Area,Scott County,MN,MN-WI
+27131,St. Paul & Surrounding Area,Rice County,MN,MN-WI
+55109,St. Paul & Surrounding Area,St. Croix County,WI,MN-WI
+28003,Northern Region,Alcorn County,MS,MS
+28007,Northern Region,Attala County,MS,MS
+28011,Northern Region,Bolivar County,MS,MS
+28013,Northern Region,Calhoun County,MS,MS
+28015,Northern Region,Carroll County,MS,MS
+28017,Northern Region,Chickasaw County,MS,MS
+28019,Northern Region,Choctaw County,MS,MS
+28023,Northern Region,Clarke County,MS,MS
+28025,Northern Region,Clay County,MS,MS
+28027,Northern Region,Coahoma County,MS,MS
+28043,Northern Region,Grenada County,MS,MS
+28051,Northern Region,Holmes County,MS,MS
+28053,Northern Region,Humphreys County,MS,MS
+28055,Northern Region,Issaquena County,MS,MS
+28057,Northern Region,Itawamba County,MS,MS
+28061,Northern Region,Jasper County,MS,MS
+28069,Northern Region,Kemper County,MS,MS
+28071,Northern Region,Lafayette County,MS,MS
+28075,Northern Region,Lauderdale County,MS,MS
+28079,Northern Region,Leake County,MS,MS
+28081,Northern Region,Lee County,MS,MS
+28083,Northern Region,Leflore County,MS,MS
+28087,Northern Region,Lowndes County,MS,MS
+28095,Northern Region,Monroe County,MS,MS
+28097,Northern Region,Montgomery County,MS,MS
+28099,Northern Region,Neshoba County,MS,MS
+28101,Northern Region,Newton County,MS,MS
+28103,Northern Region,Noxubee County,MS,MS
+28105,Northern Region,Oktibbeha County,MS,MS
+28107,Northern Region,Panola County,MS,MS
+28115,Northern Region,Pontotoc County,MS,MS
+28117,Northern Region,Prentiss County,MS,MS
+28119,Northern Region,Quitman County,MS,MS
+28123,Northern Region,Scott County,MS,MS
+28125,Northern Region,Sharkey County,MS,MS
+28129,Northern Region,Smith County,MS,MS
+28133,Northern Region,Sunflower County,MS,MS
+28135,Northern Region,Tallahatchie County,MS,MS
+28139,Northern Region,Tippah County,MS,MS
+28141,Northern Region,Tishomingo County,MS,MS
+28145,Northern Region,Union County,MS,MS
+28151,Northern Region,Washington County,MS,MS
+28155,Northern Region,Webster County,MS,MS
+28159,Northern Region,Winston County,MS,MS
+28161,Northern Region,Yalobusha County,MS,MS
+28001,Southern Region,Adams County,MS,MS
+28005,Southern Region,Amite County,MS,MS
+28021,Southern Region,Claiborne County,MS,MS
+28029,Southern Region,Copiah County,MS,MS
+28031,Southern Region,Covington County,MS,MS
+28035,Southern Region,Forrest County,MS,MS
+28037,Southern Region,Franklin County,MS,MS
+28039,Southern Region,George County,MS,MS
+28041,Southern Region,Greene County,MS,MS
+28045,Southern Region,Hancock County,MS,MS
+28047,Southern Region,Harrison County,MS,MS
+28049,Southern Region,Hinds County,MS,MS
+28063,Southern Region,Jefferson County,MS,MS
+28065,Southern Region,Jefferson Davis County,MS,MS
+28067,Southern Region,Jones County,MS,MS
+28073,Southern Region,Lamar County,MS,MS
+28077,Southern Region,Lawrence County,MS,MS
+28085,Southern Region,Lincoln County,MS,MS
+28089,Southern Region,Madison County,MS,MS
+28091,Southern Region,Marion County,MS,MS
+28109,Southern Region,Pearl River County,MS,MS
+28111,Southern Region,Perry County,MS,MS
+28113,Southern Region,Pike County,MS,MS
+28121,Southern Region,Rankin County,MS,MS
+28127,Southern Region,Simpson County,MS,MS
+28131,Southern Region,Stone County,MS,MS
+28147,Southern Region,Walthall County,MS,MS
+28149,Southern Region,Warren County,MS,MS
+28153,Southern Region,Wayne County,MS,MS
+28157,Southern Region,Wilkinson County,MS,MS
+28163,Southern Region,Yazoo County,MS,MS
+29007,Central Region,Audrain County,MO,MO
+29013,Central Region,Bates County,MO,MO
+29019,Central Region,Boone County,MO,MO
+29027,Central Region,Callaway County,MO,MO
+29029,Central Region,Camden County,MO,MO
+29037,Central Region,Cass County,MO,MO
+29051,Central Region,Cole County,MO,MO
+29053,Central Region,Cooper County,MO,MO
+29055,Central Region,Crawford County,MO,MO
+29073,Central Region,Gasconade County,MO,MO
+29083,Central Region,Henry County,MO,MO
+29085,Central Region,Hickory County,MO,MO
+29089,Central Region,Howard County,MO,MO
+29099,Central Region,Jefferson County,MO,MO
+29101,Central Region,Johnson County,MO,MO
+29107,Central Region,Lafayette County,MO,MO
+29113,Central Region,Lincoln County,MO,MO
+29125,Central Region,Maries County,MO,MO
+29131,Central Region,Miller County,MO,MO
+29135,Central Region,Moniteau County,MO,MO
+29139,Central Region,Montgomery County,MO,MO
+29141,Central Region,Morgan County,MO,MO
+29151,Central Region,Osage County,MO,MO
+29159,Central Region,Pettis County,MO,MO
+29185,Central Region,St. Clair County,MO,MO
+29186,Central Region,Ste. Genevieve County,MO,MO
+29187,Central Region,St. Francois County,MO,MO
+29195,Central Region,Saline County,MO,MO
+29219,Central Region,Warren County,MO,MO
+29221,Central Region,Washington County,MO,MO
+29071,Central Region,Franklin County,MO,MO
+29015,Central Region,Benton County,MO,MO
+29001,Northern Region,Adair County,MO,MO
+29003,Northern Region,Andrew County,MO,MO
+29005,Northern Region,Atchison County,MO,MO
+29021,Northern Region,Buchanan County,MO,MO
+29025,Northern Region,Caldwell County,MO,MO
+29033,Northern Region,Carroll County,MO,MO
+29041,Northern Region,Chariton County,MO,MO
+29045,Northern Region,Clark County,MO,MO
+29047,Northern Region,Clay County,MO,MO
+29049,Northern Region,Clinton County,MO,MO
+29061,Northern Region,Daviess County,MO,MO
+29063,Northern Region,DeKalb County,MO,MO
+29075,Northern Region,Gentry County,MO,MO
+29079,Northern Region,Grundy County,MO,MO
+29081,Northern Region,Harrison County,MO,MO
+29087,Northern Region,Holt County,MO,MO
+29103,Northern Region,Knox County,MO,MO
+29111,Northern Region,Lewis County,MO,MO
+29115,Northern Region,Linn County,MO,MO
+29117,Northern Region,Livingston County,MO,MO
+29121,Northern Region,Macon County,MO,MO
+29127,Northern Region,Marion County,MO,MO
+29129,Northern Region,Mercer County,MO,MO
+29137,Northern Region,Monroe County,MO,MO
+29147,Northern Region,Nodaway County,MO,MO
+29163,Northern Region,Pike County,MO,MO
+29165,Northern Region,Platte County,MO,MO
+29171,Northern Region,Putnam County,MO,MO
+29173,Northern Region,Ralls County,MO,MO
+29175,Northern Region,Randolph County,MO,MO
+29177,Northern Region,Ray County,MO,MO
+29197,Northern Region,Schuyler County,MO,MO
+29199,Northern Region,Scotland County,MO,MO
+29205,Northern Region,Shelby County,MO,MO
+29211,Northern Region,Sullivan County,MO,MO
+29227,Northern Region,Worth County,MO,MO
+29009,Southern Region,Barry County,MO,MO
+29011,Southern Region,Barton County,MO,MO
+29023,Southern Region,Butler County,MO,MO
+29031,Southern Region,Cape Girardeau County,MO,MO
+29035,Southern Region,Carter County,MO,MO
+29039,Southern Region,Cedar County,MO,MO
+29043,Southern Region,Christian County,MO,MO
+29057,Southern Region,Dade County,MO,MO
+29059,Southern Region,Dallas County,MO,MO
+29065,Southern Region,Dent County,MO,MO
+29067,Southern Region,Douglas County,MO,MO
+29069,Southern Region,Dunklin County,MO,MO
+29077,Southern Region,Greene County,MO,MO
+29091,Southern Region,Howell County,MO,MO
+29093,Southern Region,Iron County,MO,MO
+29097,Southern Region,Jasper County,MO,MO
+29105,Southern Region,Laclede County,MO,MO
+29109,Southern Region,Lawrence County,MO,MO
+29123,Southern Region,Madison County,MO,MO
+29133,Southern Region,Mississippi County,MO,MO
+29143,Southern Region,New Madrid County,MO,MO
+29145,Southern Region,Newton County,MO,MO
+29149,Southern Region,Oregon County,MO,MO
+29153,Southern Region,Ozark County,MO,MO
+29155,Southern Region,Pemiscot County,MO,MO
+29157,Southern Region,Perry County,MO,MO
+29161,Southern Region,Phelps County,MO,MO
+29167,Southern Region,Polk County,MO,MO
+29169,Southern Region,Pulaski County,MO,MO
+29179,Southern Region,Reynolds County,MO,MO
+29181,Southern Region,Ripley County,MO,MO
+29201,Southern Region,Scott County,MO,MO
+29203,Southern Region,Shannon County,MO,MO
+29207,Southern Region,Stoddard County,MO,MO
+29209,Southern Region,Stone County,MO,MO
+29213,Southern Region,Taney County,MO,MO
+29215,Southern Region,Texas County,MO,MO
+29217,Southern Region,Vernon County,MO,MO
+29223,Southern Region,Wayne County,MO,MO
+29225,Southern Region,Webster County,MO,MO
+29229,Southern Region,Wright County,MO,MO
+29017,Southern Region,Bollinger County,MO,MO
+29119,Southern Region,McDonald County,MO,MO
+29183,St. Louis Area,St. Charles County,MO,MO
+29510,St. Louis Area,St. Louis city,MO,MO
+29189,St. Louis Area,St. Louis County,MO,MO
+30011,All Counties,Carter County,MT,MT
+30061,All Counties,Mineral County,MT,MT
+30069,All Counties,Petroleum County,MT,MT
+30103,All Counties,Treasure County,MT,MT
+30107,All Counties,Wheatland County,MT,MT
+30067,All Counties,Park County,MT,MT
+30031,All Counties,Gallatin County,MT,MT
+30049,All Counties,Lewis and Clark County,MT,MT
+30037,All Counties,Golden Valley County,MT,MT
+30051,All Counties,Liberty County,MT,MT
+30075,All Counties,Powder River County,MT,MT
+30025,All Counties,Fallon County,MT,MT
+30033,All Counties,Garfield County,MT,MT
+30039,All Counties,Granite County,MT,MT
+30045,All Counties,Judith Basin County,MT,MT
+30079,All Counties,Prairie County,MT,MT
+30055,All Counties,McCone County,MT,MT
+30059,All Counties,Meagher County,MT,MT
+30071,All Counties,Phillips County,MT,MT
+30077,All Counties,Powell County,MT,MT
+30109,All Counties,Wibaux County,MT,MT
+30019,All Counties,Daniels County,MT,MT
+30099,All Counties,Teton County,MT,MT
+30091,All Counties,Sheridan County,MT,MT
+30005,All Counties,Blaine County,MT,MT
+30101,All Counties,Toole County,MT,MT
+30105,All Counties,Valley County,MT,MT
+30001,All Counties,Beaverhead County,MT,MT
+30015,All Counties,Chouteau County,MT,MT
+30097,All Counties,Sweet Grass County,MT,MT
+30007,All Counties,Broadwater County,MT,MT
+30023,All Counties,Deer Lodge County,MT,MT
+30073,All Counties,Pondera County,MT,MT
+30043,All Counties,Jefferson County,MT,MT
+30003,All Counties,Big Horn County,MT,MT
+30017,All Counties,Custer County,MT,MT
+30083,All Counties,Richland County,MT,MT
+30087,All Counties,Rosebud County,MT,MT
+30089,All Counties,Sanders County,MT,MT
+30057,All Counties,Madison County,MT,MT
+30065,All Counties,Musselshell County,MT,MT
+30095,All Counties,Stillwater County,MT,MT
+30035,All Counties,Glacier County,MT,MT
+30021,All Counties,Dawson County,MT,MT
+30027,All Counties,Fergus County,MT,MT
+30085,All Counties,Roosevelt County,MT,MT
+30009,All Counties,Carbon County,MT,MT
+30041,All Counties,Hill County,MT,MT
+30047,All Counties,Lake County,MT,MT
+30093,All Counties,Silver Bow County,MT,MT
+30053,All Counties,Lincoln County,MT,MT
+30081,All Counties,Ravalli County,MT,MT
+30013,All Counties,Cascade County,MT,MT
+30029,All Counties,Flathead County,MT,MT
+30063,All Counties,Missoula County,MT,MT
+30111,All Counties,Yellowstone County,MT,MT
+19155,Lincoln & Omaha Area,Pottawattamie County,IA,NE-IA
+31055,Lincoln & Omaha Area,Douglas County,NE,NE-IA
+31153,Lincoln & Omaha Area,Sarpy County,NE,NE-IA
+31109,Lincoln & Omaha Area,Lancaster County,NE,NE-IA
+31159,Lincoln & Omaha Area,Seward County,NE,NE-IA
+31025,Lincoln & Omaha Area,Cass County,NE,NE-IA
+31155,Lincoln & Omaha Area,Saunders County,NE,NE-IA
+31177,Lincoln & Omaha Area,Washington County,NE,NE-IA
+31005,Outlying Region,Arthur County,NE,NE
+31091,Outlying Region,Hooker County,NE,NE
+31103,Outlying Region,Keya Paha County,NE,NE
+31115,Outlying Region,Loup County,NE,NE
+31067,Outlying Region,Gage County,NE,NE
+31141,Outlying Region,Platte County,NE,NE
+31053,Outlying Region,Dodge County,NE,NE
+31079,Outlying Region,Hall County,NE,NE
+31081,Outlying Region,Hamilton County,NE,NE
+31093,Outlying Region,Howard County,NE,NE
+31121,Outlying Region,Merrick County,NE,NE
+31001,Outlying Region,Adams County,NE,NE
+31019,Outlying Region,Buffalo County,NE,NE
+31099,Outlying Region,Kearney County,NE,NE
+31047,Outlying Region,Dawson County,NE,NE
+31073,Outlying Region,Gosper County,NE,NE
+31119,Outlying Region,Madison County,NE,NE
+31139,Outlying Region,Pierce County,NE,NE
+31167,Outlying Region,Stanton County,NE,NE
+31111,Outlying Region,Lincoln County,NE,NE
+31113,Outlying Region,Logan County,NE,NE
+31117,Outlying Region,McPherson County,NE,NE
+31007,Outlying Region,Banner County,NE,NE
+31157,Outlying Region,Scotts Bluff County,NE,NE
+31165,Outlying Region,Sioux County,NE,NE
+31043,Outlying Region,Dakota County,NE,NE
+31051,Outlying Region,Dixon County,NE,NE
+31003,Outlying Region,Antelope County,NE,NE
+31009,Outlying Region,Blaine County,NE,NE
+31011,Outlying Region,Boone County,NE,NE
+31013,Outlying Region,Box Butte County,NE,NE
+31015,Outlying Region,Boyd County,NE,NE
+31017,Outlying Region,Brown County,NE,NE
+31021,Outlying Region,Burt County,NE,NE
+31023,Outlying Region,Butler County,NE,NE
+31027,Outlying Region,Cedar County,NE,NE
+31029,Outlying Region,Chase County,NE,NE
+31031,Outlying Region,Cherry County,NE,NE
+31033,Outlying Region,Cheyenne County,NE,NE
+31035,Outlying Region,Clay County,NE,NE
+31037,Outlying Region,Colfax County,NE,NE
+31039,Outlying Region,Cuming County,NE,NE
+31041,Outlying Region,Custer County,NE,NE
+31045,Outlying Region,Dawes County,NE,NE
+31049,Outlying Region,Deuel County,NE,NE
+31057,Outlying Region,Dundy County,NE,NE
+31059,Outlying Region,Fillmore County,NE,NE
+31061,Outlying Region,Franklin County,NE,NE
+31063,Outlying Region,Frontier County,NE,NE
+31065,Outlying Region,Furnas County,NE,NE
+31069,Outlying Region,Garden County,NE,NE
+31071,Outlying Region,Garfield County,NE,NE
+31075,Outlying Region,Grant County,NE,NE
+31077,Outlying Region,Greeley County,NE,NE
+31083,Outlying Region,Harlan County,NE,NE
+31085,Outlying Region,Hayes County,NE,NE
+31087,Outlying Region,Hitchcock County,NE,NE
+31089,Outlying Region,Holt County,NE,NE
+31095,Outlying Region,Jefferson County,NE,NE
+31097,Outlying Region,Johnson County,NE,NE
+31101,Outlying Region,Keith County,NE,NE
+31105,Outlying Region,Kimball County,NE,NE
+31107,Outlying Region,Knox County,NE,NE
+31123,Outlying Region,Morrill County,NE,NE
+31125,Outlying Region,Nance County,NE,NE
+31127,Outlying Region,Nemaha County,NE,NE
+31129,Outlying Region,Nuckolls County,NE,NE
+31131,Outlying Region,Otoe County,NE,NE
+31133,Outlying Region,Pawnee County,NE,NE
+31135,Outlying Region,Perkins County,NE,NE
+31137,Outlying Region,Phelps County,NE,NE
+31143,Outlying Region,Polk County,NE,NE
+31145,Outlying Region,Red Willow County,NE,NE
+31147,Outlying Region,Richardson County,NE,NE
+31149,Outlying Region,Rock County,NE,NE
+31151,Outlying Region,Saline County,NE,NE
+31161,Outlying Region,Sheridan County,NE,NE
+31163,Outlying Region,Sherman County,NE,NE
+31169,Outlying Region,Thayer County,NE,NE
+31171,Outlying Region,Thomas County,NE,NE
+31173,Outlying Region,Thurston County,NE,NE
+31175,Outlying Region,Valley County,NE,NE
+31179,Outlying Region,Wayne County,NE,NE
+31181,Outlying Region,Webster County,NE,NE
+31183,Outlying Region,Wheeler County,NE,NE
+31185,Outlying Region,York County,NE,NE
+32510,All Counties (excl. Las Vegas),Carson City,NV,NV
+32007,All Counties (excl. Las Vegas),Elko County,NV,NV
+32011,All Counties (excl. Las Vegas),Eureka County,NV,NV
+32001,All Counties (excl. Las Vegas),Churchill County,NV,NV
+32019,All Counties (excl. Las Vegas),Lyon County,NV,NV
+32005,All Counties (excl. Las Vegas),Douglas County,NV,NV
+32023,All Counties (excl. Las Vegas),Nye County,NV,NV
+32029,All Counties (excl. Las Vegas),Storey County,NV,NV
+32031,All Counties (excl. Las Vegas),Washoe County,NV,NV
+32013,All Counties (excl. Las Vegas),Humboldt County,NV,NV
+32009,All Counties (excl. Las Vegas),Esmeralda County,NV,NV
+32015,All Counties (excl. Las Vegas),Lander County,NV,NV
+32017,All Counties (excl. Las Vegas),Lincoln County,NV,NV
+32021,All Counties (excl. Las Vegas),Mineral County,NV,NV
+32027,All Counties (excl. Las Vegas),Pershing County,NV,NV
+32033,All Counties (excl. Las Vegas),White Pine County,NV,NV
+32003,Las Vegas Area,Clark County,NV,NV
+33019,All Counties,Sullivan County,NH,NH
+33017,All Counties,Strafford County,NH,NH
+33011,All Counties,Hillsborough County,NH,NH
+33015,All Counties,Rockingham County,NH,NH
+33003,All Counties,Carroll County,NH,NH
+33009,All Counties,Grafton County,NH,NH
+33013,All Counties,Merrimack County,NH,NH
+33007,All Counties,Coos County,NH,NH
+33005,All Counties,Cheshire County,NH,NH
+33001,All Counties,Belknap County,NH,NH
+34019,Central & Northwest Regions,Hunterdon County,NJ,NJ
+34021,Central & Northwest Regions,Mercer County,NJ,NJ
+34035,Central & Northwest Regions,Somerset County,NJ,NJ
+34037,Central & Northwest Regions,Sussex County,NJ,NJ
+34041,Central & Northwest Regions,Warren County,NJ,NJ
+34001,Jersey Shore,Atlantic County,NJ,NJ
+34009,Jersey Shore,Cape May County,NJ,NJ
+34011,Jersey Shore,Cumberland County,NJ,NJ
+34025,Jersey Shore,Monmouth County,NJ,NJ
+34029,Jersey Shore,Ocean County,NJ,NJ
+34017,Middlesex Region,Hudson County,NJ,NJ
+34023,Middlesex Region,Middlesex County,NJ,NJ
+34039,Middlesex Region,Union County,NJ,NJ
+34003,Northern Region,Bergen County,NJ,NJ
+34013,Northern Region,Essex County,NJ,NJ
+34027,Northern Region,Morris County,NJ,NJ
+34031,Northern Region,Passaic County,NJ,NJ
+34005,Southern Region,Burlington County,NJ,NJ
+34007,Southern Region,Camden County,NJ,NJ
+34015,Southern Region,Gloucester County,NJ,NJ
+34033,Southern Region,Salem County,NJ,NJ
+8067,"Albuquerque, Santa Fe & Durango Regions",La Plata County,CO,NM-CO
+8083,"Albuquerque, Santa Fe & Durango Regions",Montezuma County,CO,NM-CO
+35001,"Albuquerque, Santa Fe & Durango Regions",Bernalillo County,NM,NM-CO
+35006,"Albuquerque, Santa Fe & Durango Regions",Cibola County,NM,NM-CO
+35028,"Albuquerque, Santa Fe & Durango Regions",Los Alamos County,NM,NM-CO
+35031,"Albuquerque, Santa Fe & Durango Regions",McKinley County,NM,NM-CO
+35039,"Albuquerque, Santa Fe & Durango Regions",Rio Arriba County,NM,NM-CO
+35045,"Albuquerque, Santa Fe & Durango Regions",San Juan County,NM,NM-CO
+35043,"Albuquerque, Santa Fe & Durango Regions",Sandoval County,NM,NM-CO
+35049,"Albuquerque, Santa Fe & Durango Regions",Santa Fe County,NM,NM-CO
+35055,"Albuquerque, Santa Fe & Durango Regions",Taos County,NM,NM-CO
+35003,Valencia & Outlying Region,Catron County,NM,NM
+35005,Valencia & Outlying Region,Chaves County,NM,NM
+35007,Valencia & Outlying Region,Colfax County,NM,NM
+35009,Valencia & Outlying Region,Curry County,NM,NM
+35011,Valencia & Outlying Region,De Baca County,NM,NM
+35015,Valencia & Outlying Region,Eddy County,NM,NM
+35017,Valencia & Outlying Region,Grant County,NM,NM
+35019,Valencia & Outlying Region,Guadalupe County,NM,NM
+35021,Valencia & Outlying Region,Harding County,NM,NM
+35023,Valencia & Outlying Region,Hidalgo County,NM,NM
+35025,Valencia & Outlying Region,Lea County,NM,NM
+35027,Valencia & Outlying Region,Lincoln County,NM,NM
+35029,Valencia & Outlying Region,Luna County,NM,NM
+35033,Valencia & Outlying Region,Mora County,NM,NM
+35035,Valencia & Outlying Region,Otero County,NM,NM
+35037,Valencia & Outlying Region,Quay County,NM,NM
+35041,Valencia & Outlying Region,Roosevelt County,NM,NM
+35047,Valencia & Outlying Region,San Miguel County,NM,NM
+35051,Valencia & Outlying Region,Sierra County,NM,NM
+35053,Valencia & Outlying Region,Socorro County,NM,NM
+35057,Valencia & Outlying Region,Torrance County,NM,NM
+35059,Valencia & Outlying Region,Union County,NM,NM
+35061,Valencia & Outlying Region,Valencia County,NM,NM
+36089,Adirondacks,St. Lawrence County,NY,NY
+36019,Adirondacks,Clinton County,NY,NY
+36031,Adirondacks,Essex County,NY,NY
+36033,Adirondacks,Franklin County,NY,NY
+36035,Adirondacks,Fulton County,NY,NY
+36041,Adirondacks,Hamilton County,NY,NY
+36043,Adirondacks,Herkimer County,NY,NY
+36045,Adirondacks,Jefferson County,NY,NY
+36049,Adirondacks,Lewis County,NY,NY
+36057,Adirondacks,Montgomery County,NY,NY
+36065,Adirondacks,Oneida County,NY,NY
+36075,Adirondacks,Oswego County,NY,NY
+36021,Albany & Surrounding Region,Columbia County,NY,NY
+36039,Albany & Surrounding Region,Greene County,NY,NY
+36113,Albany & Surrounding Region,Warren County,NY,NY
+36115,Albany & Surrounding Region,Washington County,NY,NY
+36001,Albany & Surrounding Region,Albany County,NY,NY
+36083,Albany & Surrounding Region,Rensselaer County,NY,NY
+36091,Albany & Surrounding Region,Saratoga County,NY,NY
+36093,Albany & Surrounding Region,Schenectady County,NY,NY
+36095,Albany & Surrounding Region,Schoharie County,NY,NY
+36047,Brooklyn,Kings County,NY,NY
+36009,Buffalo & Surrounding Region,Cattaraugus County,NY,NY
+36013,Buffalo & Surrounding Region,Chautauqua County,NY,NY
+36029,Buffalo & Surrounding Region,Erie County,NY,NY
+36063,Buffalo & Surrounding Region,Niagara County,NY,NY
+36027,Hudson Valley,Dutchess County,NY,NY
+36071,Hudson Valley,Orange County,NY,NY
+36079,Hudson Valley,Putnam County,NY,NY
+36087,Hudson Valley,Rockland County,NY,NY
+36105,Hudson Valley,Sullivan County,NY,NY
+36111,Hudson Valley,Ulster County,NY,NY
+36103,Long Island Area,Suffolk County,NY,NY
+36061,Manhattan,New York County,NY,NY
+36059,Nassau & Westchester Areas,Nassau County,NY,NY
+36119,Nassau & Westchester Areas,Westchester County,NY,NY
+36081,Queens,Queens County,NY,NY
+36003,Rochester Area,Allegany County,NY,NY
+36037,Rochester Area,Genesee County,NY,NY
+36051,Rochester Area,Livingston County,NY,NY
+36055,Rochester Area,Monroe County,NY,NY
+36069,Rochester Area,Ontario County,NY,NY
+36073,Rochester Area,Orleans County,NY,NY
+36117,Rochester Area,Wayne County,NY,NY
+36121,Rochester Area,Wyoming County,NY,NY
+36123,Rochester Area,Yates County,NY,NY
+36007,Syracuse & Surrounding Region,Broome County,NY,NY
+36011,Syracuse & Surrounding Region,Cayuga County,NY,NY
+36015,Syracuse & Surrounding Region,Chemung County,NY,NY
+36017,Syracuse & Surrounding Region,Chenango County,NY,NY
+36023,Syracuse & Surrounding Region,Cortland County,NY,NY
+36025,Syracuse & Surrounding Region,Delaware County,NY,NY
+36053,Syracuse & Surrounding Region,Madison County,NY,NY
+36067,Syracuse & Surrounding Region,Onondaga County,NY,NY
+36077,Syracuse & Surrounding Region,Otsego County,NY,NY
+36097,Syracuse & Surrounding Region,Schuyler County,NY,NY
+36099,Syracuse & Surrounding Region,Seneca County,NY,NY
+36101,Syracuse & Surrounding Region,Steuben County,NY,NY
+36107,Syracuse & Surrounding Region,Tioga County,NY,NY
+36109,Syracuse & Surrounding Region,Tompkins County,NY,NY
+36005,The Bronx & Staten Island,Bronx County,NY,NY
+36085,The Bronx & Staten Island,Richmond County,NY,NY
+37189,Asheville & Western Region,Watauga County,NC,NC
+37023,Asheville & Western Region,Burke County,NC,NC
+37027,Asheville & Western Region,Caldwell County,NC,NC
+37161,Asheville & Western Region,Rutherford County,NC,NC
+37111,Asheville & Western Region,McDowell County,NC,NC
+37171,Asheville & Western Region,Surry County,NC,NC
+37193,Asheville & Western Region,Wilkes County,NC,NC
+37005,Asheville & Western Region,Alleghany County,NC,NC
+37009,Asheville & Western Region,Ashe County,NC,NC
+37011,Asheville & Western Region,Avery County,NC,NC
+37039,Asheville & Western Region,Cherokee County,NC,NC
+37043,Asheville & Western Region,Clay County,NC,NC
+37075,Asheville & Western Region,Graham County,NC,NC
+37121,Asheville & Western Region,Mitchell County,NC,NC
+37149,Asheville & Western Region,Polk County,NC,NC
+37199,Asheville & Western Region,Yancey County,NC,NC
+37021,Asheville & Western Region,Buncombe County,NC,NC
+37087,Asheville & Western Region,Haywood County,NC,NC
+37089,Asheville & Western Region,Henderson County,NC,NC
+37175,Asheville & Western Region,Transylvania County,NC,NC
+37099,Asheville & Western Region,Jackson County,NC,NC
+37113,Asheville & Western Region,Macon County,NC,NC
+37173,Asheville & Western Region,Swain County,NC,NC
+37197,Asheville & Western Region,Yadkin County,NC,NC
+37115,Asheville & Western Region,Madison County,NC,NC
+37071,Charlotte Area,Gaston County,NC,NC
+37109,Charlotte Area,Lincoln County,NC,NC
+37119,Charlotte Area,Mecklenburg County,NC,NC
+37179,Charlotte Area,Union County,NC,NC
+37133,Coastal Region,Onslow County,NC,NC
+37019,Coastal Region,Brunswick County,NC,NC
+37049,Coastal Region,Craven County,NC,NC
+37103,Coastal Region,Jones County,NC,NC
+37137,Coastal Region,Pamlico County,NC,NC
+37053,Coastal Region,Currituck County,NC,NC
+37073,Coastal Region,Gates County,NC,NC
+37129,Coastal Region,New Hanover County,NC,NC
+37141,Coastal Region,Pender County,NC,NC
+37029,Coastal Region,Camden County,NC,NC
+37139,Coastal Region,Pasquotank County,NC,NC
+37143,Coastal Region,Perquimans County,NC,NC
+37055,Coastal Region,Dare County,NC,NC
+37177,Coastal Region,Tyrrell County,NC,NC
+37107,Coastal Region,Lenoir County,NC,NC
+37031,Coastal Region,Carteret County,NC,NC
+37013,Coastal Region,Beaufort County,NC,NC
+37015,Coastal Region,Bertie County,NC,NC
+37017,Coastal Region,Bladen County,NC,NC
+37041,Coastal Region,Chowan County,NC,NC
+37047,Coastal Region,Columbus County,NC,NC
+37061,Coastal Region,Duplin County,NC,NC
+37091,Coastal Region,Hertford County,NC,NC
+37095,Coastal Region,Hyde County,NC,NC
+37117,Coastal Region,Martin County,NC,NC
+37187,Coastal Region,Washington County,NC,NC
+37147,Coastal Region,Pitt County,NC,NC
+37025,Fayettville & Other Central,Cabarrus County,NC,NC
+37097,Fayettville & Other Central,Iredell County,NC,NC
+37159,Fayettville & Other Central,Rowan County,NC,NC
+37001,Fayettville & Other Central,Alamance County,NC,NC
+37191,Fayettville & Other Central,Wayne County,NC,NC
+37003,Fayettville & Other Central,Alexander County,NC,NC
+37035,Fayettville & Other Central,Catawba County,NC,NC
+37065,Fayettville & Other Central,Edgecombe County,NC,NC
+37127,Fayettville & Other Central,Nash County,NC,NC
+37167,Fayettville & Other Central,Stanly County,NC,NC
+37085,Fayettville & Other Central,Harnett County,NC,NC
+37181,Fayettville & Other Central,Vance County,NC,NC
+37165,Fayettville & Other Central,Scotland County,NC,NC
+37155,Fayettville & Other Central,Robeson County,NC,NC
+37077,Fayettville & Other Central,Granville County,NC,NC
+37125,Fayettville & Other Central,Moore County,NC,NC
+37083,Fayettville & Other Central,Halifax County,NC,NC
+37131,Fayettville & Other Central,Northampton County,NC,NC
+37153,Fayettville & Other Central,Richmond County,NC,NC
+37105,Fayettville & Other Central,Lee County,NC,NC
+37045,Fayettville & Other Central,Cleveland County,NC,NC
+37195,Fayettville & Other Central,Wilson County,NC,NC
+37007,Fayettville & Other Central,Anson County,NC,NC
+37033,Fayettville & Other Central,Caswell County,NC,NC
+37079,Fayettville & Other Central,Greene County,NC,NC
+37123,Fayettville & Other Central,Montgomery County,NC,NC
+37163,Fayettville & Other Central,Sampson County,NC,NC
+37185,Fayettville & Other Central,Warren County,NC,NC
+37145,Fayettville & Other Central,Person County,NC,NC
+37069,Fayettville & Other Central,Franklin County,NC,NC
+37157,Fayettville & Other Central,Rockingham County,NC,NC
+37059,Fayettville & Other Central,Davie County,NC,NC
+37169,Fayettville & Other Central,Stokes County,NC,NC
+37051,Fayettville & Other Central,Cumberland County,NC,NC
+37093,Fayettville & Other Central,Hoke County,NC,NC
+37081,Greensboro-High Point & Surrounding Area,Guilford County,NC,NC
+37151,Greensboro-High Point & Surrounding Area,Randolph County,NC,NC
+37057,Greensboro-High Point & Surrounding Area,Davidson County,NC,NC
+37067,Greensboro-High Point & Surrounding Area,Forsyth County,NC,NC
+37037,Raleigh-Durham & Chapel Hill Area,Chatham County,NC,NC
+37063,Raleigh-Durham & Chapel Hill Area,Durham County,NC,NC
+37135,Raleigh-Durham & Chapel Hill Area,Orange County,NC,NC
+37101,Raleigh-Durham & Chapel Hill Area,Johnston County,NC,NC
+37183,Raleigh-Durham & Chapel Hill Area,Wake County,NC,NC
+38065,All Counties,Oliver County,ND,ND
+38007,All Counties,Billings County,ND,ND
+38015,All Counties,Burleigh County,ND,ND
+38059,All Counties,Morton County,ND,ND
+38085,All Counties,Sioux County,ND,ND
+38089,All Counties,Stark County,ND,ND
+38017,All Counties,Cass County,ND,ND
+38035,All Counties,Grand Forks County,ND,ND
+38093,All Counties,Stutsman County,ND,ND
+38049,All Counties,McHenry County,ND,ND
+38075,All Counties,Renville County,ND,ND
+38101,All Counties,Ward County,ND,ND
+38077,All Counties,Richland County,ND,ND
+38105,All Counties,Williams County,ND,ND
+38001,All Counties,Adams County,ND,ND
+38003,All Counties,Barnes County,ND,ND
+38005,All Counties,Benson County,ND,ND
+38009,All Counties,Bottineau County,ND,ND
+38011,All Counties,Bowman County,ND,ND
+38013,All Counties,Burke County,ND,ND
+38019,All Counties,Cavalier County,ND,ND
+38021,All Counties,Dickey County,ND,ND
+38023,All Counties,Divide County,ND,ND
+38025,All Counties,Dunn County,ND,ND
+38027,All Counties,Eddy County,ND,ND
+38029,All Counties,Emmons County,ND,ND
+38031,All Counties,Foster County,ND,ND
+38033,All Counties,Golden Valley County,ND,ND
+38037,All Counties,Grant County,ND,ND
+38039,All Counties,Griggs County,ND,ND
+38041,All Counties,Hettinger County,ND,ND
+38043,All Counties,Kidder County,ND,ND
+38045,All Counties,LaMoure County,ND,ND
+38047,All Counties,Logan County,ND,ND
+38051,All Counties,McIntosh County,ND,ND
+38053,All Counties,McKenzie County,ND,ND
+38055,All Counties,McLean County,ND,ND
+38057,All Counties,Mercer County,ND,ND
+38061,All Counties,Mountrail County,ND,ND
+38063,All Counties,Nelson County,ND,ND
+38067,All Counties,Pembina County,ND,ND
+38069,All Counties,Pierce County,ND,ND
+38071,All Counties,Ramsey County,ND,ND
+38073,All Counties,Ransom County,ND,ND
+38079,All Counties,Rolette County,ND,ND
+38081,All Counties,Sargent County,ND,ND
+38083,All Counties,Sheridan County,ND,ND
+38087,All Counties,Slope County,ND,ND
+38091,All Counties,Steele County,ND,ND
+38095,All Counties,Towner County,ND,ND
+38097,All Counties,Traill County,ND,ND
+38099,All Counties,Walsh County,ND,ND
+38103,All Counties,Wells County,ND,ND
+39133,Canton & Akron Area,Portage County,OH,OH
+39153,Canton & Akron Area,Summit County,OH,OH
+39007,Canton & Akron Area,Ashtabula County,OH,OH
+39151,Canton & Akron Area,Stark County,OH,OH
+39093,Canton & Akron Area,Lorain County,OH,OH
+39103,Canton & Akron Area,Medina County,OH,OH
+39099,Canton & Akron Area,Mahoning County,OH,OH
+39155,Canton & Akron Area,Trumbull County,OH,OH
+21117,Cincinnati Area,Kenton County,KY,OH-KY
+21037,Cincinnati Area,Campbell County,KY,OH-KY
+39017,Cincinnati Area,Butler County,OH,OH-KY
+39025,Cincinnati Area,Clermont County,OH,OH-KY
+39061,Cincinnati Area,Hamilton County,OH,OH-KY
+39165,Cincinnati Area,Warren County,OH,OH-KY
+39035,Cleveland Area,Cuyahoga County,OH,OH
+39055,Cleveland Area,Geauga County,OH,OH
+39085,Cleveland Area,Lake County,OH,OH
+39041,Columbus Area,Delaware County,OH,OH
+39045,Columbus Area,Fairfield County,OH,OH
+39049,Columbus Area,Franklin County,OH,OH
+39089,Columbus Area,Licking County,OH,OH
+39129,Columbus Area,Pickaway County,OH,OH
+39057,Dayton & Surrounding Region,Greene County,OH,OH
+39109,Dayton & Surrounding Region,Miami County,OH,OH
+39113,Dayton & Surrounding Region,Montgomery County,OH,OH
+39037,Dayton & Surrounding Region,Darke County,OH,OH
+39023,Dayton & Surrounding Region,Clark County,OH,OH
+39135,Dayton & Surrounding Region,Preble County,OH,OH
+39009,Eastern & Southern Region,Athens County,OH,OH
+39059,Eastern & Southern Region,Guernsey County,OH,OH
+39019,Eastern & Southern Region,Carroll County,OH,OH
+39141,Eastern & Southern Region,Ross County,OH,OH
+39015,Eastern & Southern Region,Brown County,OH,OH
+39073,Eastern & Southern Region,Hocking County,OH,OH
+39127,Eastern & Southern Region,Perry County,OH,OH
+39031,Eastern & Southern Region,Coshocton County,OH,OH
+39087,Eastern & Southern Region,Lawrence County,OH,OH
+39079,Eastern & Southern Region,Jackson County,OH,OH
+39167,Eastern & Southern Region,Washington County,OH,OH
+39157,Eastern & Southern Region,Tuscarawas County,OH,OH
+39053,Eastern & Southern Region,Gallia County,OH,OH
+39145,Eastern & Southern Region,Scioto County,OH,OH
+39029,Eastern & Southern Region,Columbiana County,OH,OH
+39047,Eastern & Southern Region,Fayette County,OH,OH
+39081,Eastern & Southern Region,Jefferson County,OH,OH
+39013,Eastern & Southern Region,Belmont County,OH,OH
+39027,Eastern & Southern Region,Clinton County,OH,OH
+39169,Eastern & Southern Region,Wayne County,OH,OH
+39119,Eastern & Southern Region,Muskingum County,OH,OH
+39001,Eastern & Southern Region,Adams County,OH,OH
+39067,Eastern & Southern Region,Harrison County,OH,OH
+39071,Eastern & Southern Region,Highland County,OH,OH
+39075,Eastern & Southern Region,Holmes County,OH,OH
+39105,Eastern & Southern Region,Meigs County,OH,OH
+39111,Eastern & Southern Region,Monroe County,OH,OH
+39115,Eastern & Southern Region,Morgan County,OH,OH
+39121,Eastern & Southern Region,Noble County,OH,OH
+39131,Eastern & Southern Region,Pike County,OH,OH
+39163,Eastern & Southern Region,Vinton County,OH,OH
+39005,Northern Region,Ashland County,OH,OH
+39091,Northern Region,Logan County,OH,OH
+39033,Northern Region,Crawford County,OH,OH
+39107,Northern Region,Mercer County,OH,OH
+39097,Northern Region,Madison County,OH,OH
+39117,Northern Region,Morrow County,OH,OH
+39159,Northern Region,Union County,OH,OH
+39039,Northern Region,Defiance County,OH,OH
+39063,Northern Region,Hancock County,OH,OH
+39003,Northern Region,Allen County,OH,OH
+39139,Northern Region,Richland County,OH,OH
+39101,Northern Region,Marion County,OH,OH
+39083,Northern Region,Knox County,OH,OH
+39077,Northern Region,Huron County,OH,OH
+39043,Northern Region,Erie County,OH,OH
+39149,Northern Region,Shelby County,OH,OH
+39147,Northern Region,Seneca County,OH,OH
+39021,Northern Region,Champaign County,OH,OH
+39161,Northern Region,Van Wert County,OH,OH
+39011,Northern Region,Auglaize County,OH,OH
+39065,Northern Region,Hardin County,OH,OH
+39069,Northern Region,Henry County,OH,OH
+39125,Northern Region,Paulding County,OH,OH
+39137,Northern Region,Putnam County,OH,OH
+39171,Northern Region,Williams County,OH,OH
+39175,Northern Region,Wyandot County,OH,OH
+26091,Toledo Area,Lenawee County,MI,MI-OH
+26115,Toledo Area,Monroe County,MI,MI-OH
+39143,Toledo Area,Sandusky County,OH,MI-OH
+39123,Toledo Area,Ottawa County,OH,MI-OH
+39051,Toledo Area,Fulton County,OH,MI-OH
+39095,Toledo Area,Lucas County,OH,MI-OH
+39173,Toledo Area,Wood County,OH,MI-OH
+40017,Oklahoma City & Tulsa Region,Canadian County,OK,OK
+40027,Oklahoma City & Tulsa Region,Cleveland County,OK,OK
+40037,Oklahoma City & Tulsa Region,Creek County,OK,OK
+40051,Oklahoma City & Tulsa Region,Grady County,OK,OK
+40081,Oklahoma City & Tulsa Region,Lincoln County,OK,OK
+40083,Oklahoma City & Tulsa Region,Logan County,OK,OK
+40087,Oklahoma City & Tulsa Region,McClain County,OK,OK
+40103,Oklahoma City & Tulsa Region,Noble County,OK,OK
+40109,Oklahoma City & Tulsa Region,Oklahoma County,OK,OK
+40111,Oklahoma City & Tulsa Region,Okmulgee County,OK,OK
+40113,Oklahoma City & Tulsa Region,Osage County,OK,OK
+40117,Oklahoma City & Tulsa Region,Pawnee County,OK,OK
+40119,Oklahoma City & Tulsa Region,Payne County,OK,OK
+40131,Oklahoma City & Tulsa Region,Rogers County,OK,OK
+40143,Oklahoma City & Tulsa Region,Tulsa County,OK,OK
+40145,Oklahoma City & Tulsa Region,Wagoner County,OK,OK
+40001,Outlying Region,Adair County,OK,OK
+40003,Outlying Region,Alfalfa County,OK,OK
+40005,Outlying Region,Atoka County,OK,OK
+40007,Outlying Region,Beaver County,OK,OK
+40009,Outlying Region,Beckham County,OK,OK
+40011,Outlying Region,Blaine County,OK,OK
+40013,Outlying Region,Bryan County,OK,OK
+40015,Outlying Region,Caddo County,OK,OK
+40019,Outlying Region,Carter County,OK,OK
+40021,Outlying Region,Cherokee County,OK,OK
+40023,Outlying Region,Choctaw County,OK,OK
+40025,Outlying Region,Cimarron County,OK,OK
+40029,Outlying Region,Coal County,OK,OK
+40031,Outlying Region,Comanche County,OK,OK
+40033,Outlying Region,Cotton County,OK,OK
+40035,Outlying Region,Craig County,OK,OK
+40039,Outlying Region,Custer County,OK,OK
+40041,Outlying Region,Delaware County,OK,OK
+40043,Outlying Region,Dewey County,OK,OK
+40045,Outlying Region,Ellis County,OK,OK
+40047,Outlying Region,Garfield County,OK,OK
+40049,Outlying Region,Garvin County,OK,OK
+40053,Outlying Region,Grant County,OK,OK
+40055,Outlying Region,Greer County,OK,OK
+40057,Outlying Region,Harmon County,OK,OK
+40059,Outlying Region,Harper County,OK,OK
+40061,Outlying Region,Haskell County,OK,OK
+40063,Outlying Region,Hughes County,OK,OK
+40065,Outlying Region,Jackson County,OK,OK
+40067,Outlying Region,Jefferson County,OK,OK
+40069,Outlying Region,Johnston County,OK,OK
+40071,Outlying Region,Kay County,OK,OK
+40073,Outlying Region,Kingfisher County,OK,OK
+40075,Outlying Region,Kiowa County,OK,OK
+40077,Outlying Region,Latimer County,OK,OK
+40079,Outlying Region,Le Flore County,OK,OK
+40085,Outlying Region,Love County,OK,OK
+40093,Outlying Region,Major County,OK,OK
+40095,Outlying Region,Marshall County,OK,OK
+40097,Outlying Region,Mayes County,OK,OK
+40089,Outlying Region,McCurtain County,OK,OK
+40091,Outlying Region,McIntosh County,OK,OK
+40099,Outlying Region,Murray County,OK,OK
+40101,Outlying Region,Muskogee County,OK,OK
+40105,Outlying Region,Nowata County,OK,OK
+40107,Outlying Region,Okfuskee County,OK,OK
+40115,Outlying Region,Ottawa County,OK,OK
+40121,Outlying Region,Pittsburg County,OK,OK
+40123,Outlying Region,Pontotoc County,OK,OK
+40125,Outlying Region,Pottawatomie County,OK,OK
+40127,Outlying Region,Pushmataha County,OK,OK
+40129,Outlying Region,Roger Mills County,OK,OK
+40133,Outlying Region,Seminole County,OK,OK
+40135,Outlying Region,Sequoyah County,OK,OK
+40137,Outlying Region,Stephens County,OK,OK
+40139,Outlying Region,Texas County,OK,OK
+40141,Outlying Region,Tillman County,OK,OK
+40147,Outlying Region,Washington County,OK,OK
+40149,Outlying Region,Washita County,OK,OK
+40151,Outlying Region,Woods County,OK,OK
+40153,Outlying Region,Woodward County,OK,OK
+41003,Eugene & Surrounding Area,Benton County,OR,OR
+41011,Eugene & Surrounding Area,Coos County,OR,OR
+41015,Eugene & Surrounding Area,Curry County,OR,OR
+41017,Eugene & Surrounding Area,Deschutes County,OR,OR
+41019,Eugene & Surrounding Area,Douglas County,OR,OR
+41029,Eugene & Surrounding Area,Jackson County,OR,OR
+41033,Eugene & Surrounding Area,Josephine County,OR,OR
+41039,Eugene & Surrounding Area,Lane County,OR,OR
+41041,Eugene & Surrounding Area,Lincoln County,OR,OR
+41043,Eugene & Surrounding Area,Linn County,OR,OR
+41051,Portland Area,Multnomah County,OR,OR-WA
+41067,Portland Area,Washington County,OR,OR-WA
+53011,Portland Area,Clark County,WA,OR-WA
+41005,Salem & Portland Suburbs,Clackamas County,OR,OR
+41007,Salem & Portland Suburbs,Clatsop County,OR,OR
+41009,Salem & Portland Suburbs,Columbia County,OR,OR
+41027,Salem & Portland Suburbs,Hood River County,OR,OR
+41047,Salem & Portland Suburbs,Marion County,OR,OR
+41053,Salem & Portland Suburbs,Polk County,OR,OR
+41057,Salem & Portland Suburbs,Tillamook County,OR,OR
+41071,Salem & Portland Suburbs,Yamhill County,OR,OR
+42001,Lancaster Area,Adams County,PA,PA
+42041,Lancaster Area,Cumberland County,PA,PA
+42043,Lancaster Area,Dauphin County,PA,PA
+42071,Lancaster Area,Lancaster County,PA,PA
+42075,Lancaster Area,Lebanon County,PA,PA
+42133,Lancaster Area,York County,PA,PA
+42077,Lehigh Valley,Lehigh County,PA,PA
+42095,Lehigh Valley,Northampton County,PA,PA
+42011,Lehigh Valley,Berks County,PA,PA
+42025,Northeastern Region,Carbon County,PA,PA
+42089,Northeastern Region,Monroe County,PA,PA
+42103,Northeastern Region,Pike County,PA,PA
+42107,Northeastern Region,Schuylkill County,PA,PA
+42069,Northeastern Region,Lackawanna County,PA,PA
+42079,Northeastern Region,Luzerne County,PA,PA
+42021,Northern Region,Cambria County,PA,PA
+42081,Northern Region,Lycoming County,PA,PA
+42131,Northern Region,Wyoming County,PA,PA
+42083,Northern Region,McKean County,PA,PA
+42033,Northern Region,Clearfield County,PA,PA
+42035,Northern Region,Clinton County,PA,PA
+42015,Northern Region,Bradford County,PA,PA
+42023,Northern Region,Cameron County,PA,PA
+42047,Northern Region,Elk County,PA,PA
+42105,Northern Region,Potter County,PA,PA
+42113,Northern Region,Sullivan County,PA,PA
+42115,Northern Region,Susquehanna County,PA,PA
+42117,Northern Region,Tioga County,PA,PA
+42127,Northern Region,Wayne County,PA,PA
+42005,Northwestern-Lake Erie Region,Armstrong County,PA,PA
+42049,Northwestern-Lake Erie Region,Erie County,PA,PA
+42085,Northwestern-Lake Erie Region,Mercer County,PA,PA
+42063,Northwestern-Lake Erie Region,Indiana County,PA,PA
+42039,Northwestern-Lake Erie Region,Crawford County,PA,PA
+42073,Northwestern-Lake Erie Region,Lawrence County,PA,PA
+42121,Northwestern-Lake Erie Region,Venango County,PA,PA
+42123,Northwestern-Lake Erie Region,Warren County,PA,PA
+42031,Northwestern-Lake Erie Region,Clarion County,PA,PA
+42053,Northwestern-Lake Erie Region,Forest County,PA,PA
+42065,Northwestern-Lake Erie Region,Jefferson County,PA,PA
+42017,Northern Philadelphia Suburbs,Bucks County,PA,PA
+42091,Northern Philadelphia Suburbs,Montgomery County,PA,PA
+42007,Outer Pittsburgh Region,Beaver County,PA,PA
+42019,Outer Pittsburgh Region,Butler County,PA,PA
+42051,Outer Pittsburgh Region,Fayette County,PA,PA
+42125,Outer Pittsburgh Region,Washington County,PA,PA
+42129,Outer Pittsburgh Region,Westmoreland County,PA,PA
+42059,Outer Pittsburgh Region,Greene County,PA,PA
+42101,Philadelphia,Philadelphia County,PA,PA
+42003,Pittsburgh Region,Allegheny County,PA,PA
+42029,Southwestern Philadelphia Suburbs,Chester County,PA,PA
+42045,Southwestern Philadelphia Suburbs,Delaware County,PA,PA
+42037,State College-Altoona-Harrisburg & Other South Central,Columbia County,PA,PA
+42093,State College-Altoona-Harrisburg & Other South Central,Montour County,PA,PA
+42013,State College-Altoona-Harrisburg & Other South Central,Blair County,PA,PA
+42055,State College-Altoona-Harrisburg & Other South Central,Franklin County,PA,PA
+42027,State College-Altoona-Harrisburg & Other South Central,Centre County,PA,PA
+42099,State College-Altoona-Harrisburg & Other South Central,Perry County,PA,PA
+42061,State College-Altoona-Harrisburg & Other South Central,Huntingdon County,PA,PA
+42119,State College-Altoona-Harrisburg & Other South Central,Union County,PA,PA
+42087,State College-Altoona-Harrisburg & Other South Central,Mifflin County,PA,PA
+42109,State College-Altoona-Harrisburg & Other South Central,Snyder County,PA,PA
+42097,State College-Altoona-Harrisburg & Other South Central,Northumberland County,PA,PA
+42009,State College-Altoona-Harrisburg & Other South Central,Bedford County,PA,PA
+42057,State College-Altoona-Harrisburg & Other South Central,Fulton County,PA,PA
+42067,State College-Altoona-Harrisburg & Other South Central,Juniata County,PA,PA
+42111,State College-Altoona-Harrisburg & Other South Central,Somerset County,PA,PA
+44009,All Counties,Washington County,RI,RI
+44007,All Counties,Providence County,RI,RI
+44005,All Counties,Newport County,RI,RI
+44003,All Counties,Kent County,RI,RI
+44001,All Counties,Bristol County,RI,RI
+45013,Charleston-Coastal Region,Beaufort County,SC,SC
+45015,Charleston-Coastal Region,Berkeley County,SC,SC
+45019,Charleston-Coastal Region,Charleston County,SC,SC
+45029,Charleston-Coastal Region,Colleton County,SC,SC
+45035,Charleston-Coastal Region,Dorchester County,SC,SC
+45043,Charleston-Coastal Region,Georgetown County,SC,SC
+45051,Charleston-Coastal Region,Horry County,SC,SC
+45023,Northeastern Region,Chester County,SC,SC
+45025,Northeastern Region,Chesterfield County,SC,SC
+45027,Northeastern Region,Clarendon County,SC,SC
+45031,Northeastern Region,Darlington County,SC,SC
+45033,Northeastern Region,Dillon County,SC,SC
+45039,Northeastern Region,Fairfield County,SC,SC
+45041,Northeastern Region,Florence County,SC,SC
+45055,Northeastern Region,Kershaw County,SC,SC
+45057,Northeastern Region,Lancaster County,SC,SC
+45061,Northeastern Region,Lee County,SC,SC
+45067,Northeastern Region,Marion County,SC,SC
+45069,Northeastern Region,Marlboro County,SC,SC
+45079,Northeastern Region,Richland County,SC,SC
+45085,Northeastern Region,Sumter County,SC,SC
+45089,Northeastern Region,Williamsburg County,SC,SC
+45091,Northeastern Region,York County,SC,SC
+45045,Northwestern Upstate Region,Greenville County,SC,SC
+45073,Northwestern Upstate Region,Oconee County,SC,SC
+45077,Northwestern Upstate Region,Pickens County,SC,SC
+45083,Northwestern Upstate Region,Spartanburg County,SC,SC
+45063,Western Region,Lexington County,SC,SC
+45001,Western Region,Abbeville County,SC,SC
+45003,Western Region,Aiken County,SC,SC
+45005,Western Region,Allendale County,SC,SC
+45007,Western Region,Anderson County,SC,SC
+45009,Western Region,Bamberg County,SC,SC
+45011,Western Region,Barnwell County,SC,SC
+45021,Western Region,Cherokee County,SC,SC
+45037,Western Region,Edgefield County,SC,SC
+45047,Western Region,Greenwood County,SC,SC
+45049,Western Region,Hampton County,SC,SC
+45053,Western Region,Jasper County,SC,SC
+45059,Western Region,Laurens County,SC,SC
+45065,Western Region,McCormick County,SC,SC
+45071,Western Region,Newberry County,SC,SC
+45075,Western Region,Orangeburg County,SC,SC
+45081,Western Region,Saluda County,SC,SC
+45087,Western Region,Union County,SC,SC
+45017,Western Region,Calhoun County,SC,SC
+46017,All Counties,Buffalo County,SD,SD
+46111,All Counties,Sanborn County,SD,SD
+46099,All Counties,Minnehaha County,SD,SD
+46013,All Counties,Brown County,SD,SD
+46045,All Counties,Edmunds County,SD,SD
+46011,All Counties,Brookings County,SD,SD
+46005,All Counties,Beadle County,SD,SD
+46035,All Counties,Davison County,SD,SD
+46061,All Counties,Hanson County,SD,SD
+46065,All Counties,Hughes County,SD,SD
+46117,All Counties,Stanley County,SD,SD
+46119,All Counties,Sully County,SD,SD
+46033,All Counties,Custer County,SD,SD
+46093,All Counties,Meade County,SD,SD
+46103,All Counties,Pennington County,SD,SD
+46127,All Counties,Union County,SD,SD
+46083,All Counties,Lincoln County,SD,SD
+46087,All Counties,McCook County,SD,SD
+46125,All Counties,Turner County,SD,SD
+46081,All Counties,Lawrence County,SD,SD
+46027,All Counties,Clay County,SD,SD
+46029,All Counties,Codington County,SD,SD
+46135,All Counties,Yankton County,SD,SD
+46003,All Counties,Aurora County,SD,SD
+46007,All Counties,Bennett County,SD,SD
+46009,All Counties,Bon Homme County,SD,SD
+46015,All Counties,Brule County,SD,SD
+46019,All Counties,Butte County,SD,SD
+46021,All Counties,Campbell County,SD,SD
+46023,All Counties,Charles Mix County,SD,SD
+46025,All Counties,Clark County,SD,SD
+46031,All Counties,Corson County,SD,SD
+46037,All Counties,Day County,SD,SD
+46039,All Counties,Deuel County,SD,SD
+46041,All Counties,Dewey County,SD,SD
+46043,All Counties,Douglas County,SD,SD
+46047,All Counties,Fall River County,SD,SD
+46049,All Counties,Faulk County,SD,SD
+46051,All Counties,Grant County,SD,SD
+46053,All Counties,Gregory County,SD,SD
+46055,All Counties,Haakon County,SD,SD
+46057,All Counties,Hamlin County,SD,SD
+46059,All Counties,Hand County,SD,SD
+46063,All Counties,Harding County,SD,SD
+46067,All Counties,Hutchinson County,SD,SD
+46069,All Counties,Hyde County,SD,SD
+46071,All Counties,Jackson County,SD,SD
+46073,All Counties,Jerauld County,SD,SD
+46075,All Counties,Jones County,SD,SD
+46077,All Counties,Kingsbury County,SD,SD
+46079,All Counties,Lake County,SD,SD
+46085,All Counties,Lyman County,SD,SD
+46089,All Counties,McPherson County,SD,SD
+46091,All Counties,Marshall County,SD,SD
+46095,All Counties,Mellette County,SD,SD
+46097,All Counties,Miner County,SD,SD
+46101,All Counties,Moody County,SD,SD
+46105,All Counties,Perkins County,SD,SD
+46107,All Counties,Potter County,SD,SD
+46109,All Counties,Roberts County,SD,SD
+46113,All Counties,Shannon County,SD,SD
+46115,All Counties,Spink County,SD,SD
+46121,All Counties,Todd County,SD,SD
+46123,All Counties,Tripp County,SD,SD
+46129,All Counties,Walworth County,SD,SD
+46137,All Counties,Ziebach County,SD,SD
+47015,Central Region,Cannon County,TN,TN
+47111,Central Region,Macon County,TN,TN
+47159,Central Region,Smith County,TN,TN
+47165,Central Region,Sumner County,TN,TN
+47169,Central Region,Trousdale County,TN,TN
+47139,Central Region,Polk County,TN,TN
+47065,Central Region,Hamilton County,TN,TN
+47115,Central Region,Marion County,TN,TN
+47153,Central Region,Sequatchie County,TN,TN
+47011,Central Region,Bradley County,TN,TN
+47107,Central Region,McMinn County,TN,TN
+47087,Central Region,Jackson County,TN,TN
+47133,Central Region,Overton County,TN,TN
+47141,Central Region,Putnam County,TN,TN
+47035,Central Region,Cumberland County,TN,TN
+47143,Central Region,Rhea County,TN,TN
+47117,Central Region,Marshall County,TN,TN
+47177,Central Region,Warren County,TN,TN
+47003,Central Region,Bedford County,TN,TN
+47031,Central Region,Coffee County,TN,TN
+47051,Central Region,Franklin County,TN,TN
+47127,Central Region,Moore County,TN,TN
+47007,Central Region,Bledsoe County,TN,TN
+47027,Central Region,Clay County,TN,TN
+47041,Central Region,DeKalb County,TN,TN
+47049,Central Region,Fentress County,TN,TN
+47061,Central Region,Grundy County,TN,TN
+47103,Central Region,Lincoln County,TN,TN
+47121,Central Region,Meigs County,TN,TN
+47123,Central Region,Monroe County,TN,TN
+47137,Central Region,Pickett County,TN,TN
+47151,Central Region,Scott County,TN,TN
+47175,Central Region,Van Buren County,TN,TN
+47185,Central Region,White County,TN,TN
+47019,Eastern Region,Carter County,TN,TN
+47171,Eastern Region,Unicoi County,TN,TN
+47179,Eastern Region,Washington County,TN,TN
+47073,Eastern Region,Hawkins County,TN,TN
+47163,Eastern Region,Sullivan County,TN,TN
+47063,Eastern Region,Hamblen County,TN,TN
+47089,Eastern Region,Jefferson County,TN,TN
+47001,Eastern Region,Anderson County,TN,TN
+47009,Eastern Region,Blount County,TN,TN
+47013,Eastern Region,Campbell County,TN,TN
+47057,Eastern Region,Grainger County,TN,TN
+47093,Eastern Region,Knox County,TN,TN
+47105,Eastern Region,Loudon County,TN,TN
+47129,Eastern Region,Morgan County,TN,TN
+47145,Eastern Region,Roane County,TN,TN
+47173,Eastern Region,Union County,TN,TN
+47059,Eastern Region,Greene County,TN,TN
+47029,Eastern Region,Cocke County,TN,TN
+47155,Eastern Region,Sevier County,TN,TN
+47025,Eastern Region,Claiborne County,TN,TN
+47067,Eastern Region,Hancock County,TN,TN
+47091,Eastern Region,Johnson County,TN,TN
+47037,Greater Nashville Area,Davidson County,TN,TN
+47149,Greater Nashville Area,Rutherford County,TN,TN
+47187,Greater Nashville Area,Williamson County,TN,TN
+47189,Greater Nashville Area,Wilson County,TN,TN
+28009,Memphis Area,Benton County,MS,TN-MS
+28033,Memphis Area,DeSoto County,MS,TN-MS
+28093,Memphis Area,Marshall County,MS,TN-MS
+28137,Memphis Area,Tate County,MS,TN-MS
+28143,Memphis Area,Tunica County,MS,TN-MS
+47047,Memphis Area,Fayette County,TN,TN-MS
+47157,Memphis Area,Shelby County,TN,TN-MS
+47167,Memphis Area,Tipton County,TN,TN-MS
+47021,Western Region,Cheatham County,TN,TN
+47043,Western Region,Dickson County,TN,TN
+47081,Western Region,Hickman County,TN,TN
+47119,Western Region,Maury County,TN,TN
+47147,Western Region,Robertson County,TN,TN
+47125,Western Region,Montgomery County,TN,TN
+47023,Western Region,Chester County,TN,TN
+47033,Western Region,Crockett County,TN,TN
+47113,Western Region,Madison County,TN,TN
+47045,Western Region,Dyer County,TN,TN
+47099,Western Region,Lawrence County,TN,TN
+47183,Western Region,Weakley County,TN,TN
+47079,Western Region,Henry County,TN,TN
+47131,Western Region,Obion County,TN,TN
+47005,Western Region,Benton County,TN,TN
+47017,Western Region,Carroll County,TN,TN
+47039,Western Region,Decatur County,TN,TN
+47053,Western Region,Gibson County,TN,TN
+47055,Western Region,Giles County,TN,TN
+47069,Western Region,Hardeman County,TN,TN
+47071,Western Region,Hardin County,TN,TN
+47075,Western Region,Haywood County,TN,TN
+47077,Western Region,Henderson County,TN,TN
+47083,Western Region,Houston County,TN,TN
+47085,Western Region,Humphreys County,TN,TN
+47097,Western Region,Lauderdale County,TN,TN
+47101,Western Region,Lewis County,TN,TN
+47109,Western Region,McNairy County,TN,TN
+47135,Western Region,Perry County,TN,TN
+47161,Western Region,Stewart County,TN,TN
+47181,Western Region,Wayne County,TN,TN
+47095,Western Region,Lake County,TN,TN
+48055,Austin Area,Caldwell County,TX,TX
+48209,Austin Area,Hays County,TX,TX
+48453,Austin Area,Travis County,TX,TX
+48491,Austin Area,Williamson County,TX,TX
+48027,Central Region,Bell County,TX,TX
+48035,Central Region,Bosque County,TX,TX
+48093,Central Region,Comanche County,TX,TX
+48099,Central Region,Coryell County,TX,TX
+48139,Central Region,Ellis County,TX,TX
+48143,Central Region,Erath County,TX,TX
+48145,Central Region,Falls County,TX,TX
+48161,Central Region,Freestone County,TX,TX
+48193,Central Region,Hamilton County,TX,TX
+48217,Central Region,Hill County,TX,TX
+48221,Central Region,Hood County,TX,TX
+48251,Central Region,Johnson County,TX,TX
+48289,Central Region,Leon County,TX,TX
+48293,Central Region,Limestone County,TX,TX
+48309,Central Region,McLennan County,TX,TX
+48331,Central Region,Milam County,TX,TX
+48349,Central Region,Navarro County,TX,TX
+48395,Central Region,Robertson County,TX,TX
+48425,Central Region,Somervell County,TX,TX
+48085,Dallas & Northern Suburbs,Collin County,TX,TX
+48113,Dallas & Northern Suburbs,Dallas County,TX,TX
+48001,Eastern Region,Anderson County,TX,TX
+48005,Eastern Region,Angelina County,TX,TX
+48037,Eastern Region,Bowie County,TX,TX
+48063,Eastern Region,Camp County,TX,TX
+48067,Eastern Region,Cass County,TX,TX
+48071,Eastern Region,Chambers County,TX,TX
+48073,Eastern Region,Cherokee County,TX,TX
+48119,Eastern Region,Delta County,TX,TX
+48147,Eastern Region,Fannin County,TX,TX
+48159,Eastern Region,Franklin County,TX,TX
+48181,Eastern Region,Grayson County,TX,TX
+48183,Eastern Region,Gregg County,TX,TX
+48199,Eastern Region,Hardin County,TX,TX
+48203,Eastern Region,Harrison County,TX,TX
+48213,Eastern Region,Henderson County,TX,TX
+48223,Eastern Region,Hopkins County,TX,TX
+48225,Eastern Region,Houston County,TX,TX
+48231,Eastern Region,Hunt County,TX,TX
+48241,Eastern Region,Jasper County,TX,TX
+48245,Eastern Region,Jefferson County,TX,TX
+48257,Eastern Region,Kaufman County,TX,TX
+48277,Eastern Region,Lamar County,TX,TX
+48291,Eastern Region,Liberty County,TX,TX
+48313,Eastern Region,Madison County,TX,TX
+48315,Eastern Region,Marion County,TX,TX
+48343,Eastern Region,Morris County,TX,TX
+48347,Eastern Region,Nacogdoches County,TX,TX
+48351,Eastern Region,Newton County,TX,TX
+48361,Eastern Region,Orange County,TX,TX
+48365,Eastern Region,Panola County,TX,TX
+48373,Eastern Region,Polk County,TX,TX
+48379,Eastern Region,Rains County,TX,TX
+48387,Eastern Region,Red River County,TX,TX
+48397,Eastern Region,Rockwall County,TX,TX
+48401,Eastern Region,Rusk County,TX,TX
+48403,Eastern Region,Sabine County,TX,TX
+48405,Eastern Region,San Augustine County,TX,TX
+48407,Eastern Region,San Jacinto County,TX,TX
+48419,Eastern Region,Shelby County,TX,TX
+48423,Eastern Region,Smith County,TX,TX
+48449,Eastern Region,Titus County,TX,TX
+48455,Eastern Region,Trinity County,TX,TX
+48457,Eastern Region,Tyler County,TX,TX
+48459,Eastern Region,Upshur County,TX,TX
+48467,Eastern Region,Van Zandt County,TX,TX
+48471,Eastern Region,Walker County,TX,TX
+48499,Eastern Region,Wood County,TX,TX
+35013,El Paso Region,Dona Ana County,NM,NM-TX
+48141,El Paso Region,El Paso County,TX,NM-TX
+48121,Fort Worth & Surrounding Suburbs,Denton County,TX,TX
+48367,Fort Worth & Surrounding Suburbs,Parker County,TX,TX
+48439,Fort Worth & Surrounding Suburbs,Tarrant County,TX,TX
+48497,Fort Worth & Surrounding Suburbs,Wise County,TX,TX
+48039,Houston Suburbs,Brazoria County,TX,TX
+48157,Houston Suburbs,Fort Bend County,TX,TX
+48167,Houston Suburbs,Galveston County,TX,TX
+48339,Houston Suburbs,Montgomery County,TX,TX
+48201,Houston,Harris County,TX,TX
+48009,Northern Region,Archer County,TX,TX
+48011,Northern Region,Armstrong County,TX,TX
+48017,Northern Region,Bailey County,TX,TX
+48023,Northern Region,Baylor County,TX,TX
+48033,Northern Region,Borden County,TX,TX
+48045,Northern Region,Briscoe County,TX,TX
+48065,Northern Region,Carson County,TX,TX
+48069,Northern Region,Castro County,TX,TX
+48075,Northern Region,Childress County,TX,TX
+48077,Northern Region,Clay County,TX,TX
+48079,Northern Region,Cochran County,TX,TX
+48087,Northern Region,Collingsworth County,TX,TX
+48097,Northern Region,Cooke County,TX,TX
+48101,Northern Region,Cottle County,TX,TX
+48107,Northern Region,Crosby County,TX,TX
+48111,Northern Region,Dallam County,TX,TX
+48115,Northern Region,Dawson County,TX,TX
+48117,Northern Region,Deaf Smith County,TX,TX
+48125,Northern Region,Dickens County,TX,TX
+48129,Northern Region,Donley County,TX,TX
+48151,Northern Region,Fisher County,TX,TX
+48153,Northern Region,Floyd County,TX,TX
+48155,Northern Region,Foard County,TX,TX
+48165,Northern Region,Gaines County,TX,TX
+48169,Northern Region,Garza County,TX,TX
+48179,Northern Region,Gray County,TX,TX
+48189,Northern Region,Hale County,TX,TX
+48191,Northern Region,Hall County,TX,TX
+48195,Northern Region,Hansford County,TX,TX
+48197,Northern Region,Hardeman County,TX,TX
+48205,Northern Region,Hartley County,TX,TX
+48207,Northern Region,Haskell County,TX,TX
+48211,Northern Region,Hemphill County,TX,TX
+48219,Northern Region,Hockley County,TX,TX
+48233,Northern Region,Hutchinson County,TX,TX
+48237,Northern Region,Jack County,TX,TX
+48253,Northern Region,Jones County,TX,TX
+48263,Northern Region,Kent County,TX,TX
+48269,Northern Region,King County,TX,TX
+48275,Northern Region,Knox County,TX,TX
+48279,Northern Region,Lamb County,TX,TX
+48295,Northern Region,Lipscomb County,TX,TX
+48303,Northern Region,Lubbock County,TX,TX
+48305,Northern Region,Lynn County,TX,TX
+48337,Northern Region,Montague County,TX,TX
+48341,Northern Region,Moore County,TX,TX
+48345,Northern Region,Motley County,TX,TX
+48357,Northern Region,Ochiltree County,TX,TX
+48359,Northern Region,Oldham County,TX,TX
+48363,Northern Region,Palo Pinto County,TX,TX
+48369,Northern Region,Parmer County,TX,TX
+48375,Northern Region,Potter County,TX,TX
+48381,Northern Region,Randall County,TX,TX
+48393,Northern Region,Roberts County,TX,TX
+48415,Northern Region,Scurry County,TX,TX
+48417,Northern Region,Shackelford County,TX,TX
+48421,Northern Region,Sherman County,TX,TX
+48429,Northern Region,Stephens County,TX,TX
+48433,Northern Region,Stonewall County,TX,TX
+48437,Northern Region,Swisher County,TX,TX
+48445,Northern Region,Terry County,TX,TX
+48447,Northern Region,Throckmorton County,TX,TX
+48483,Northern Region,Wheeler County,TX,TX
+48485,Northern Region,Wichita County,TX,TX
+48487,Northern Region,Wilbarger County,TX,TX
+48501,Northern Region,Yoakum County,TX,TX
+48503,Northern Region,Young County,TX,TX
+48029,San Antonio,Bexar County,TX,TX
+48007,Southeastern Region,Aransas County,TX,TX
+48013,Southeastern Region,Atascosa County,TX,TX
+48015,Southeastern Region,Austin County,TX,TX
+48021,Southeastern Region,Bastrop County,TX,TX
+48025,Southeastern Region,Bee County,TX,TX
+48041,Southeastern Region,Brazos County,TX,TX
+48051,Southeastern Region,Burleson County,TX,TX
+48057,Southeastern Region,Calhoun County,TX,TX
+48089,Southeastern Region,Colorado County,TX,TX
+48091,Southeastern Region,Comal County,TX,TX
+48123,Southeastern Region,DeWitt County,TX,TX
+48149,Southeastern Region,Fayette County,TX,TX
+48175,Southeastern Region,Goliad County,TX,TX
+48177,Southeastern Region,Gonzales County,TX,TX
+48185,Southeastern Region,Grimes County,TX,TX
+48187,Southeastern Region,Guadalupe County,TX,TX
+48239,Southeastern Region,Jackson County,TX,TX
+48255,Southeastern Region,Karnes County,TX,TX
+48285,Southeastern Region,Lavaca County,TX,TX
+48287,Southeastern Region,Lee County,TX,TX
+48297,Southeastern Region,Live Oak County,TX,TX
+48321,Southeastern Region,Matagorda County,TX,TX
+48311,Southeastern Region,McMullen County,TX,TX
+48391,Southeastern Region,Refugio County,TX,TX
+48409,Southeastern Region,San Patricio County,TX,TX
+48469,Southeastern Region,Victoria County,TX,TX
+48473,Southeastern Region,Waller County,TX,TX
+48477,Southeastern Region,Washington County,TX,TX
+48481,Southeastern Region,Wharton County,TX,TX
+48493,Southeastern Region,Wilson County,TX,TX
+48047,Southern Plains & Gulf Coast,Brooks County,TX,TX
+48061,Southern Plains & Gulf Coast,Cameron County,TX,TX
+48131,Southern Plains & Gulf Coast,Duval County,TX,TX
+48215,Southern Plains & Gulf Coast,Hidalgo County,TX,TX
+48247,Southern Plains & Gulf Coast,Jim Hogg County,TX,TX
+48249,Southern Plains & Gulf Coast,Jim Wells County,TX,TX
+48261,Southern Plains & Gulf Coast,Kenedy County,TX,TX
+48273,Southern Plains & Gulf Coast,Kleberg County,TX,TX
+48355,Southern Plains & Gulf Coast,Nueces County,TX,TX
+48427,Southern Plains & Gulf Coast,Starr County,TX,TX
+48479,Southern Plains & Gulf Coast,Webb County,TX,TX
+48489,Southern Plains & Gulf Coast,Willacy County,TX,TX
+48505,Southern Plains & Gulf Coast,Zapata County,TX,TX
+48003,Western Region,Andrews County,TX,TX
+48019,Western Region,Bandera County,TX,TX
+48031,Western Region,Blanco County,TX,TX
+48043,Western Region,Brewster County,TX,TX
+48049,Western Region,Brown County,TX,TX
+48053,Western Region,Burnet County,TX,TX
+48059,Western Region,Callahan County,TX,TX
+48081,Western Region,Coke County,TX,TX
+48083,Western Region,Coleman County,TX,TX
+48095,Western Region,Concho County,TX,TX
+48103,Western Region,Crane County,TX,TX
+48105,Western Region,Crockett County,TX,TX
+48109,Western Region,Culberson County,TX,TX
+48127,Western Region,Dimmit County,TX,TX
+48133,Western Region,Eastland County,TX,TX
+48135,Western Region,Ector County,TX,TX
+48137,Western Region,Edwards County,TX,TX
+48163,Western Region,Frio County,TX,TX
+48171,Western Region,Gillespie County,TX,TX
+48173,Western Region,Glasscock County,TX,TX
+48227,Western Region,Howard County,TX,TX
+48229,Western Region,Hudspeth County,TX,TX
+48235,Western Region,Irion County,TX,TX
+48243,Western Region,Jeff Davis County,TX,TX
+48259,Western Region,Kendall County,TX,TX
+48265,Western Region,Kerr County,TX,TX
+48267,Western Region,Kimble County,TX,TX
+48271,Western Region,Kinney County,TX,TX
+48283,Western Region,La Salle County,TX,TX
+48281,Western Region,Lampasas County,TX,TX
+48299,Western Region,Llano County,TX,TX
+48301,Western Region,Loving County,TX,TX
+48317,Western Region,Martin County,TX,TX
+48319,Western Region,Mason County,TX,TX
+48323,Western Region,Maverick County,TX,TX
+48307,Western Region,McCulloch County,TX,TX
+48325,Western Region,Medina County,TX,TX
+48327,Western Region,Menard County,TX,TX
+48329,Western Region,Midland County,TX,TX
+48333,Western Region,Mills County,TX,TX
+48335,Western Region,Mitchell County,TX,TX
+48353,Western Region,Nolan County,TX,TX
+48371,Western Region,Pecos County,TX,TX
+48377,Western Region,Presidio County,TX,TX
+48383,Western Region,Reagan County,TX,TX
+48385,Western Region,Real County,TX,TX
+48389,Western Region,Reeves County,TX,TX
+48399,Western Region,Runnels County,TX,TX
+48411,Western Region,San Saba County,TX,TX
+48413,Western Region,Schleicher County,TX,TX
+48431,Western Region,Sterling County,TX,TX
+48435,Western Region,Sutton County,TX,TX
+48441,Western Region,Taylor County,TX,TX
+48443,Western Region,Terrell County,TX,TX
+48451,Western Region,Tom Green County,TX,TX
+48461,Western Region,Upton County,TX,TX
+48463,Western Region,Uvalde County,TX,TX
+48465,Western Region,Val Verde County,TX,TX
+48475,Western Region,Ward County,TX,TX
+48495,Western Region,Winkler County,TX,TX
+48507,Western Region,Zavala County,TX,TX
+49045,All Counties (excl. Salt Lake City),Tooele County,UT,UT
+49021,All Counties (excl. Salt Lake City),Iron County,UT,UT
+49051,All Counties (excl. Salt Lake City),Wasatch County,UT,UT
+49005,All Counties (excl. Salt Lake City),Cache County,UT,UT
+49003,All Counties (excl. Salt Lake City),Box Elder County,UT,UT
+49029,All Counties (excl. Salt Lake City),Morgan County,UT,UT
+49057,All Counties (excl. Salt Lake City),Weber County,UT,UT
+49007,All Counties (excl. Salt Lake City),Carbon County,UT,UT
+49023,All Counties (excl. Salt Lake City),Juab County,UT,UT
+49049,All Counties (excl. Salt Lake City),Utah County,UT,UT
+49053,All Counties (excl. Salt Lake City),Washington County,UT,UT
+49043,All Counties (excl. Salt Lake City),Summit County,UT,UT
+49047,All Counties (excl. Salt Lake City),Uintah County,UT,UT
+49001,All Counties (excl. Salt Lake City),Beaver County,UT,UT
+49013,All Counties (excl. Salt Lake City),Duchesne County,UT,UT
+49015,All Counties (excl. Salt Lake City),Emery County,UT,UT
+49017,All Counties (excl. Salt Lake City),Garfield County,UT,UT
+49025,All Counties (excl. Salt Lake City),Kane County,UT,UT
+49027,All Counties (excl. Salt Lake City),Millard County,UT,UT
+49031,All Counties (excl. Salt Lake City),Piute County,UT,UT
+49033,All Counties (excl. Salt Lake City),Rich County,UT,UT
+49037,All Counties (excl. Salt Lake City),San Juan County,UT,UT
+49039,All Counties (excl. Salt Lake City),Sanpete County,UT,UT
+49041,All Counties (excl. Salt Lake City),Sevier County,UT,UT
+49055,All Counties (excl. Salt Lake City),Wayne County,UT,UT
+49019,All Counties (excl. Salt Lake City),Grand County,UT,UT
+49009,All Counties (excl. Salt Lake City),Daggett County,UT,UT
+49035,Salt Lake City Area,Salt Lake County,UT,UT
+49011,Salt Lake City Area,Davis County,UT,UT
+50023,All Counties,Washington County,VT,VT
+50003,All Counties,Bennington County,VT,VT
+50009,All Counties,Essex County,VT,VT
+50011,All Counties,Franklin County,VT,VT
+50013,All Counties,Grand Isle County,VT,VT
+50007,All Counties,Chittenden County,VT,VT
+50017,All Counties,Orange County,VT,VT
+50027,All Counties,Windsor County,VT,VT
+50021,All Counties,Rutland County,VT,VT
+50005,All Counties,Caledonia County,VT,VT
+50015,All Counties,Lamoille County,VT,VT
+50019,All Counties,Orleans County,VT,VT
+50025,All Counties,Windham County,VT,VT
+50001,All Counties,Addison County,VT,VT
+51510,Arlington & DC Suburbs,Alexandria city,VA,VA
+51013,Arlington & DC Suburbs,Arlington County,VA,VA
+51600,Arlington & DC Suburbs,Fairfax city,VA,VA
+51059,Arlington & DC Suburbs,Fairfax County,VA,VA
+51610,Arlington & DC Suburbs,Falls Church city,VA,VA
+51107,Arlington & DC Suburbs,Loudoun County,VA,VA
+51683,Arlington & DC Suburbs,Manassas city,VA,VA
+51685,Arlington & DC Suburbs,Manassas Park city,VA,VA
+51153,Arlington & DC Suburbs,Prince William County,VA,VA
+51580,Blue Ridge Mountain Region,Covington city,VA,VA
+51640,Blue Ridge Mountain Region,Galax city,VA,VA
+51520,Blue Ridge Mountain Region,Bristol city,VA,VA
+51660,Blue Ridge Mountain Region,Harrisonburg city,VA,VA
+51750,Blue Ridge Mountain Region,Radford city,VA,VA
+51790,Blue Ridge Mountain Region,Staunton city,VA,VA
+51820,Blue Ridge Mountain Region,Waynesboro city,VA,VA
+51840,Blue Ridge Mountain Region,Winchester city,VA,VA
+51005,Blue Ridge Mountain Region,Alleghany County,VA,VA
+51015,Blue Ridge Mountain Region,Augusta County,VA,VA
+51017,Blue Ridge Mountain Region,Bath County,VA,VA
+51021,Blue Ridge Mountain Region,Bland County,VA,VA
+51023,Blue Ridge Mountain Region,Botetourt County,VA,VA
+51027,Blue Ridge Mountain Region,Buchanan County,VA,VA
+51530,Blue Ridge Mountain Region,Buena Vista city,VA,VA
+51035,Blue Ridge Mountain Region,Carroll County,VA,VA
+51043,Blue Ridge Mountain Region,Clarke County,VA,VA
+51045,Blue Ridge Mountain Region,Craig County,VA,VA
+51051,Blue Ridge Mountain Region,Dickenson County,VA,VA
+51063,Blue Ridge Mountain Region,Floyd County,VA,VA
+51069,Blue Ridge Mountain Region,Frederick County,VA,VA
+51071,Blue Ridge Mountain Region,Giles County,VA,VA
+51077,Blue Ridge Mountain Region,Grayson County,VA,VA
+51079,Blue Ridge Mountain Region,Greene County,VA,VA
+51091,Blue Ridge Mountain Region,Highland County,VA,VA
+51105,Blue Ridge Mountain Region,Lee County,VA,VA
+51678,Blue Ridge Mountain Region,Lexington city,VA,VA
+51113,Blue Ridge Mountain Region,Madison County,VA,VA
+51121,Blue Ridge Mountain Region,Montgomery County,VA,VA
+51720,Blue Ridge Mountain Region,Norton city,VA,VA
+51139,Blue Ridge Mountain Region,Page County,VA,VA
+51155,Blue Ridge Mountain Region,Pulaski County,VA,VA
+51770,Blue Ridge Mountain Region,Roanoke city,VA,VA
+51161,Blue Ridge Mountain Region,Roanoke County,VA,VA
+51163,Blue Ridge Mountain Region,Rockbridge County,VA,VA
+51165,Blue Ridge Mountain Region,Rockingham County,VA,VA
+51167,Blue Ridge Mountain Region,Russell County,VA,VA
+51775,Blue Ridge Mountain Region,Salem city,VA,VA
+51169,Blue Ridge Mountain Region,Scott County,VA,VA
+51171,Blue Ridge Mountain Region,Shenandoah County,VA,VA
+51173,Blue Ridge Mountain Region,Smyth County,VA,VA
+51185,Blue Ridge Mountain Region,Tazewell County,VA,VA
+51187,Blue Ridge Mountain Region,Warren County,VA,VA
+51191,Blue Ridge Mountain Region,Washington County,VA,VA
+51195,Blue Ridge Mountain Region,Wise County,VA,VA
+51197,Blue Ridge Mountain Region,Wythe County,VA,VA
+51650,Chesapeake Bay,Hampton city,VA,VA
+51095,Chesapeake Bay,James City County,VA,VA
+51700,Chesapeake Bay,Newport News city,VA,VA
+51710,Chesapeake Bay,Norfolk city,VA,VA
+51735,Chesapeake Bay,Poquoson city,VA,VA
+51740,Chesapeake Bay,Portsmouth city,VA,VA
+51810,Chesapeake Bay,Virginia Beach city,VA,VA
+51830,Chesapeake Bay,Williamsburg city,VA,VA
+51199,Chesapeake Bay,York County,VA,VA
+51595,Piedmont Region,Emporia city,VA,VA
+51135,Piedmont Region,Nottoway County,VA,VA
+51003,Piedmont Region,Albemarle County,VA,VA
+51009,Piedmont Region,Amherst County,VA,VA
+51011,Piedmont Region,Appomattox County,VA,VA
+51515,Piedmont Region,Bedford city,VA,VA
+51019,Piedmont Region,Bedford County,VA,VA
+51025,Piedmont Region,Brunswick County,VA,VA
+51029,Piedmont Region,Buckingham County,VA,VA
+51031,Piedmont Region,Campbell County,VA,VA
+51037,Piedmont Region,Charlotte County,VA,VA
+51540,Piedmont Region,Charlottesville city,VA,VA
+51047,Piedmont Region,Culpeper County,VA,VA
+51049,Piedmont Region,Cumberland County,VA,VA
+51590,Piedmont Region,Danville city,VA,VA
+51061,Piedmont Region,Fauquier County,VA,VA
+51065,Piedmont Region,Fluvanna County,VA,VA
+51067,Piedmont Region,Franklin County,VA,VA
+51630,Piedmont Region,Fredericksburg city,VA,VA
+51075,Piedmont Region,Goochland County,VA,VA
+51083,Piedmont Region,Halifax County,VA,VA
+51089,Piedmont Region,Henry County,VA,VA
+51109,Piedmont Region,Louisa County,VA,VA
+51111,Piedmont Region,Lunenburg County,VA,VA
+51680,Piedmont Region,Lynchburg city,VA,VA
+51690,Piedmont Region,Martinsville city,VA,VA
+51117,Piedmont Region,Mecklenburg County,VA,VA
+51125,Piedmont Region,Nelson County,VA,VA
+51137,Piedmont Region,Orange County,VA,VA
+51141,Piedmont Region,Patrick County,VA,VA
+51143,Piedmont Region,Pittsylvania County,VA,VA
+51147,Piedmont Region,Prince Edward County,VA,VA
+51157,Piedmont Region,Rappahannock County,VA,VA
+51177,Piedmont Region,Spotsylvania County,VA,VA
+51179,Piedmont Region,Stafford County,VA,VA
+51007,Richmond Area,Amelia County,VA,VA
+51041,Richmond Area,Chesterfield County,VA,VA
+51570,Richmond Area,Colonial Heights city,VA,VA
+51085,Richmond Area,Hanover County,VA,VA
+51087,Richmond Area,Henrico County,VA,VA
+51670,Richmond Area,Hopewell city,VA,VA
+51145,Richmond Area,Powhatan County,VA,VA
+51760,Richmond Area,Richmond city,VA,VA
+51001,Tide Water Region,Accomack County,VA,VA
+51033,Tide Water Region,Caroline County,VA,VA
+51036,Tide Water Region,Charles City County,VA,VA
+51550,Tide Water Region,Chesapeake city,VA,VA
+51053,Tide Water Region,Dinwiddie County,VA,VA
+51057,Tide Water Region,Essex County,VA,VA
+51620,Tide Water Region,Franklin city,VA,VA
+51073,Tide Water Region,Gloucester County,VA,VA
+51081,Tide Water Region,Greensville County,VA,VA
+51093,Tide Water Region,Isle of Wight County,VA,VA
+51097,Tide Water Region,King and Queen County,VA,VA
+51099,Tide Water Region,King George County,VA,VA
+51101,Tide Water Region,King William County,VA,VA
+51103,Tide Water Region,Lancaster County,VA,VA
+51115,Tide Water Region,Mathews County,VA,VA
+51119,Tide Water Region,Middlesex County,VA,VA
+51127,Tide Water Region,New Kent County,VA,VA
+51131,Tide Water Region,Northampton County,VA,VA
+51133,Tide Water Region,Northumberland County,VA,VA
+51730,Tide Water Region,Petersburg city,VA,VA
+51149,Tide Water Region,Prince George County,VA,VA
+51159,Tide Water Region,Richmond County,VA,VA
+51175,Tide Water Region,Southampton County,VA,VA
+51800,Tide Water Region,Suffolk city,VA,VA
+51181,Tide Water Region,Surry County,VA,VA
+51183,Tide Water Region,Sussex County,VA,VA
+51193,Tide Water Region,Westmoreland County,VA,VA
+53009,Olympic Penninsula & Northern Cascade Region,Clallam County,WA,WA
+53027,Olympic Penninsula & Northern Cascade Region,Grays Harbor County,WA,WA
+53031,Olympic Penninsula & Northern Cascade Region,Jefferson County,WA,WA
+53045,Olympic Penninsula & Northern Cascade Region,Mason County,WA,WA
+53055,Olympic Penninsula & Northern Cascade Region,San Juan County,WA,WA
+53057,Olympic Penninsula & Northern Cascade Region,Skagit County,WA,WA
+53067,Olympic Penninsula & Northern Cascade Region,Thurston County,WA,WA
+53073,Olympic Penninsula & Northern Cascade Region,Whatcom County,WA,WA
+41001,Pacific Northwest Inland Region,Baker County,OR,WA-OR
+41013,Pacific Northwest Inland Region,Crook County,OR,WA-OR
+41021,Pacific Northwest Inland Region,Gilliam County,OR,WA-OR
+41023,Pacific Northwest Inland Region,Grant County,OR,WA-OR
+41025,Pacific Northwest Inland Region,Harney County,OR,WA-OR
+41031,Pacific Northwest Inland Region,Jefferson County,OR,WA-OR
+41035,Pacific Northwest Inland Region,Klamath County,OR,WA-OR
+41037,Pacific Northwest Inland Region,Lake County,OR,WA-OR
+41045,Pacific Northwest Inland Region,Malheur County,OR,WA-OR
+41049,Pacific Northwest Inland Region,Morrow County,OR,WA-OR
+41055,Pacific Northwest Inland Region,Sherman County,OR,WA-OR
+41059,Pacific Northwest Inland Region,Umatilla County,OR,WA-OR
+41061,Pacific Northwest Inland Region,Union County,OR,WA-OR
+41063,Pacific Northwest Inland Region,Wallowa County,OR,WA-OR
+41065,Pacific Northwest Inland Region,Wasco County,OR,WA-OR
+41069,Pacific Northwest Inland Region,Wheeler County,OR,WA-OR
+53001,Pacific Northwest Inland Region,Adams County,WA,WA-OR
+53007,Pacific Northwest Inland Region,Chelan County,WA,WA-OR
+53013,Pacific Northwest Inland Region,Columbia County,WA,WA-OR
+53017,Pacific Northwest Inland Region,Douglas County,WA,WA-OR
+53019,Pacific Northwest Inland Region,Ferry County,WA,WA-OR
+53021,Pacific Northwest Inland Region,Franklin County,WA,WA-OR
+53023,Pacific Northwest Inland Region,Garfield County,WA,WA-OR
+53025,Pacific Northwest Inland Region,Grant County,WA,WA-OR
+53043,Pacific Northwest Inland Region,Lincoln County,WA,WA-OR
+53047,Pacific Northwest Inland Region,Okanogan County,WA,WA-OR
+53029,Seattle Area,Island County,WA,WA
+53035,Seattle Area,Kitsap County,WA,WA
+53053,Seattle Area,Pierce County,WA,WA
+53061,Seattle Area,Snohomish County,WA,WA
+53033,Seattle Area,King County,WA,WA
+53005,Southern Region,Benton County,WA,WA
+53015,Southern Region,Cowlitz County,WA,WA
+53037,Southern Region,Kittitas County,WA,WA
+53039,Southern Region,Klickitat County,WA,WA
+53041,Southern Region,Lewis County,WA,WA
+53049,Southern Region,Pacific County,WA,WA
+53059,Southern Region,Skamania County,WA,WA
+53069,Southern Region,Wahkiakum County,WA,WA
+53071,Southern Region,Walla Walla County,WA,WA
+53077,Southern Region,Yakima County,WA,WA
+16055,Spokane & Surrounding Region,Kootenai County,ID,WA-ID
+16069,Spokane & Surrounding Region,Nez Perce County,ID,WA-ID
+16057,Spokane & Surrounding Region,Latah County,ID,WA-ID
+16009,Spokane & Surrounding Region,Benewah County,ID,WA-ID
+53003,Spokane & Surrounding Region,Asotin County,WA,WA-ID
+53051,Spokane & Surrounding Region,Pend Oreille County,WA,WA-ID
+53063,Spokane & Surrounding Region,Spokane County,WA,WA-ID
+53065,Spokane & Surrounding Region,Stevens County,WA,WA-ID
+53075,Spokane & Surrounding Region,Whitman County,WA,WA-ID
+54075,All Counties,Pocahontas County,WV,WV
+54035,All Counties,Jackson County,WV,WV
+54039,All Counties,Kanawha County,WV,WV
+54069,All Counties,Ohio County,WV,WV
+54061,All Counties,Monongalia County,WV,WV
+54011,All Counties,Cabell County,WV,WV
+54055,All Counties,Mercer County,WV,WV
+54017,All Counties,Doddridge County,WV,WV
+54033,All Counties,Harrison County,WV,WV
+54091,All Counties,Taylor County,WV,WV
+54019,All Counties,Fayette County,WV,WV
+54081,All Counties,Raleigh County,WV,WV
+54005,All Counties,Boone County,WV,WV
+54015,All Counties,Clay County,WV,WV
+54057,All Counties,Mineral County,WV,WV
+54003,All Counties,Berkeley County,WV,WV
+54043,All Counties,Lincoln County,WV,WV
+54079,All Counties,Putnam County,WV,WV
+54099,All Counties,Wayne County,WV,WV
+54077,All Counties,Preston County,WV,WV
+54105,All Counties,Wirt County,WV,WV
+54107,All Counties,Wood County,WV,WV
+54037,All Counties,Jefferson County,WV,WV
+54009,All Counties,Brooke County,WV,WV
+54029,All Counties,Hancock County,WV,WV
+54051,All Counties,Marshall County,WV,WV
+54027,All Counties,Hampshire County,WV,WV
+54083,All Counties,Randolph County,WV,WV
+54049,All Counties,Marion County,WV,WV
+54045,All Counties,Logan County,WV,WV
+54053,All Counties,Mason County,WV,WV
+54001,All Counties,Barbour County,WV,WV
+54007,All Counties,Braxton County,WV,WV
+54013,All Counties,Calhoun County,WV,WV
+54021,All Counties,Gilmer County,WV,WV
+54023,All Counties,Grant County,WV,WV
+54025,All Counties,Greenbrier County,WV,WV
+54031,All Counties,Hardy County,WV,WV
+54041,All Counties,Lewis County,WV,WV
+54047,All Counties,McDowell County,WV,WV
+54059,All Counties,Mingo County,WV,WV
+54063,All Counties,Monroe County,WV,WV
+54065,All Counties,Morgan County,WV,WV
+54067,All Counties,Nicholas County,WV,WV
+54071,All Counties,Pendleton County,WV,WV
+54073,All Counties,Pleasants County,WV,WV
+54085,All Counties,Ritchie County,WV,WV
+54087,All Counties,Roane County,WV,WV
+54089,All Counties,Summers County,WV,WV
+54093,All Counties,Tucker County,WV,WV
+54095,All Counties,Tyler County,WV,WV
+54097,All Counties,Upshur County,WV,WV
+54101,All Counties,Webster County,WV,WV
+54103,All Counties,Wetzel County,WV,WV
+54109,All Counties,Wyoming County,WV,WV
+55009,Green Bay Area,Brown County,WI,WI
+55015,Green Bay Area,Calumet County,WI,WI
+55029,Green Bay Area,Door County,WI,WI
+55039,Green Bay Area,Fond du Lac County,WI,WI
+55061,Green Bay Area,Kewaunee County,WI,WI
+55071,Green Bay Area,Manitowoc County,WI,WI
+55075,Green Bay Area,Marinette County,WI,WI
+55078,Green Bay Area,Menominee County,WI,WI
+55083,Green Bay Area,Oconto County,WI,WI
+55087,Green Bay Area,Outagamie County,WI,WI
+55115,Green Bay Area,Shawano County,WI,WI
+55117,Green Bay Area,Sheboygan County,WI,WI
+55139,Green Bay Area,Winnebago County,WI,WI
+55021,Madison Area,Columbia County,WI,WI
+55023,Madison Area,Crawford County,WI,WI
+55025,Madison Area,Dane County,WI,WI
+55027,Madison Area,Dodge County,WI,WI
+55043,Madison Area,Grant County,WI,WI
+55045,Madison Area,Green County,WI,WI
+55049,Madison Area,Iowa County,WI,WI
+55055,Madison Area,Jefferson County,WI,WI
+55065,Madison Area,Lafayette County,WI,WI
+55103,Madison Area,Richland County,WI,WI
+55105,Madison Area,Rock County,WI,WI
+55111,Madison Area,Sauk County,WI,WI
+55123,Madison Area,Vernon County,WI,WI
+55059,Milwaukee Area,Kenosha County,WI,WI
+55079,Milwaukee Area,Milwaukee County,WI,WI
+55089,Milwaukee Area,Ozaukee County,WI,WI
+55101,Milwaukee Area,Racine County,WI,WI
+55127,Milwaukee Area,Walworth County,WI,WI
+55131,Milwaukee Area,Washington County,WI,WI
+55133,Milwaukee Area,Waukesha County,WI,WI
+55001,Northern Region,Adams County,WI,WI
+55003,Northern Region,Ashland County,WI,WI
+55005,Northern Region,Barron County,WI,WI
+55007,Northern Region,Bayfield County,WI,WI
+55011,Northern Region,Buffalo County,WI,WI
+55013,Northern Region,Burnett County,WI,WI
+55017,Northern Region,Chippewa County,WI,WI
+55019,Northern Region,Clark County,WI,WI
+55031,Northern Region,Douglas County,WI,WI
+55033,Northern Region,Dunn County,WI,WI
+55035,Northern Region,Eau Claire County,WI,WI
+55037,Northern Region,Florence County,WI,WI
+55041,Northern Region,Forest County,WI,WI
+55047,Northern Region,Green Lake County,WI,WI
+55051,Northern Region,Iron County,WI,WI
+55053,Northern Region,Jackson County,WI,WI
+55057,Northern Region,Juneau County,WI,WI
+55063,Northern Region,La Crosse County,WI,WI
+55067,Northern Region,Langlade County,WI,WI
+55069,Northern Region,Lincoln County,WI,WI
+55073,Northern Region,Marathon County,WI,WI
+55077,Northern Region,Marquette County,WI,WI
+55081,Northern Region,Monroe County,WI,WI
+55085,Northern Region,Oneida County,WI,WI
+55091,Northern Region,Pepin County,WI,WI
+55093,Northern Region,Pierce County,WI,WI
+55095,Northern Region,Polk County,WI,WI
+55097,Northern Region,Portage County,WI,WI
+55099,Northern Region,Price County,WI,WI
+55107,Northern Region,Rusk County,WI,WI
+55113,Northern Region,Sawyer County,WI,WI
+55119,Northern Region,Taylor County,WI,WI
+55121,Northern Region,Trempealeau County,WI,WI
+55125,Northern Region,Vilas County,WI,WI
+55129,Northern Region,Washburn County,WI,WI
+55135,Northern Region,Waupaca County,WI,WI
+55137,Northern Region,Waushara County,WI,WI
+55141,Northern Region,Wood County,WI,WI
+56003,All Counties (excl. Albany & Laramie),Big Horn County,WY,WY
+56005,All Counties (excl. Albany & Laramie),Campbell County,WY,WY
+56007,All Counties (excl. Albany & Laramie),Carbon County,WY,WY
+56009,All Counties (excl. Albany & Laramie),Converse County,WY,WY
+56011,All Counties (excl. Albany & Laramie),Crook County,WY,WY
+56013,All Counties (excl. Albany & Laramie),Fremont County,WY,WY
+56015,All Counties (excl. Albany & Laramie),Goshen County,WY,WY
+56017,All Counties (excl. Albany & Laramie),Hot Springs County,WY,WY
+56019,All Counties (excl. Albany & Laramie),Johnson County,WY,WY
+56023,All Counties (excl. Albany & Laramie),Lincoln County,WY,WY
+56025,All Counties (excl. Albany & Laramie),Natrona County,WY,WY
+56027,All Counties (excl. Albany & Laramie),Niobrara County,WY,WY
+56029,All Counties (excl. Albany & Laramie),Park County,WY,WY
+56031,All Counties (excl. Albany & Laramie),Platte County,WY,WY
+56033,All Counties (excl. Albany & Laramie),Sheridan County,WY,WY
+56035,All Counties (excl. Albany & Laramie),Sublette County,WY,WY
+56037,All Counties (excl. Albany & Laramie),Sweetwater County,WY,WY
+56039,All Counties (excl. Albany & Laramie),Teton County,WY,WY
+56041,All Counties (excl. Albany & Laramie),Uinta County,WY,WY
+56043,All Counties (excl. Albany & Laramie),Washakie County,WY,WY
+56045,All Counties (excl. Albany & Laramie),Weston County,WY,WY

@@ -1,0 +1,1014 @@
+Data File: FACTJEW(Description Only Codebook)
+
+1) LIST
+List
+
+
+2) FRISERVE
+Please describe the worship services your congregation holds on a typical Shabbat. For each day or time on a typical weekend, write in the number of worship services held on each day or time: Friday
+
+
+3) SATABSER
+Please describe the worship services your congregation holds on a typical Shabbat. For each day or time on a typical weekend, write in the number of worship services held on each day or time: Saturday (with a Bar/Bat Mitzvah)
+
+
+4) SATANSER
+Please describe the worship services your congregation holds on a typical Shabbat. For each day or time on a typical weekend, write in the number of worship services held on each day or time: Saturday (without a Bar/Bat Mitzvah)
+
+
+5) FRIATT
+Please describe the worship services your congregation holds on a typical Shabbat. For each day or time on a typical weekend, write in the average (or typical) attendance for all services on this day or time: Friday 
+
+
+6) SATABATT
+Please describe the worship services your congregation holds on a typical Shabbat. For each day or time on a typical weekend, write in the average (or typical) attendance for all services on this day or time: Saturday (with a Bar/Bat Mitzvah)
+
+
+7) SATANATT
+Please describe the worship services your congregation holds on a typical Shabbat. For each day or time on a typical weekend, write in the average (or typical) attendance for all services on this day or time: Saturday (without a Bar/Bat Mitzvah)
+
+
+8) SIMSTYLE
+If you hold more than one service on a typical Shabbat, how different are these services from each other?
+
+
+9) WORSHCH
+During the past five years, has your congregation changed the style of any of its weekend worship services or added a new service with a different style of worship?
+
+
+10) WORSH10F
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Friday Evening 2010
+
+
+11) WORSH10S
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Saturday Morning 2010
+
+
+12) WORSH09F
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Friday Evening 2009
+
+
+13) WORSH09S
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Saturday Morning 2009
+
+
+14) WORSH08F
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Friday Evening 2008
+
+
+15) WORSH08S
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Saturday Morning 2008
+
+
+16) WORSH07F
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Friday Evening 2007
+
+
+17) WORSH07S
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Saturday Morning 2007
+
+
+18) WORSH06F
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Friday Evening 2006
+
+
+19) WORSH06S
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Saturday Morning 2006
+
+
+20) WORSH05F
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Friday Evening 2005
+
+
+21) WORSH05S
+So far in 2010 and for the past five years, estimate the average attendance at your regular Shabbat worship services. Estimate the attendance for all Shabbat services combined. Do not include weddings or funerals. Saturday Morning 2005
+
+
+22) CHOIR
+How often are the following a part of your congregation's regular Shabbat worship services? Choir is a part of worship
+
+
+23) ORGAN
+How often are the following a part of your congregation's regular Shabbat worship services? Organ is a part of worship
+
+
+24) DRUMS
+How often are the following a part of your congregation's regular Shabbat worship services? Drums or other percussion instruments are a part of worship
+
+
+25) ELECTRIC
+How often are the following a part of your congregation's regular Shabbat worship services? Electric guitar or bass are a part of worship
+
+
+26) SCREEN
+How often are the following a part of your congregation's regular Shabbat worship services? Visual projection equipment is a part of worship
+
+
+27) KIDREAD
+How often are the following a part of your congregation's regular Shabbat worship services? Reading or performing by children or youth is a part of worship
+
+
+28) REVERENT
+How well do the following describe your congregation's largest regular Shabbat worship service? Worship is reverent
+
+
+29) GODTHERE
+How well do the following describe your congregation's largest regular Shabbat worship service? Filled with a sense of God's presence
+
+
+30) JOYFUL
+How well do the following describe your congregation's largest regular Shabbat worship service? Worship is joyful
+
+
+31) INNOVATE
+How well do the following describe your congregation's largest regular Shabbat worship service? Worship is innovative
+
+
+32) INSPIRE
+How well do the following describe your congregation's largest regular Shabbat worship service? Worship is inspirational
+
+
+33) THOUGHT
+How well do the following describe your congregation's largest regular Shabbat worship service? Worship is thought-provoking
+
+
+34) SSCHOOL
+Does your congregation have any of the following programs or activities? Religious school
+
+
+35) PRAYER
+Does your congregation have any of the following programs or activities? Prayer or meditation groups
+
+
+36) ADLTSTDY
+Does your congregation have any of the following programs or activities? Adult text studies
+
+
+37) FELLOWSH
+Does your congregation have any of the following programs or activities? Fellowships, trips or other social activities
+
+
+38) MUSIC
+Does your congregation have any of the following programs or activities? Music program
+
+
+39) RETREAT
+Does your congregation have any of the following programs or activities? Spiritual retreats
+
+
+40) SUPPORTG
+Does your congregation have any of the following programs or activities? Support groups (bereavement, job loss, 12-step)
+
+
+41) COMMSERV
+Does your congregation have any of the following programs or activities? Community service activities
+
+
+42) PARENT
+Does your congregation have any of the following programs or activities? Parenting or marriage enrichment activities
+
+
+43) YADULT
+Does your congregation have any of the following programs or activities? Young adult activities or programs
+
+
+44) YOUTHACT
+Does your congregation have any of the following programs or activities? Youth [teen] activities or programs
+
+
+45) SPORTS
+Does your congregation have any of the following programs or activities? Team sports, fitness activities, exercise classes
+
+
+46) ISRALACT
+Overall, to what extent are your congregation's active participants involved in recruiting new people? Congregation's active participants are involved in recruiting new people [ISRAELACT]
+
+
+47) EVENTS
+During the past 12 months, how often did your congregation hold special events or programs to attract people from the community (such as concerts, fairs, seminars, plays, special meals, etc.)? Held special events or programs to attract people
+
+
+48) NOVISIT
+How are visitors contacted after they attend worship services or other activities? We rarely, if ever, have any visitors
+
+
+49) NOCONTAC
+How are visitors contacted after they attend worship services or other activities? We rarely, if ever, contact our visitors
+
+
+50) BYMAIL
+How are visitors contacted after they attend worship services or other activities? We contact visitors by mail
+
+
+51) BYPHONE
+How are visitors contacted after they attend worship services or other activities? We contact visitors by phone
+
+
+52) BYEMAIL
+How are visitors contacted after they attend worship services or other activities? We contact visitors by e-mail
+
+
+53) BYVISIT
+How are visitors contacted after they attend worship services or other activities? We contact visitors by personal visit
+
+
+54) BYMATER
+How are visitors contacted after they attend worship services or other activities? We send materials about our congregation to our visitors
+
+
+55) SOUP_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Food pantry or soup kitchen-No
+
+
+56) SOUP_Y1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Food pantry or soup kitchen-Provided directly
+
+
+57) SOUP_Y2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Food pantry or soup kitchen-Together with another group
+
+
+58) CASH_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Cash assistance for individuals or families-No
+
+
+59) CASH_Y1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Cash assistance for individuals or families-Provided directly
+
+
+60) CASH_Y2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Cash assistance for individuals or families-Together with another group
+
+
+61) DCARE_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Day care, preschool, before- or after-school programs-No
+
+
+62) DCARE_Y1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Day care, preschool, before- or after-school programs-Provided directly
+
+
+63) DCARE_Y2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Day care, preschool, before- or after-school programs-Together with another group
+
+
+64) TUTOR_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Tutoring or literacy programs: No
+
+
+65) TUTOR_Y1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Tutoring or literacy programs: Provided directly
+
+
+66) TUTOR_Y2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Tutoring or literacy programs: Together with another group
+
+
+67) HEALTH_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Health education, clinics, [congregational nurse]: No
+
+
+68) HEALTHY1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Health education, clinics, [congregational nurse]: Provided directly
+
+
+69) HEALTHY2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Health education, clinics, [congregational nurse]: Together with another group
+
+
+70) COMORG_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Community organizing, organized social issue advocacy: No
+
+
+71) COMORGY1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Community organizing, organized social issue advocacy: Provided directly
+
+
+72) COMORGY2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Community organizing, organized social issue advocacy: Together with another group
+
+
+73) JOBED_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Job placement, job training, employment counseling: No
+
+
+74) JOBED_Y1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Job placement, job training, employment counseling: Provided directly
+
+
+75) JOBED_Y2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Job placement, job training, employment counseling: Together with another group
+
+
+76) FINED_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Financial counseling or education: No
+
+
+77) FINED_Y1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Financial counseling or education: Provided directly
+
+
+78) FINED_Y2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Financial counseling or education: Together with another group
+
+
+79) OLDPRO_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Elderly or homebound programs: No
+
+
+80) OLDPROY1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Elderly or homebound programs: Provided directly
+
+
+81) OLDPROY2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Elderly or homebound programs: Together with another group
+
+
+82) VOTEED_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Voter education or registration: No
+
+
+83) VOTEEDY1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Voter education or registration: Provided directly
+
+
+84) VOTEEDY2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Voter education or registration: Together with another group
+
+
+85) IMMPRO_N
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Programs for migrants or immigrants: No
+
+
+86) IMMPROY1
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Programs for migrants or immigrants: Provided directly
+
+
+87) IMMPROY2
+During the past 12 months, did your congregation provide any of the following services for your own members or for people in the community? If yes, did you provide these services directly or together with another congregation or group? Programs for migrants or immigrants: Together with another group
+
+
+88) GOODPRAY
+How much does your congregation emphasize the following personal and family religious practices? Emphasize personal prayer, meditation, devotions or other spiritual practices
+
+
+89) STUDYBIB
+How much does your congregation emphasize the following personal and family religious practices? Emphasize personal scripture or Bible study [Personal Torah study]
+
+
+90) GOODHOLY
+How much does your congregation emphasize the following personal and family religious practices? Emphasize Keeping Shabbat holy [Observing special practices or restrictions on Shabbat]
+
+
+91) GOODVEG
+How much does your congregation emphasize the following personal and family religious practices? Emphasize observing dietary restrictions [Fasting]
+
+
+92) NOSHACK
+How much does your congregation emphasize the following personal and family religious practices? Emphasize abstaining from premarital sex
+
+
+93) PARENTS
+How much does your congregation emphasize the following personal and family religious practices? Emphasize parents talking with their children about being Jewish
+
+
+94) EMAIL
+Which of the following technologies does your congregation use on a regular basis? E-mail
+
+
+95) WEBSITE
+Which of the following technologies does your congregation use on a regular basis? Website
+
+
+96) BLOGS
+Which of the following technologies does your congregation use on a regular basis? Blogs
+
+
+97) FACEBOOK
+Which of the following technologies does your congregation use on a regular basis? Facebook or other social media
+
+
+98) PODCASTS
+Which of the following technologies does your congregation use on a regular basis? Podcasts
+
+
+99) OTHTECH
+Which of the following technologies does your congregation use on a regular basis? Other
+
+
+100) TECH1
+Other technology mentioned
+
+
+101) FAMILY
+Do you agree or disagree with each of the following statements? Our congregation: Is like a close-knit family
+
+
+102) VITAL
+Do you agree or disagree with each of the following statements? Our congregation: Is spiritually vital and alive
+
+
+103) PURPOSE
+Do you agree or disagree with each of the following statements? Our congregation: Has a clear mission and purpose
+
+
+104) BEACON
+Do you agree or disagree with each of the following statements? Our congregation: Is a 'moral beacon' in our community
+
+
+105) CHANGE
+Do you agree or disagree with each of the following statements? Our congregation: Is willing to change to meet new challenges
+
+
+106) WANTGROW
+Do you agree or disagree with each of the following statements? Our congregation: Wants to grow in membership [participants]
+
+
+107) BELIEFS
+Do you agree or disagree with each of the following statements? Our congregation: Holds strong beliefs and values
+
+
+108) OKDENOM
+Celebrates denominational heritage
+
+
+109) DIVERSE
+Do you agree or disagree with each of the following statements? Our congregation: Wants to be racially and culturally diverse
+
+
+110) JUSTICE
+Do you agree or disagree with each of the following statements? Our congregation: Is working for social justice
+
+
+111) THEOLIB
+How would you describe the theological outlook of the majority of your regularly participating adults?
+
+
+112) MEMUNIT
+MemUnits3K
+
+
+113) MEMBERS
+How many persons (including children) regularly participate in worship or other religious activities in your congregation?
+
+
+114) NATAMS
+Of your regular participants (the figure given above), estimate the number who are: American Indian/Alaska Native
+
+
+115) ASIANS
+Of your regular participants (the figure given above), estimate the number who are: Asian
+
+
+116) PACIFICI
+Of your regular participants (the figure given above), estimate the number who are: Native Hawaiian or other Pacific Islander
+
+
+117) BLACKS
+Of your regular participants (the figure given above), estimate the number who are: Black or African American
+
+
+118) HISPANIC
+Of your regular participants (the figure given above), estimate the number who are: Hispanic or Latino/a
+
+
+119) WHITE
+Of your regular participants (the figure given above), estimate the number who are: White
+
+
+120) MULTI
+Of your regular participants (the figure given above), estimate the number who are: Biracial/multiracial
+
+
+121) SENIORS
+Of your regular participants (the figure given above), estimate the percent who are: Senior adults, age 65 or older
+
+
+122) MIDDLEAG
+Of your regular participants (the figure given above), estimate the number who are: Adults, age 50-64
+
+
+123) MEDADULT
+Of your regular participants (the figure given above), estimate the number who are: Adults, age 35-49
+
+
+124) YADULTS
+Of your regular participants (the figure given above), estimate the number who are: Younger adults, age 18-34
+
+
+125) KIDYTH
+Of your regular participants (the figure given above), estimate the number who are: Children and youth, age 0-17
+
+
+126) FEMALES
+Of your total regular participants age 18 and older, estimate the percent who are: Female
+
+
+127) COLLEGE
+Of your total regular participants age 18 and older, estimate the percent who are: College graduates
+
+
+128) NEWMEMB
+Of your total regular participants age 18 and older, estimate the percent who are: New to this congregation in the past five years
+
+
+129) LIFELONG
+Of your total regular participants age 18 and older, estimate the percent who are: Life-long members of denomination
+
+
+130) NEARBY
+Of your total regular participants age 18 and older, estimate the percent who are: Living within 15 minutes of this congregation's place of worship
+
+
+131) EVERYONE
+How many people are associated in any way with the religious life of your congregation?
+
+
+132) LEADTYPE
+Type of leadership structure
+
+
+133) LEADAGE
+Please describe the principal rabbi of your congregation: Age _____ years old
+
+
+134) LEADSEX
+Please describe the principal rabbi of your congregation:
+
+
+135) EMPLOY
+Please describe the principal rabbi of your congregation: Employment status
+
+
+136) CALL
+Please describe the principal rabbi of your congregation: Permanent or temporary status
+
+
+137) CLERGEDU
+Please describe the principal rabbi of your congregation: Highest level of education
+
+
+138) YEARCALL
+Please describe the principal rabbi of your congregation: This person became the principal rabbi of your congregation in what year?
+
+
+139) LEADWORS
+How much time does your principal rabbi spend in the following areas? Time spent planning and leading worship
+
+
+140) LEADVIS
+How much time does your principal rabbi spend in the following areas?  Time spent developing and promoting a vision and purpose for the congregation
+
+
+141) DOEVAN
+How much time does your principal rabbi spend in the following areas? Time spent recruiting and training lay leaders
+
+
+142) DOTRAIN
+How much time does your principal rabbi spend in the following areas? Time spent recruiting and training lay leaders
+
+
+143) DOCARE
+How much time does your principal rabbi spend in the following areas? Time spent providing pastoral care (visiting the sick, counseling people)
+
+
+144) DOTEACH
+How much time does your principal rabbi spend in the following areas? Time spent teaching people about Judaism and Torah
+
+
+145) DOSMALL
+How much time does your principal rabbi spend in the following areas? Time spent leading small groups (for sharing, support, spiritual growth)
+
+
+146) DOADMIN
+How much time does your principal rabbi spend in the following areas? Time spent in administration, supervision and committee meetings
+
+
+147) DOREPRES
+How much time does your principal rabbi spend in the following areas? Time spent representing the congregation in the community
+
+
+148) WORKYADS
+How much time does your principal rabbi spend in the following areas? Time spent engaging youth and young adults
+
+
+149) DEALARGU
+How much time does your principal rabbi spend in the following areas? Time spent dealing with conflict and disagreements
+
+
+150) SPEGROUP
+During the past three years, has your principal rabbi met regularly with other rabbis or ministers in a small group for continuing education and support?
+
+
+151) YEARSMET
+If Yes, for how long has your leader participated in such a group? _____ years
+
+
+152) MONTHMET
+If Yes, for how long has your leader participated in such a group? _____ months
+
+
+153) RABBIWED
+Rabbiweds3k
+
+
+154) MIXED
+Mixeds3k
+
+
+155) FULLORD
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; ordained professionals (rabbis and cantors)
+
+
+156) PARTORD
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; ordained professionals (rabbis and cantors)
+
+
+157) FULLCANT
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; cantors with investiture (professional training)
+
+
+158) PARTCANT
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; cantors with investiture (professional training)
+
+
+159) FULLADM
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; lay administrative professionals
+
+
+160) PARTADM
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; lay administrative professionals
+
+
+161) FULLPROG
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; lay program professionals (including musicians)
+
+
+162) PARTPROG
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; lay program professionals (including musicians)
+
+
+163) FULLEDU
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; educators (principal, teachers, etc.)
+
+
+164) PARTEDU
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; educators (principal, teachers, etc.)
+
+
+165) FULLSEC
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; clerical or secretarial employees
+
+
+166) PARTSEC
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; clerical or secretarial employees
+
+
+167) FULLCUST
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; custodial or maintenance employees
+
+
+168) PARTCUST
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; custodial or maintenance employees
+
+
+169) FULLOTH
+How many people are employed by your congregation including your principal rabbi? Write in number of: Full-time paid employees; other employees of the congregation
+
+
+170) PARTOTH
+How many people are employed by your congregation including your principal rabbi? Write in number of: Part-time paid employees; other employees of the congregation
+
+
+171) MIXVOLS
+Do the same people tend to serve in volunteer leadership roles year after year, or does your congregation rotate volunteer service among a larger number of people?
+
+
+172) JOINT_N
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? No involvement in joint worship services with other denominations or faith groups
+
+
+173) JOINT_Y1
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Yes, joint worship services with other groups in your faith tradition
+
+
+174) JOINT_Y2
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Yes, joint worship services with other faith traditions
+
+
+175) CELEB_N
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Joint celebrations, fairs, meals or cultural events: No
+
+
+176) CELEB_Y1
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Joint celebrations, fairs, meals or cultural events with other denominations: Yes
+
+
+177) CELEB_Y2
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Joint celebrations, fairs, meals or cultural events with other faith groups: Yes
+
+
+178) EDFEL_N
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Educational or fellowship activities: No
+
+
+179) EDFEL_Y1
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Educational or fellowship activities with other denominations: Yes
+
+
+180) EDFEL_Y2
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Educational or fellowship activities with other faith groups: Yes
+
+
+181) COMM_N
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Community service activities: No
+
+
+182) COMM_Y1
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Community service activities with other denominations: Yes
+
+
+183) COMM_Y2
+During the past 12 months, has your congregation been involved in any of the following interfaith activities? Community service activities with other faith groups: Yes
+
+
+184) CONCASHN
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Finances or budget: No
+
+
+185) CONCASH1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Finances or budget: Yes, but it was not serious
+
+
+186) CONCASH2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Finances or budget: Yes, some people left 
+
+
+187) CONCASH3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Finances or budget: Yes, some people withheld donations
+
+
+188) CONCASH4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Finances or budget: Yes, leader or staff member left
+
+
+189) CONWORSN
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? How worship is conducted: No
+
+
+190) CONWORS1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? How worship is conducted: Yes, but it was not serious
+
+
+191) CONWORS2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? How worship is conducted: Yes, some people left
+
+
+192) CONWORS3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? How worship is conducted: Yes, some people withheld donations
+
+
+193) CONWORS4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? How worship is conducted: Yes, leader or staff member left
+
+
+194) CONPROGN
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Program priorities: No
+
+
+195) CONPROG1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Program priorities: Yes, but it was not serious
+
+
+196) CONPROG2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Program priorities: Yes, some people left
+
+
+197) CONPROG3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Program priorities: Yes, some people withheld donations
+
+
+198) CONPROG4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Program priorities: Yes, leader or staff member left
+
+
+199) CONSYNNO
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Actions of denomination or supervisory body: No
+
+
+200) CONSYN1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Actions of denomination or supervisory body: Yes, but it was not serious
+
+
+201) CONSYN2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Actions of denomination or supervisory body: Yes, some people left
+
+
+202) CONSYN3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Actions of denomination or supervisory body: Yes, some people withheld donations
+
+
+203) CONSYN4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Actions of denomination or supervisory body: Yes, leader or staff member left
+
+
+204) CONLEADN
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's leadership style: No
+
+
+205) CONLEAD1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's leadership style: Yes, but it was not serious
+
+
+206) CONLEAD2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's leadership style: Yes, some people left
+
+
+207) CONLEAD3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's leadership style: Yes, some people withheld donations
+
+
+208) CONLEAD4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's leadership style: Yes, leader or staff member left
+
+
+209) CONLACTN
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's personal behavior: No
+
+
+210) CONLACT1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's personal behavior: Yes, but it was not serious
+
+
+211) CONLACT2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's personal behavior: Yes, some people left
+
+
+212) CONLACT3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's personal behavior: Yes, some people withheld donations
+
+
+213) CONLACT4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Rabbi's personal behavior: Yes, leader or staff member left
+
+
+214) CONMACTN
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Member's personal behavior: No
+
+
+215) CONMACT1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Member's personal behavior: Yes, but it was not serious
+
+
+216) CONMACT2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Member's personal behavior: Yes, some people left
+
+
+217) CONMACT3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Member's personal behavior: Yes, some people withheld donations
+
+
+218) CONMACT4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Member's personal behavior: Yes, leader or staff member left
+
+
+219) CONFACNO
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Use of facilities: No
+
+
+220) CONFAC1
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Use of facilities: Yes, but it was not serious
+
+
+221) CONFAC2
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Use of facilities: Yes, some people left
+
+
+222) CONFAC3
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Use of facilities: Yes, some people withheld donations
+
+
+223) CONFAC4
+During the past five years has your congregation experienced any disagreements or conflict in the following areas? Use of facilities: Yes, leader or staff member left
+
+
+224) BUDGET
+What was the approximate dollar amount of your congregation's total budget for 2009? (Do not count funds for capital improvements or primary/secondary schools) _____
+
+
+225) PCTSTAFF
+Of this total budget amount, estimate the percent that was spent in each of the following categories in 2009 (or most recent fiscal year). Staff salaries and benefits
+
+
+226) PCTBLDGR
+Of this total budget amount, estimate the percent that was spent in each of the following categories in 2009 (or most recent fiscal year). Building operations (utilities, mortgage, insurance, maintenance, etc.)
+
+
+227) PCTPROG
+Of this total budget amount, estimate the percent that was spent in each of the following categories in 2009 (or most recent fiscal year). Program support and materials (for religious school, evangelism, education, etc.)
+
+
+228) PCTDENOM
+Of this total budget amount, estimate the percent that was spent in each of the following categories in 2009 (or most recent fiscal year). Denominational dues
+
+
+229) PCTOTHER
+Of this total budget amount, estimate the percent that was spent in each of the following categories in 2009 (or most recent fiscal year). All other expenditures
+
+
+230) FINANCES
+How would you describe your congregation's financial health today and five years ago? Today
+
+
+231) FINAN05
+How would you describe your congregation's financial health today and five years ago? 2005
+
+
+232) ECONOMY
+How would you assess the impact of the 2008-2009 economic crisis on your congregation's income?
+
+
+233) LAYOFFS
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Congregational Staff and Operations: Staff layoffs or furloughs
+
+
+234) PAYCUTS
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Congregational Staff and Operations: Staff salary reductions or salary freeze
+
+
+235) DELAYS
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Congregational Staff and Operations: Delays in filling staff positions
+
+
+236) INVEST
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Congregational Staff and Operations: Funds available from investments or savings account
+
+
+237) MISSION
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Congregational Staff and Operations: Funds available for denominational dues
+
+
+238) CAPITAL
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Congregational Staff and Operations: Capital campaign or building program
+
+
+239) COUNSEL
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Individuals: Requests for pastoral counseling
+
+
+240) CASHNEED
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Individuals: Requests for cash assistance
+
+
+241) HOUSNEED
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Individuals: Requests for emergency housing
+
+
+242) NOWORK
+How would you assess the impact of the 2008-2009 economic crisis on your congregation in the following areas? Impact on Individuals: Unemployment among members
+
+
+243) YRORG
+In what year was your congregation officially founded?
+
+
+244) PLACE
+How would you describe the location of your place of worship?
+
+
+245) SEATING
+What is the approximate seating capacity of the space where your largest worship service is held?
+
+
+246) WORSHSIZ
+How adequate are the following for the current needs of your congregation? Space for worship
+
+
+247) PARKSIZ
+How adequate are the following for the current needs of your congregation? Space for parking
+
+
+248) ROLE
+I am a(n)... (If retired, please answer with respect to your major career during your work life.)
+
+
+249) ROLEOTH
+I am a(n)... (If retired, please answer with respect to your major career during your work life.) Other
+
+
+250) DENOM
+What is your congregation's specific denomination? (e.g., Orthodox, Conservative, Reform, Reconstructionist, Independent Minyan, etc.)
+
+
+251) WTRESP
+Weight
+
+
+252) I-SIZPLACE
+How many persons (including children) regularly participate in worship or other religious activities in your congregation? (Recoded for use with online analysis)
+
+
+253) I-THEOLOGY
+How would you describe the theological outlook of the majority of your regularly participating adults? (Recoded for use with online analysis)
+
+
