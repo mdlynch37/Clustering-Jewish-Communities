@@ -25,7 +25,7 @@ STANDARD_COLS = OrderedDict([('STABBR', 'State'),
 JUDHAISM_COLS = OrderedDict([('CJUDCNG', 'ConsvJud_Cngs'),
                              ('CJUDADH', 'ConsvJud_No'),
                              ('CJUDRATE', 'ConsvJud_Ra'),
-                             ('OJUDCNG', 'OrthJudCngs'),
+                             ('OJUDCNG', 'OrthJud_Cngs'),
                              ('OJUDADH', 'OrthJud_No'),
                              ('OJUDRATE', 'OrthJud_Ra'),
                              ('RJUDCNG', 'ReconJud_Cngs'),
@@ -102,14 +102,28 @@ def read_all_denoms(fp):
           )
     return df
 
-def read_judaic_denoms(fp):
+def read_judaic_denoms(fp, standard_cols=True):
     """Extracts only data for Judaic denominations."""
 
-    old_to_new = STANDARD_COLS.copy()
-    old_to_new.update(JUDHAISM_COLS)
+    if standard_cols:
+        old_to_new = STANDARD_COLS.copy()
+        old_to_new.update(JUDHAISM_COLS)
+    else:
+        old_to_new =  JUDHAISM_COLS
 
-    return (read_all_denoms(fp)
-            .rename(columns=old_to_new)
-            .loc[:, old_to_new.values()]
-            .dropna(how='all', subset=JUDHAISM_COLS.values())
-            )
+    df = (read_all_denoms(fp)
+          .rename(columns=old_to_new)
+          .loc[:, old_to_new.values()]
+          .dropna(how='all', subset=JUDHAISM_COLS.values())
+    )
+
+    df = df[df.loc[:, JUDHAISM_COLS.values()].sum(1)>0]
+    return df
+
+def read_judaic_cngs(fp, standard_cols=True):
+    """Extracts only Judaic congregation data."""
+
+    df = read_judaic_denoms(fp, standard_cols=standard_cols)
+    df = df.select(lambda x: x.endswith('_Cngs'), axis=1)
+
+    return df
