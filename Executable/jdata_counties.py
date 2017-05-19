@@ -34,7 +34,7 @@ class JDataCounties(JData):
 
         # Allows the client to modify organization data before
         # reaggregating it
-        self.orgs_df_df = (self.read_data(jdata_org_fp)
+        self.orgs_df = (self.read_data(jdata_org_fp)
                         .pipe(self.clean_data)
                         .pipe(self.reduce_denoms))
         self._zips_df = None  # initialized in get_county_cnts()
@@ -161,8 +161,8 @@ class JDataCounties(JData):
         -------
         self.cnty_df : DataFrame
         """
-        self.orgs_df = self.orgs_df_df if excl_org_types is None else (
-            self.orgs_df_df.loc[~self.orgs_df_df.Type.isin(excl_org_types)])
+        self.orgs_df = self.orgs_df if excl_org_types is None else (
+            self.orgs_df.loc[~self.orgs_df.Type.isin(excl_org_types)])
         self._zips_df = self._orgs_to_zip_cnts(self.orgs_df)
         self.cnty_df = self._zip_cnts_to_fips(self._zips_df)
         self.cnty_df = self._impute_denoms_county_cnts(self.cnty_df)
