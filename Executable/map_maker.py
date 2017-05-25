@@ -39,11 +39,10 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
         'stroke-width:1.29999995'
         )
 
-    assert type(bins) is list or type(None)
-    assert type(colors) is int or list
+    assert isinstance(bins, list) or isinstance(bins, int) or bins is None
 
     if bins is None:
-        if type(colors) is int:
+        if isinstance(colors, int):
             n_colors = colors
             color_pal = sns.color_palette('Reds', n_colors)
             colors = color_pal.as_hex()
@@ -54,7 +53,7 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
         bins = [data.quantile((x+1) / n_colors) for x in range(n_colors)]
 
     else:
-        if type(colors) is int:
+        if isinstance(colors, int):
             n_colors = len(bins) if len(bins) <= colors else colors
             color_pal = sns.color_palette('Reds', n_colors)
             colors = color_pal.as_hex()

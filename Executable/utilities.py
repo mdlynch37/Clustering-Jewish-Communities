@@ -22,10 +22,8 @@ def display_cb(df, max_colwidth=80):
 
 
 def remove_state(col):
-    """Remove trailing states from city/county features."""
-    def state_remover(x):
-        return ', '.join([x.strip() for x in x.split(',')][:-1])
-    return col.map(state_remover)
+    """Remove trailing states from city/county feature."""
+    return col.map(', '.join([x.strip() for x in x.split(',')][:-1]))
 
 
 def split_state(df, col, suffix=None):
@@ -49,11 +47,9 @@ def split_state(df, col, suffix=None):
     df : pandas.DataFrame with additional column for state
     """
     state_col = 'State' if suffix is None else '_'.join([col, suffix])
-
-    def state_remover(x):
-        return x.split(',')[-1].strip()
-    df[state_col] = df[col].map(state_splitter)
-    df[col] = remove_state(df[col])
+    # Create state column
+    df.loc[:, state_col] = df[col].map(x.split(',')[-1].strip())
+    df.loc[:, col] = remove_state(df[col])
 
     # readable order of city/county, state
     all_cols = df.columns.tolist()
@@ -117,7 +113,7 @@ def read_fips_codes(fp=FIPS_CODES_FP):
     """
     columns = ['STATE', 'STATEFP', 'COUNTYFP', 'COUNTYNAME', 'CLASSFP']
     df = pd.read_csv(fp, names=columns, header=None, dtype=str)
-    df['FIPS'] = df.STATEFP.str.cat(df.COUNTYFP)
+    df.loc[:, 'FIPS'] = df.STATEFP.str.cat(df.COUNTYFP)
     df = df.set_index('FIPS')
 
     return df
@@ -161,7 +157,7 @@ def is_outlier_instance(data, thresh=2):
     -------
     is_outlier : pandas.Series, boolean
     """
-    df = data.to_frame().T if isinstance(df, pd.Series) else data
+    df = data.to_frame().T if isinstance(data, pd.Series) else data
 
     df = df.select_dtypes(['float', 'int'])
 
