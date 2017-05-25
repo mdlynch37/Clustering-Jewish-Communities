@@ -1,6 +1,7 @@
 import pandas as pd
 from utilities import split_state, state_to_abbr, code_to_str
 
+
 class ACSCountyReader():
     """Reads American Community Survey county-level data.
 
@@ -19,22 +20,21 @@ class ACSCountyReader():
          POPULATION IN THE UNITED STATES)
     """
 
-
     # _OG indicates the column name in original table
     # These are followed by new column name in the assignment
     FIPS_COL_OG, FIPS_COL = 'Id2', 'FIPS'
-    GEO_COL_OG,  GEO_COL  = 'Geography', 'County'
+    GEO_COL_OG, GEO_COL = 'Geography', 'County'
 
     # column prefixes used by ACS»
-    EST_PRE,    MOE_PRE    = 'Estimate; ', 'Margin of Error; '
+    EST_PRE, MOE_PRE = 'Estimate; ', 'Margin of Error; '
     # suffix for renamed columns
-    EST_SUF,    MOE_SUF    = '', '_Moe'
+    EST_SUF, MOE_SUF = '', '_Moe'
 
-    TOT_EST_OG, TOT_EST    = EST_PRE+'Total', 'Tot'+EST_SUF
-    TOT_MOE_OG, TOT_MOE    = MOE_PRE+'Total', 'Tot'+MOE_SUF
+    TOT_EST_OG, TOT_EST = EST_PRE + 'Total', 'Tot' + EST_SUF
+    TOT_MOE_OG, TOT_MOE = MOE_PRE + 'Total', 'Tot' + MOE_SUF
 
     GEN_COLS_OG = [FIPS_COL_OG, GEO_COL_OG, TOT_EST_OG, TOT_MOE_OG]
-    GEN_COLS    = [FIPS_COL, GEO_COL, TOT_EST, TOT_MOE]
+    GEN_COLS = [FIPS_COL, GEO_COL, TOT_EST, TOT_MOE]
 
     TO_DROP = ['Id']  # never necessary
 
@@ -45,7 +45,11 @@ class ACSCountyReader():
 
         self.fp = fp
 
-    def read_counties(self, kw=None, name=None, total=True, moe=False,
+    def read_counties(self,
+                      kw=None,
+                      name=None,
+                      total=True,
+                      moe=False,
                       geo=False):
         """Reads ACS county-level demographic data.
 
@@ -84,8 +88,7 @@ class ACSCountyReader():
             kw_cols = [x for x in df.columns if kw in x]
 
             df = df.select(
-                lambda x: x in self.GEN_COLS or x in kw_cols, axis=1
-                )
+                lambda x: x in self.GEN_COLS or x in kw_cols, axis=1)
 
             if name is not None:
                 # use kw arg value as new col name
@@ -100,22 +103,19 @@ class ACSCountyReader():
                 new_kw_cols = []
                 for kw_col in kw_cols:
                     if self.EST_PRE in kw_col:
-                        new_kw_cols.append(name+self.EST_SUF)
+                        new_kw_cols.append(name + self.EST_SUF)
                     elif self.MOE_PRE in kw_col:
-                        new_kw_cols.append(name+self.MOE_SUF)
+                        new_kw_cols.append(name + self.MOE_SUF)
                     else:
                         new_kw_cols.append(kw_col)
 
                 df = df.rename(columns=dict(zip(kw_cols, new_kw_cols)))
 
         if not moe:
-            df = df.select(
-                lambda x: not x.endswith(self.MOE_SUF), axis=1
-                )
+            df = df.select(lambda x: not x.endswith(self.MOE_SUF), axis=1)
         if not total:
             df = df.select(
-                lambda x: x not in [self.TOT_EST, self.TOT_MOE], axis=1
-                )
+                lambda x: x not in [self.TOT_EST, self.TOT_MOE], axis=1)
         # TODO: Add support for name inserted into in Total column
         # Should also allow for population total to have column name
         # Pop
@@ -143,6 +143,8 @@ class ACSCountyReader():
 
         return df
 
+
+# TODO: not working: dict(name='Pop', kw='Total', fp=)
 def read_merge_acs(params, geo=False):
     """Read and merge ACS tables with dict of params.
 
@@ -150,7 +152,7 @@ def read_merge_acs(params, geo=False):
     >>> params = [
     ...    dict(name='Born_Isr', kw='Israel', fp=FOREIGN_BIRTH_FP),
     ...    dict(name='Only_Isr', kw='Israel', fp=SNGL_ANCE_FP),
-    ...    dict(name='Part_Isr', kw='Israel', fp=MULT_ANCE_FP)]
+    ...    dict(name='Part_Isr', kw='Israel', fp=MULT_ANCE_FP)],
     >>> read_merge_acs(params)
 
     """
@@ -160,11 +162,10 @@ def read_merge_acs(params, geo=False):
 
         dfs.append(
             ACSCountyReader(fp)
-            .read_counties(kw=kw, name=name, total=False, geo=geo)
-            )
+            .read_counties(kw=kw, name=name, total=False, geo=geo))
         geo = False  # so only one set of geo columns
 
     df = pd.concat(dfs, axis=1, join='inner')
-    df = df[df.sum(1)>0]
+    df = df[df.sum(1) > 0]
 
     return df

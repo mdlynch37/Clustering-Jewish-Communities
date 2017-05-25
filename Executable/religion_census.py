@@ -1,5 +1,5 @@
-from collections import OrderedDict
 import re
+from collections import OrderedDict
 
 import pandas as pd
 
@@ -15,29 +15,34 @@ STANDARD_COLS, JUDHAISM_COLS : OrderedDict, list or None
     This distinction allows removing counties that do not have
 """
 
+STANDARD_COLS = OrderedDict([
+    ('STABBR', 'State'),
+    ('CNTYNAME', 'County'),
+    ('TOTCNG', 'Tot_Cngs'),
+    ('TOTADH', 'Tot_No'),
+    ('TOTRATE', 'Tot_Ra')
+])
 
-STANDARD_COLS = OrderedDict([('STABBR', 'State'),
-                             ('CNTYNAME', 'County'),
-                             ('TOTCNG', 'Tot_Cngs'),
-                             ('TOTADH', 'Tot_No'),
-                             ('TOTRATE', 'Tot_Ra')])
+JUDHAISM_COLS = OrderedDict([
+    ('CJUDCNG', 'ConsvJud_Cngs'),
+    ('CJUDADH', 'ConsvJud_No'),
+    ('CJUDRATE', 'ConsvJud_Ra'),
+    ('OJUDCNG', 'OrthJud_Cngs'),
+    ('OJUDADH', 'OrthJud_No'),
+    ('OJUDRATE', 'OrthJud_Ra'),
+    ('RJUDCNG', 'ReconJud_Cngs'),
+    ('RJUDADH', 'ReconJud_No'),
+    ('RJUDRATE', 'ReconJud_Ra'),
+    ('RFRMCNG', 'RefJud_Cngs'),
+    ('RFRMADH', 'RefJud_No'),
+    ('RFRMRATE', 'RefJud_Ra'),
+    ('UMJCCNG', 'UnionMessJews_Cngs')
+])
 
-JUDHAISM_COLS = OrderedDict([('CJUDCNG', 'ConsvJud_Cngs'),
-                             ('CJUDADH', 'ConsvJud_No'),
-                             ('CJUDRATE', 'ConsvJud_Ra'),
-                             ('OJUDCNG', 'OrthJud_Cngs'),
-                             ('OJUDADH', 'OrthJud_No'),
-                             ('OJUDRATE', 'OrthJud_Ra'),
-                             ('RJUDCNG', 'ReconJud_Cngs'),
-                             ('RJUDADH', 'ReconJud_No'),
-                             ('RJUDRATE', 'ReconJud_Ra'),
-                             ('RFRMCNG', 'RefJud_Cngs'),
-                             ('RFRMADH', 'RefJud_No'),
-                             ('RFRMRATE', 'RefJud_Ra'),
-                             ('UMJCCNG', 'UnionMessJews_Cngs')])
+TO_FRONT = [
+    'FIPS', 'STCODE', 'CNTYCODE', 'CNTYNAME', 'STABBR', 'STNAME', 'POP2010'
+]
 
-TO_FRONT = ['FIPS', 'STCODE', 'CNTYCODE', 'CNTYNAME',
-            'STABBR', 'STNAME', 'POP2010']
 
 def reorder_cols(df, column=True):
     """Reorder and rename vars."""
@@ -49,6 +54,7 @@ def reorder_cols(df, column=True):
 
     return df
 
+
 def read_cb(fp):
     """
     Reads codebook .txt file for U.S. Religion Census,
@@ -57,13 +63,12 @@ def read_cb(fp):
     with open(fp) as f:
         cb_txt = f.read()
     data = re.findall(r'\d+[)][ ]([^\n\r]+)\s+([^\n\r]+)', cb_txt)
-    df = (pd.DataFrame(data, columns=['VAR', 'DESCRIPTION'])
-          .set_index('VAR')
-          )
+    df = (pd.DataFrame(data, columns=['VAR', 'DESCRIPTION']).set_index('VAR'))
 
     df = reorder_cols(df, column=False)
 
     return df
+
 
 def read_all_denoms(fp):
     """Reads U.S. Religion Census, 2010 County File.
@@ -87,20 +92,16 @@ def read_all_denoms(fp):
     def pad_codes(df):
         """Convert code cols to strings and pad."""
 
-        df.FIPS     = code_to_str(df.FIPS, 5)
-        df.STCODE   = code_to_str(df.STCODE, 2)
+        df.FIPS = code_to_str(df.FIPS, 5)
+        df.STCODE = code_to_str(df.STCODE, 2)
         df.CNTYCODE = code_to_str(df.CNTYCODE, 3)
 
         return df
 
-    df = (pd.read_stata(fp)
-          .rename(columns=lambda x: x.upper())
-          .pipe(pad_codes)
-          .pipe(reorder_cols)
-          .fillna(0)
-          .set_index('FIPS')
-          )
+    df = (pd.read_stata(fp).rename(columns=lambda x: x.upper()).pipe(pad_codes)
+          .pipe(reorder_cols).fillna(0).set_index('FIPS'))
     return df
+
 
 def read_judaic_denoms(fp, standard_cols=True):
     """Extracts only data for Judaic denominations."""
@@ -109,19 +110,23 @@ def read_judaic_denoms(fp, standard_cols=True):
         old_to_new = STANDARD_COLS.copy()
         old_to_new.update(JUDHAISM_COLS)
     else:
-        old_to_new =  JUDHAISM_COLS
+        old_to_new = JUDHAISM_COLS
 
-    df = (read_all_denoms(fp)
-          .rename(columns=old_to_new)
-          .loc[:, old_to_new.values()]
-          .dropna(how='all', subset=JUDHAISM_COLS.values())
-    )
+    df = (read_all_denoms(fp).rename(columns=old_to_new)
+          .loc[:, old_to_new.values()].dropna(
+              how='all', subset=JUDHAISM_COLS.values()))
 
-    df = df[df.loc[:, JUDHAISM_COLS.values()].sum(1)>0]
+    df = df[df.loc[:, JUDHAISM_COLS.values()].sum(1) > 0]
     return df
+
 
 def read_judaic_cngs(fp, standard_cols=True):
     """Extracts only Judaic congregation data."""
+
+    # From most conservative to least (or thereabouts), for the sake of
+    # consistency across datasets
+    CNGS_ORDER = ['OrthJud_Cngs', 'ConsvJud_Cngs', 'ReconJud_Cngs',
+                  'RefJud_Cngs', 'UnionMessJews_Cngs']
 
     df = read_judaic_denoms(fp, standard_cols=standard_cols)
     df = df.select(lambda x: x.endswith('_Cngs'), axis=1)

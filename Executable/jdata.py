@@ -1,9 +1,8 @@
 import pandas as pd
 
 
-class JData():
-
-    def __init__(self, fp):
+class JData:
+    def __init__(self):
         """JData Jewish educational organization directory.
 
         Directory of Jewish day camps, day schools, early childhood
@@ -12,71 +11,132 @@ class JData():
 
         Scraped from https://www.jdata.com/tools/directory, Feb 2016.
         """
-        self.fp = fp
-        self.orgs_df = (self.read_data(fp)
-                        .pipe(self.clean_data)
-                        .pipe(self.reduce_denoms)
-        )
+        self.fp = None
+        self.orgs_df = None
 
-    def read_data(self, fp):
-        """Read directory data from json file."""
+    def read_orgs(self, fp, clean=False, combine_denoms=False):
+        """Read directory data from json file.
+
+        Parameters
+        ----------
+        fp : str, filepath to json scraped data
+        clean : bool, if True apply various cleaning methods.
+        combine_denoms : bool, if True combine similar denominations.
+            Note: data must be clean pre-denom combine.
+
+        """
         self.fp = fp
-        new_col_names = {'Address': 'Addr',
-                         'Type of Organization': 'Type',
-                         'Denominations': 'Denom'}
-        df = (pd.read_json(fp)
-              .rename(columns=new_col_names)
-              .reset_index(drop=True)
-        )
-        df.Denom = df.Denom.replace('Pluralist or Transdenominational',
-                                    'Pluralist/Transdenom')
+
+        new_col_names = {
+            'Address': 'Addr',
+            'Type of Organization': 'Type',
+            'Denominations': 'Denom',
+        }
+        df = (pd.read_json(self.fp).rename(columns=new_col_names).reset_index(
+            drop=True))
+
+        new_cat_names = dict(
+            Denom={
+                'Orthodox': 'Orth',
+                'Conservative': 'Consv',
+                'Reform': 'Ref',
+                'Reconstructionist': 'Recon',
+                'Community': 'Comm',
+                'Humanistic': 'Hum',
+                'Sephardic': 'Seph',
+                'Other': 'Oth',
+                'Secular': 'Sec',
+                'Traditional': 'Trad',
+                'Pluralist or Transdenominational': 'PlurTrans',
+            },
+            Type={
+                'Day camp': 'DayCamp',
+                'Day school': 'DaySch',
+                'Early childhood center': 'EarlyChild',
+                'Overnight camp': 'OverCamp',
+                'Part-time school': 'PTSch'
+            })
+        df = df.replace(new_cat_names)
+
         # reorder columns
-        cols = ['Name', 'Addr', 'City', 'State', 'Zip', 'Country',
-                'Phone', 'URL', 'Type', 'Denom']
+        cols = [
+            'Name', 'Addr', 'City', 'State', 'Zip', 'Country', 'Phone', 'URL',
+            'Type', 'Denom'
+        ]
         df = df[cols]
 
+        if clean:
+            df = self.clean_orgs(df)
+
+        if combine_denoms:
+            if not clean:
+                raise ValueError('Data must be cleaned before denom combine.')
+            df = self.combine_denoms(df)
+
         return df
 
-    def clean_data(self, df):
+    def clean_orgs(self, df):
         """Clean, fix and filter out Canadian orgs."""
         df = (df.pipe(self._manual_imputes)
-              .pipe(self._impute_denoms_with_miscats)
-              .loc[df.Country != 'CA']
-              .drop(['Country'], axis=1)
-              .drop_duplicates(['Addr', 'Zip', 'Type', 'Denom'])
-        )
+              .pipe(self._impute_denoms_with_miscats).loc[df.Country != 'CA']
+              .drop(['Country'], axis=1).drop_duplicates(
+                  ['Addr', 'City', 'State', 'Zip', 'Type', 'Denom']))
         return df
 
-    def reduce_denoms(self, df):
-        """Group smaller denominations."""
-        return (df.pipe(self._merge_similar_denoms)
-                  .pipe(self._merge_non_demons)
-        )
+    def combine_denoms(self, df):
+        """Group similar/smaller denominations.
 
-    def _merge_similar_denoms(self, df):
-        """Merge denomination categories for JData orgs."""
+        Note: Only works with clean data, i.e. after clean_orgs()
+        """
+        return (df.pipe(self._combine_similar_denoms)
+                .pipe(self._combine_non_demons))
+
+    @staticmethod
+    def _combine_similar_denoms(df):
+        """Combine denomination categories for JData orgs."""
         # noisy, so few
-        df.Denom = df.Denom.replace('Sephardic', 'Orthodox')
+        df.Denom = df.Denom.replace('Seph', 'Orth')
 
         # Traditional more often Orthodox than conservative
         # http://www.jewfaq.org/movement.htm
-        df.Denom = df.Denom.replace('Traditional', 'Orthodox')
+        df.Denom = df.Denom.replace('Trad', 'Orth')
 
         # Similar with very few entries
-        df.Denom = df.Denom.replace('Humanistic', 'Secular')
+        df.Denom = df.Denom.replace('Hum', 'Sec')
 
         return df
 
-    def _merge_non_demons(self, df):
-        """Merge non-denominational orgs together."""
+    @staticmethod
+    def _combine_non_demons(df):
+        """Combine non-denominational orgs together."""
 
-        non_denoms = ['Community', 'Pluralist/Transdenom', 'Other',
-                      'Humanistic', 'Secular']
-        df.Denom = df.Denom.replace(non_denoms, 'Nondenom')
+        non_denoms = ['Comm', 'PlurTrans', 'Oth', 'Hum', 'Sec']
+        df.Denom = df.Denom.replace(non_denoms, 'NonDenom')
 
         return df
 
-    def get_miscats(self, df, cat_col='Denom', pretty_print=True):
+    def _impute_denoms_with_miscats(self, df):
+        """Impute missing denoms using clues from other features.
+
+        This does not impute all missing denominations. Best left to
+        other superclass JDataCounty that can proportionally distribute
+        nans across other denoms in county.
+        """
+        miscats_dict = self.get_miscats(df, pretty_print=False)
+
+        # Filter out those that are flagged because community
+        # keyword found in Address (not useful)
+        miscats_dict['Comm'] = (
+            miscats_dict['Comm'].loc[~miscats_dict['Comm']
+                                     .Addr.str.contains('Comm', case=False)])
+        for type_, data in miscats_dict.items():
+            missing = data[data.Denom.isnull()].index
+            df.loc[missing, 'Denom'] = type_
+
+        return df
+
+    @staticmethod
+    def get_miscats(df, cat_col='Denom', pretty_print=True):
         """Return organizations that may be mis-categorized.
 
         Whether its category (Denom or Type) value appears in its other
@@ -96,8 +156,8 @@ class JData():
             may be mis-categorized with current value.
         """
         if pretty_print:
-            print('{:<23}{:<23}\n'.format(
-                  'FOUND ELSEWHERE', 'ACTUAL CATEGORY'))
+            print(
+                '{:<23}{:<23}\n'.format('FOUND ELSEWHERE', 'ACTUAL CATEGORY'))
 
         miscats = {}
         for cat in df[cat_col].dropna().unique():
@@ -109,32 +169,11 @@ class JData():
                 print('{:>3} {:<23}'.format(len(miscat), cat))
                 # list of actual categories for that found one
                 for bad_cat, rows in miscat.fillna('None').groupby(cat_col):
-                        print('{}{:>3} {}'.format(
-                              ' ' * 23, len(rows), bad_cat))
+                    print('{}{:>3} {}'.format(' ' * 23, len(rows), bad_cat))
         return miscats
 
-    def _impute_denoms_with_miscats(self, df):
-        """Impute missing denoms using clues from other features.
-
-        This does not impute all missing denominations. Best left to
-        other superclass JDataCounty that can proportionally distribute
-        nans across other denoms in county.
-        """
-        miscats_dict = self.get_miscats(df, pretty_print=False)
-
-        # Filter out those that are flagged because community
-        # keyword found in Address (not useful)
-        miscats_dict['Community'] = (
-            miscats_dict['Community'].loc[~miscats_dict['Community'].Addr.str
-                                          .contains('Community', case=False)]
-        )
-        for type_, data in miscats_dict.items():
-            missing = data[data.Denom.isnull()].index
-            df.loc[missing, 'Denom'] = type_
-
-        return df
-
-    def _manual_imputes(self, df):
+    @staticmethod
+    def _manual_imputes(df):
         """Manually impute missing location values.
 
         Level of detail is necessary for analysis of US counties that
@@ -153,7 +192,7 @@ class JData():
 
             df = df.drop([386, 2084, 2142, 2143])
         except ValueError as e:
-            raise ValueError(str(e) + ': ' +
-                             'Must be before dropping Canadian orgs.')
+            raise ValueError(
+                str(e) + ': ' + 'Must be before dropping Canadian orgs.')
 
         return df
