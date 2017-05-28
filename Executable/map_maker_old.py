@@ -1,10 +1,9 @@
-
-
-from lxml import etree
 import seaborn as sns
+from lxml import etree
 
 IMG_DIR = '../Images/'  # empty string if in same directory
 MAP_TEMPLATE_FP = ''.join([IMG_DIR, 'counties_map_template.svg'])
+
 
 # TODO: make class, add functionality for FIPS highlight without any other data
 def draw_county_data_svg(data, fp, colors=6, bins=None,
@@ -24,7 +23,7 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
         'marker-start:none;'
         'stroke-linejoin:bevel;'
         'fill:'  # to be determined
-        )
+    )
     state_style = (
         'fill:none;'
         'stroke:#221e1f;'
@@ -32,18 +31,18 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
         'stroke-linecap:butt;'
         'stroke-linejoin:round;'
         'stroke-miterlimit:4'
-        )
+    )
     sep_style = (
         'fill:none;'
         'stroke:#a9a9a9;'
         'stroke-width:1.29999995'
-        )
+    )
 
-    assert type(bins) is list or type(None)
-    assert type(colors) is int or list
+    assert isinstance(bins, list) or isinstance(bins, int) or bins is None
+    assert isinstance(colors, list) or isinstance(colors, int)
 
     if bins is None:
-        if type(colors) is int:
+        if isinstance(colors, int):
             n_colors = colors
             color_pal = sns.color_palette('Reds', n_colors)
             colors = color_pal.as_hex()
@@ -54,7 +53,7 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
         bins = [data.quantile((x+1) / n_colors) for x in range(n_colors)]
 
     else:
-        if type(colors) is int:
+        if isinstance(colors, int):
             n_colors = len(bins) if len(bins) <= colors else colors
             color_pal = sns.color_palette('Reds', n_colors)
             colors = color_pal.as_hex()
@@ -71,7 +70,7 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
     # when colors is left as default (6), raises Assertion error
     assert n_bins == n_colors, (
         '{} colors passed for {} bins, must be equal.'.format(n_colors, n_bins)
-        )
+    )
 
     svg = etree.ElementTree(file=template)
     for p in svg.iterfind('.//{http://www.w3.org/2000/svg}path'):
@@ -79,9 +78,9 @@ def draw_county_data_svg(data, fp, colors=6, bins=None,
         try:
             val = data.at[id_]
         except KeyError:
-            if id_=='state_lines':
+            if id == 'state_lines':
                 style = state_style
-            elif id_=='separator':
+            elif id_ == 'separator':
                 style = sep_style
             else:  # if path is for a county not present in dataset
                 style = ''.join([county_style, no_data_color])
