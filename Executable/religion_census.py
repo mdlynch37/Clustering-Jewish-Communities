@@ -135,9 +135,6 @@ def read_judaic_relcen(fp, how='all', standard_cols=False):
           .rename(columns=cols)
           .loc[:, cols.values()]
     )
-    # drop empty
-    df = df.loc[df.select(lambda col: col in JUDHAISM_COLS.values(), axis=1)
-                    .sum(1) > 0]
 
     # Reorder from most conservative to least (or thereabouts),
     # for the sake of consistency across datasets
@@ -155,5 +152,9 @@ def read_judaic_relcen(fp, how='all', standard_cols=False):
 
        df = df.select(
            lambda x: x.endswith(suffix) or x in STANDARD_COLS.values(), axis=1)
+
+       # drop empty
+       df = df.loc[df.select(lambda col: col in JUDHAISM_COLS.values(), axis=1)
+                       .sum(1) > 0]
 
     return df
