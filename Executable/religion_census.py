@@ -23,19 +23,21 @@ STANDARD_COLS = OrderedDict([
     ('TOTRATE', 'Tot_Ra')
 ])
 
+# Reorder from most conservative to least (or thereabouts),
+# for the sake of consistency across datasets
 JUDHAISM_COLS = OrderedDict([
-    ('CJUDCNG', 'ConsvJud_Cngs'),
-    ('CJUDADH', 'ConsvJud_No'),
-    ('CJUDRATE', 'ConsvJud_Ra'),
     ('OJUDCNG', 'OrthJud_Cngs'),
     ('OJUDADH', 'OrthJud_No'),
     ('OJUDRATE', 'OrthJud_Ra'),
-    ('RJUDCNG', 'ReconJud_Cngs'),
-    ('RJUDADH', 'ReconJud_No'),
-    ('RJUDRATE', 'ReconJud_Ra'),
+    ('CJUDCNG', 'ConsvJud_Cngs'),
+    ('CJUDADH', 'ConsvJud_No'),
+    ('CJUDRATE', 'ConsvJud_Ra'),
     ('RFRMCNG', 'RefJud_Cngs'),
     ('RFRMADH', 'RefJud_No'),
     ('RFRMRATE', 'RefJud_Ra'),
+    ('RJUDCNG', 'ReconJud_Cngs'),
+    ('RJUDADH', 'ReconJud_No'),
+    ('RJUDRATE', 'ReconJud_Ra'),
     ('UMJCCNG', 'UnionMessJews_Cngs')
 ])
 
@@ -44,13 +46,14 @@ TO_FRONT = [
 ]
 
 
-def reorder_cols(df, column=True):
+def reorder_general_cols(df, index=True):
     """Reorder and rename vars."""
 
-    df = df if column else df.T
+    # column when passing codebook with variables in index
+    df = df if index else df.T
     order = TO_FRONT + df.drop(TO_FRONT, axis=1).columns.tolist()
-    df = df.loc[:, order]
-    df = df if column else df.T
+    df = df.reindex(columns=order)
+    df = df if index else df.T
 
     return df
 
@@ -65,7 +68,7 @@ def read_cb(fp):
     data = re.findall(r'\d+[)][ ]([^\n\r]+)\s+([^\n\r]+)', cb_txt)
     df = (pd.DataFrame(data, columns=['VAR', 'DESCRIPTION']).set_index('VAR'))
 
-    df = reorder_cols(df, column=False)
+    df = reorder_general_cols(df, index=False)
 
     return df
 
@@ -98,37 +101,59 @@ def read_all_denoms(fp):
 
         return df
 
-    df = (pd.read_stata(fp).rename(columns=lambda x: x.upper()).pipe(pad_codes)
-          .pipe(reorder_cols).fillna(0).set_index('FIPS'))
+    df = (pd.read_stata(fp)
+          .rename(columns=lambda x: x.upper())
+          .pipe(pad_codes)
+          .pipe(reorder_general_cols)
+          .fillna(0)
+          .set_index('FIPS')
+    )
     return df
 
 
-def read_judaic_denoms(fp, standard_cols=True):
-    """Extracts only data for Judaic denominations."""
+def read_judaic_relcen(fp, how='all', standard_cols=False):
+    """Extracts only data for Judaic denominations.
+    
+    Parameters
+    ----------
+    fp : str, filepath
+    how : string, indicates which types of data to return
+        Default 'all' leaves all data in place
+        'cngs' only returns congregation data
+        'adhs' only returns membership data
+        'rate' only returns rate data, i.e. adherents per 
+               1000 of total population.
+    """
 
     if standard_cols:
-        old_to_new = STANDARD_COLS.copy()
-        old_to_new.update(JUDHAISM_COLS)
+        cols = STANDARD_COLS.copy()
+        cols.update(JUDHAISM_COLS)
     else:
-        old_to_new = JUDHAISM_COLS
+        cols = JUDHAISM_COLS
 
-    df = (read_all_denoms(fp).rename(columns=old_to_new)
-          .loc[:, old_to_new.values()].dropna(
-              how='all', subset=JUDHAISM_COLS.values()))
+    df = (read_all_denoms(fp)
+          .rename(columns=cols)
+          .loc[:, cols.values()]
+    )
+    # drop empty
+    df = df.loc[df.select(lambda col: col in JUDHAISM_COLS.values(), axis=1)
+                    .sum(1) > 0]
 
-    df = df[df.loc[:, JUDHAISM_COLS.values()].sum(1) > 0]
-    return df
+    # Reorder from most conservative to least (or thereabouts),
+    # for the sake of consistency across datasets
+    df = df.loc[:, cols.values()]
 
+    if how != 'all':
+       if how == 'cngs':
+           suffix = '_Cngs'
+       elif how == 'adhs':
+           suffix = '_No'
+       elif how == 'rate':
+           suffix = '_Ra'
+       else:
+           raise ValueError('Invalid how parameter passed.')
 
-def read_judaic_cngs(fp, standard_cols=True):
-    """Extracts only Judaic congregation data."""
-
-    # From most conservative to least (or thereabouts), for the sake of
-    # consistency across datasets
-    CNGS_ORDER = ['OrthJud_Cngs', 'ConsvJud_Cngs', 'ReconJud_Cngs',
-                  'RefJud_Cngs', 'UnionMessJews_Cngs']
-
-    df = read_judaic_denoms(fp, standard_cols=standard_cols)
-    df = df.select(lambda x: x.endswith('_Cngs'), axis=1)
+       df = df.select(
+           lambda x: x.endswith(suffix) or x in STANDARD_COLS.values(), axis=1)
 
     return df
