@@ -1,151 +1,175 @@
+from collections import OrderedDict
+
 import pandas as pd
 
 
 class JData:
+    """JData Jewish educational organization directory.
+
+    Directory of Jewish day camps, day schools, early childhood
+    centers, overnight camps and part-time schools for various
+    denominations and orientations.
+
+    Scraped from https://www.jdata.com/tools/directory, Feb 2016.
+    
+    CONSTANTS
+    ---------
+    COL_NAMES : dict
+        Use to rename only the long column names.
+    DENOM_NAMES : OrderedDict
+        Use to rename all denomination values, and for reference.
+        OrderedDict used so consistent output for get_miscats()
+    TYPE_NAMES : dict
+        Use to rename all type values, and for reference.
+    """
+    COL_NAMES = {
+        'Address': 'Addr',
+        'Type of Organization': 'Type',
+        'Denominations': 'Denom',
+    }
+    DENOM_NAMES = OrderedDict([
+        ('Orthodox', 'Orth'),
+        ('Conservative', 'Consv'),
+        ('Reform', 'Ref'),
+        ('Reconstructionist', 'Recon'),
+        ('Community', 'Comm'),
+        ('Humanistic', 'Hum'),
+        ('Sephardic', 'Seph'),
+        ('Other', 'Oth'),
+        ('Secular', 'Sec'),
+        ('Traditional', 'Trad'),
+        ('Pluralist or Transdenominational', 'PlurTrans'),
+    ])
+
+    TYPE_NAMES = {
+        'Day camp': 'DayCamp',
+        'Day school': 'DaySch',
+        'Early childhood center': 'EarlyChild',
+        'Overnight camp': 'OverCamp',
+        'Part-time school': 'PTSch'
+    }
+
+
     def __init__(self):
-        """JData Jewish educational organization directory.
-
-        Directory of Jewish day camps, day schools, early childhood
-        centers, overnight camps and part-time schools for various
-        denominations and orientations.
-
-        Scraped from https://www.jdata.com/tools/directory, Feb 2016.
-        """
+        """Simple initialization."""
         self.fp = None
         self.orgs_df = None
+        self.clean = None
+        self.only_usa = None
 
-    def read_orgs(self, fp, clean=False, combine_denoms=False):
-        """Read directory data from json file.
+    def read_orgs(self, fp, clean=False, only_usa=False):
+        """Read directory data from json file,
+        and set instance variable.
 
         Parameters
         ----------
         fp : str, filepath to json scraped data
         clean : bool, if True apply various cleaning methods.
-        combine_denoms : bool, if True combine similar denominations.
-            Note: data must be clean pre-denom combine.
+        only_usa : bool, if True only return orgs in the USA
 
+        Returns
+        -------
+        orgs_df : DataFrame of JData directory
         """
         self.fp = fp
+        self.clean = clean
+        self.only_usa = only_usa
 
-        new_col_names = {
-            'Address': 'Addr',
-            'Type of Organization': 'Type',
-            'Denominations': 'Denom',
-        }
-        df = (pd.read_json(self.fp).rename(columns=new_col_names).reset_index(
-            drop=True))
 
-        new_cat_names = dict(
-            Denom={
-                'Orthodox': 'Orth',
-                'Conservative': 'Consv',
-                'Reform': 'Ref',
-                'Reconstructionist': 'Recon',
-                'Community': 'Comm',
-                'Humanistic': 'Hum',
-                'Sephardic': 'Seph',
-                'Other': 'Oth',
-                'Secular': 'Sec',
-                'Traditional': 'Trad',
-                'Pluralist or Transdenominational': 'PlurTrans',
-            },
-            Type={
-                'Day camp': 'DayCamp',
-                'Day school': 'DaySch',
-                'Early childhood center': 'EarlyChild',
-                'Overnight camp': 'OverCamp',
-                'Part-time school': 'PTSch'
-            })
-        df = df.replace(new_cat_names)
+        orgs_df = (pd.read_json(fp)
+                   .rename(columns=self.COL_NAMES)
+                   .reset_index(drop=True)
+        )
 
+        orgs_df = orgs_df.replace(
+            dict(Type=self.TYPE_NAMES, Denom=self.DENOM_NAMES)
+        )
         # reorder columns
-        cols = [
-            'Name', 'Addr', 'City', 'State', 'Zip', 'Country', 'Phone', 'URL',
-            'Type', 'Denom'
+        reordered = [
+            'Name', 'Addr', 'City', 'State', 'Zip', 'Country',
+            'Phone', 'URL', 'Type', 'Denom'
         ]
-        df = df[cols]
+        orgs_df = orgs_df[reordered]
 
         if clean:
-            df = self.clean_orgs(df)
+            orgs_df = self.clean_orgs(orgs_df)
+        if only_usa:
+            orgs_df = self.filter_usa(orgs_df)
 
-        if combine_denoms:
-            if not clean:
-                raise ValueError('Data must be cleaned before denom combine.')
-            df = self.combine_denoms(df)
+        self.orgs_df = orgs_df
+        return self.orgs_df
 
-        return df
-
-    def clean_orgs(self, df):
+    def clean_orgs(self, orgs_df):
         """Clean, fix and filter out Canadian orgs."""
-        df = (df.pipe(self._manual_imputes)
-              .pipe(self._impute_denoms_with_miscats).loc[df.Country != 'CA']
-              .drop(['Country'], axis=1).drop_duplicates(
-                  ['Addr', 'City', 'State', 'Zip', 'Type', 'Denom']))
-        return df
-
-    def combine_denoms(self, df):
-        """Group similar/smaller denominations.
-
-        Note: Only works with clean data, i.e. after clean_orgs()
-        """
-        return (df.pipe(self._combine_similar_denoms)
-                .pipe(self._combine_non_demons))
+        orgs_df = (orgs_df.pipe(self._manual_imputes)
+              .pipe(self._impute_denoms_with_miscats)
+              .pipe(self._correct_seph_miscats)
+        )
+        orgs_df = orgs_df.drop_duplicates(
+                    ['Addr', 'City', 'State', 'Zip', 'Type', 'Denom']
+        )
+        return orgs_df
 
     @staticmethod
-    def _combine_similar_denoms(df):
+    def filter_usa(orgs_df):
+        return orgs_df.loc[orgs_df.Country != 'CA'].drop(['Country'], axis=1)
+
+    @staticmethod
+    def combine_similar_denoms(orgs_df):
         """Combine denomination categories for JData orgs."""
         # noisy, so few
-        df.Denom = df.Denom.replace('Seph', 'Orth')
+        orgs_df.Denom = orgs_df.Denom.replace('Seph', 'Orth')
 
         # Traditional more often Orthodox than conservative
         # http://www.jewfaq.org/movement.htm
-        df.Denom = df.Denom.replace('Trad', 'Orth')
+        orgs_df.Denom = orgs_df.Denom.replace('Trad', 'Orth')
 
         # Similar with very few entries
-        df.Denom = df.Denom.replace('Hum', 'Sec')
+        orgs_df.Denom = orgs_df.Denom.replace('Hum', 'Sec')
 
-        return df
+        return orgs_df
 
     @staticmethod
-    def _combine_non_demons(df):
+    def combine_non_demons(orgs_df):
         """Combine non-denominational orgs together."""
 
-        non_denoms = ['Comm', 'PlurTrans', 'Oth', 'Hum', 'Sec']
-        df.Denom = df.Denom.replace(non_denoms, 'NonDenom')
+        non_denoms = ['Comm', 'PlurTrans', 'Hum', 'Sec']
+        orgs_df.Denom = orgs_df.Denom.replace(non_denoms, 'NonDenom')
 
-        return df
+        return orgs_df
 
-    def _impute_denoms_with_miscats(self, df):
+    def _impute_denoms_with_miscats(self, orgs_df):
         """Impute missing denoms using clues from other features.
 
         This does not impute all missing denominations. Best left to
         other superclass JDataCounty that can proportionally distribute
         nans across other denoms in county.
         """
-        miscats_dict = self.get_miscats(df, pretty_print=False)
+        miscats_dict = self.get_denom_miscats(orgs_df)
 
-        # Filter out those that are flagged because community
-        # keyword found in Address (not useful)
-        miscats_dict['Comm'] = (
-            miscats_dict['Comm'].loc[~miscats_dict['Comm']
-                                     .Addr.str.contains('Comm', case=False)])
         for type_, data in miscats_dict.items():
-            missing = data[data.Denom.isnull()].index
-            df.loc[missing, 'Denom'] = type_
+            missing = data[data.Denom.isnull() | (data.Denom == 'Oth')].index
+            orgs_df.loc[missing, 'Denom'] = type_
 
-        return df
+        return orgs_df
 
-    @staticmethod
-    def get_miscats(df, cat_col='Denom', pretty_print=True):
+    def _correct_seph_miscats(self, orgs_df):
+        """Correct any orgs with Sephardic in Name or URL."""
+
+        miscats_dict = self.get_denom_miscats(orgs_df)
+
+        orgs_df.loc[miscats_dict['Seph'].index, 'Denom'] = 'Seph'
+        return orgs_df
+
+    def get_denom_miscats(self, orgs_df, pretty_print=False):
         """Return organizations that may be mis-categorized.
 
-        Whether its category (Denom or Type) value appears in its other
+        Whether its Denomination value appears in its other
         features is an approximation used for analysis and imputation.
 
         Parameters
         ----------
-        df : pandas.DataFrame
-        cat_col : str, 'Denom' or 'Type'
+        orgs_df : pandas.DataFrame
         pretty_print : bool, default is True
             Print county summary of output
 
@@ -160,39 +184,58 @@ class JData:
                 '{:<23}{:<23}\n'.format('FOUND ELSEWHERE', 'ACTUAL CATEGORY'))
 
         miscats = {}
-        for cat in df[cat_col].dropna().unique():
-            contains_cat = df.apply(lambda x: x.str.contains(cat, case=False))
-            miscat = df[contains_cat.any(1) & (df[cat_col] != cat)]
-            miscats[cat] = miscat
+        for full_denom, denom in self.DENOM_NAMES.items():
+            if full_denom == 'Other':
+                continue  # too broad
+
+            contains_cat = orgs_df[['Name', 'URL']].apply(
+                lambda x: x.str.contains(full_denom, case=False)
+            )
+            miscat = orgs_df[
+                contains_cat.any(1) & (orgs_df.Denom != denom)
+                ]
+
+            miscats[denom] = miscat
             if pretty_print:
                 # total of found categories
-                print('{:>3} {:<23}'.format(len(miscat), cat))
+                print('{:>3} {:<23}'.format(len(miscat), denom))
                 # list of actual categories for that found one
-                for bad_cat, rows in miscat.fillna('None').groupby(cat_col):
+                for bad_cat, rows in miscat.fillna('None').groupby('Denom'):
                     print('{}{:>3} {}'.format(' ' * 23, len(rows), bad_cat))
         return miscats
 
     @staticmethod
-    def _manual_imputes(df):
+    def _manual_imputes(orgs_df):
         """Manually impute missing location values.
 
         Level of detail is necessary for analysis of US counties that
         have small Jewish populations.
         """
         try:
-            df.loc[df.State.isin(['QC', 'ON']), 'Country'] = 'CA'
+            orgs_df.loc[orgs_df.State.isin(['QC', 'ON']), 'Country'] = 'CA'
 
-            df.loc[260, ['Zip', 'Country']] = '35031', 'US'
-            df.loc[347, ['City', 'State', 'Zip', 'Country']] = (
+            orgs_df.loc[260, ['Zip', 'Country']] = (
+                '35031', 'US')
+            orgs_df.loc[347, ['City', 'State', 'Zip', 'Country']] = (
                 'Fallsburg', 'NY', '12733', 'Country')
-            df.loc[696, ['State', 'Zip', 'Country']] = 'PA', '15217', 'US'
-            df.loc[860, ['City', 'Zip', 'Country']] = 'Kahului', '96732', 'US'
-            df.loc[1418, ['City', 'State', 'Zip', 'Country']] = (
+            orgs_df.loc[696, ['State', 'Zip', 'Country']] = (
+                'PA', '15217', 'US')
+            orgs_df.loc[860, ['City', 'Zip', 'Country']] = (
+                'Kahului', '96732', 'US')
+            orgs_df.loc[1418, ['City', 'State', 'Zip', 'Country']] = (
                 'Mentor', 'OH', '44060', 'US')
 
-            df = df.drop([386, 2084, 2142, 2143])
+            orgs_df = orgs_df.drop([386, 2084, 2142, 2143])
         except ValueError as e:
             raise ValueError(
                 str(e) + ': ' + 'Must be before dropping Canadian orgs.')
 
-        return df
+        return orgs_df
+
+if __name__ == '__main__':
+
+    DATA_DIR = '../Data/'
+    SCL_DIR = ''.join([DATA_DIR, 'Schools/'])
+    JDATA_FP = ''.join([SCL_DIR, 'jdata_directory.json'])
+
+    orgs_df = JData().read_orgs(JDATA_FP, clean=True)

@@ -6,6 +6,21 @@ import pandas as pd
 
 from hud_geo_conversions import read_zips_to_fips
 from jdata import JData
+from utilities import read_fips_codes
+
+# TODO: Override read_orgs to add county estimates to directory
+
+# To reorder from most conservative to least (or thereabouts),
+# for the sake of consistency across datasets
+DENOM_COLS = ['Denom_Orth', 'Denom_Seph', 'Denom_Trad', 'Denom_Consv',
+              'Denom_Recon', 'Denom_Ref', 'Denom_Comm', 'Denom_PlurTrans',
+              'Denom_Hum', 'Denom_Sec', 'Denom_Oth', 'Denom_NonDenom',
+              'Denom_Zionist']
+TYPE_COLS  = ['Type_DaySch', 'Type_PTSch', 'Type_EarlyChild', 'Type_DayCamp',
+              'Type_OverCamp']
+
+DATA_DIR    = '../Data/'
+FIPS_CODES_FP = ''.join([DATA_DIR, 'Census-2010-County-FIPS.txt'])
 
 
 class JDataCounties(JData):
@@ -45,8 +60,8 @@ class JDataCounties(JData):
 
     def get_county_cnts(self,
                         categorical='both',
-                        exclude=None,
-                        combine_denoms=True):
+                        include=None,
+                        exclude=None):
         """Aggregate orgs into county counts of Denom and Type categories.
 
         Parameters
@@ -55,38 +70,81 @@ class JDataCounties(JData):
             Denom and Type categoricals, while 'denom' and 'org_type'
             return values counts of only one or the other.
             Note: This will not affect count aggregation.
-        exclude : None or list, default is None
+        include, exclude : None or list, default is None
             List specifies values of Denom and/or Type categoricals
-            to exclude (not prepended with Denom_ or Type_.
-            If both Denoms and Types are specified,
-            any organization that has either value will be discarded.
-            Note: This will affect count aggregation.
-        combine_denoms : bool, default is True
-            Passed to read_orgs
+            to include or exclude (not prepended with Denom_ or Type_.
+            Both include and exclude values cannot be specified.
+            If both Denoms and Types values are *include*,
+            any organization that meets *both* criteria will be kept.
+            If both Denoms and Types values are *excluded*,
+            any organization that meets *either* criteria will be dropped.
+            Note: This filtering will affect count aggregation.
 
         Returns
         -------
         self.cnty_df : DataFrame
         """
+
+        # If orgs_df already loaded, using bound DataFrame allows
+        # changes to it to be used in count calculation.
+        # If the client wants a clean read, that must be done manually.
         if self.orgs_df is None:
             # orgs_df must be cleaned to be compatible with
-            # get_county_cnts()
-            self.orgs_df = self.read_orgs(
-                self.jdata_org_fp, clean=True, combine_denoms=combine_denoms)
+            # get_county_cnts(). Only American orgs are supported.
+            orgs_df = self.read_orgs(
+                self.jdata_org_fp, clean=True, only_usa=True
+            )
+            self.orgs_df = orgs_df
 
-        orgs_df = self.orgs_df  # so self.orgs_df state preserved
+        # Method may modify orgs_df for count calculation, but
+        # self.orgs_df state will be maintained.
+        orgs_df = self.orgs_df.copy()
 
-        if exclude is not None:
-            valid_vals = (orgs_df.Type.unique().tolist() +
-                          orgs_df.Denom.unique().tolist())
-            if any(x not in valid_vals for x in exclude):
-                raise ValueError('Values to be excluded must be in data.')
+        if include is not None and exclude is not None:
+            raise ValueError('Cannot pass both include and exclude kwargs.')
 
-            orgs_df = orgs_df.loc[~orgs_df[['Type', 'Denom'
-                                            ]].isin(exclude).any(1)]
+        elif include is not None or exclude is not None:
+            valid_types = orgs_df.Type.unique().tolist()
+            valid_denoms = orgs_df.Denom.unique().tolist()
+            valid_vals = valid_types + valid_denoms
+
+            if exclude is not None:
+                if isinstance(exclude, str):
+                    exclude = [exclude]
+                if any(x not in valid_vals for x in exclude):
+                    raise ValueError('Values to be excluded must be in data.')
+
+                orgs_df = orgs_df.loc[
+                    ~orgs_df[['Type', 'Denom']].isin(exclude).any(1)
+                ]
+
+            # Including has a more complicated logic. If only Denoms
+            # are specified, it is assumed all Types are included, and
+            # vice versa.
+            if include is not None:
+                if isinstance(include, str):
+                    include = [include]
+                if any(x not in valid_vals for x in include):
+                    raise ValueError('Values to be included must be in data.')
+
+                include_type  = any(x in valid_types for x in include)
+                include_denom = any(x in valid_denoms for x in include)
+                if include_type and include_denom:
+                    orgs_df = orgs_df.loc[
+                        orgs_df[['Type', 'Denom']].isin(include).all(1)
+                    ]
+                elif include_type or include_denom:
+                    orgs_df = orgs_df.loc[
+                        orgs_df[['Type', 'Denom']].isin(include).any(1)
+                    ]
         self._zip_cnts_df = self._orgs_to_zip_cnts(orgs_df)
         self.cnty_df = (self._zip_cnts_to_fips(self._zip_cnts_df)
-                             .pipe(self._impute_denoms_county_cnts))
+                        .pipe(self._impute_denoms_county_cnts))
+
+        # reorder columns
+        reordered = [col for col in TYPE_COLS+DENOM_COLS
+                     if col in self.cnty_df.columns]
+        self.cnty_df = self.cnty_df.reindex(columns=reordered)
 
         if categorical == 'denom':
             self.cnty_df = self.cnty_df.select(
@@ -96,22 +154,31 @@ class JDataCounties(JData):
                 lambda x: x.startswith('Type_'), axis=1)
         elif categorical != 'both':
             raise ValueError(
-                'categorical arg must be either all, denom or type.')
+                'categorical arg must be either both, denom or type.')
 
         self.cnty_df = (self.cnty_df.rename_axis('FIPS', axis=0)
-                             .loc[self.cnty_df.sum(1) != 0])
+                        .loc[self.cnty_df.sum(1) != 0])
 
         # Validate FIPS index
         if not self.cnty_df.index.isin(self.to_fips.FIPS).all():
             raise ValueError('County FIPS codes index not valid')
 
         # Validate total organizations counted
+        # Configurations pass:
+        #    jdc.get_county_cnts(categorical='denom', combine_denoms=True)
+        #
         norm = 2 if categorical is 'both' else 1  # if orgs counted twice
         total_cnts = self.cnty_df.values.sum() / norm
-        if not math.isclose(total_cnts, len(orgs_df)):
+        source_ref = len(orgs_df)
+        if not math.isclose(total_cnts, source_ref):
             raise ValueError(
                 '{} total county counts does not match {} JData orgs'
                 .format(total_cnts, len(orgs_df)))
+
+        # Validate aggregated state counts
+        # state_cnts = df.groupby(fips_codes.STATE).apply(len)
+        # source_ref   = orgs_df.groupby('State').apply(len)
+
 
         return self.cnty_df
 
@@ -263,27 +330,50 @@ class JDataCounties(JData):
         if len(none_col) > 1:
             raise ValueError(
                 'More than one None category count variable not supported')
-        else:
+        elif len(none_col) == 1:
             none_col = none_col[0]
 
-        df.loc[df[none_col] > 0, denom_cols] = (
-            df.loc[df[none_col] > 0, denom_cols].apply(
-                weighted_dist, args=(none_col, ), axis=1))
-        df = df.drop(none_col, axis=1)
+            df.loc[df[none_col] > 0, denom_cols] = (
+                df.loc[df[none_col] > 0, denom_cols].apply(
+                    weighted_dist, args=(none_col, ), axis=1))
+            df = df.drop(none_col, axis=1)
 
-        # drop counties that have no other Denom data than None
-        has_only_none = df.loc[:, df.columns.isin(denom_cols)].sum(1) == 0
-        df = df.loc[~has_only_none]
+            # drop counties that have no other Denom data than None
+            has_only_none = df.loc[:, df.columns.isin(denom_cols)].sum(1) == 0
+            df = df.loc[~has_only_none]
 
         return df
 
 
 if __name__ == '__main__':
+    from religion_census import read_judaic_cngs
+
     DATA_DIR = '../Data/'
+
     SCL_DIR = ''.join([DATA_DIR, 'Schools/'])
+    REL_DIR = ''.join([DATA_DIR, 'Religion/'])
 
     ZIPS_TO_FIPS_FP = ''.join([DATA_DIR, 'ZIP_COUNTY_122016.xlsx'])
+    RELCEN_FP = ''.join([REL_DIR, 'US-Religion-Census-2010-County-File.DTA'])
     JDATA_FP = ''.join([SCL_DIR, 'jdata_directory.json'])
 
-    jdc = JDataCounties(JDATA_FP, ZIPS_TO_FIPS_FP)
-    cnty_df = jdc.get_county_cnts(clean=True, combine_denoms=True)
+    def one_org_or_more_counties(relcen_fp, jdata_fp, zips_to_fips_fp):
+        """Return Series of counties with one or more Synagogues or
+        JData organizations.
+        """
+        denoms = ['Orth', 'Consv', 'Trad', 'Seph', 'Ref', 'Recon', 'Comm']
+        # denoms = []
+        types = ['DaySch', 'PTSch', 'EarlyChild']
+        #     types   = ['DaySch', 'EarlyChild']
+        jd_orgs = (JDataCounties(jdata_fp, zips_to_fips_fp)
+                   .get_county_cnts('type', include=denoms + types)
+                   )
+        synags = read_judaic_cngs(relcen_fp, standard_cols=False)
+        totals = (jd_orgs.join(synags, how='outer')
+                  .dropna(how='any', axis=0)
+                  #                .sum(1)
+                  )
+        return totals
+
+
+    tots = one_org_or_more_counties(RELCEN_FP, JDATA_FP, ZIPS_TO_FIPS_FP)
