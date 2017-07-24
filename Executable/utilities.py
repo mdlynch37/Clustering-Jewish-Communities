@@ -23,7 +23,7 @@ def display_cb(df, max_colwidth=80):
 
 def remove_state(col):
     """Remove trailing states from city/county feature."""
-    return col.map(', '.join([x.strip() for x in x.split(',')][:-1]))
+    return col.map(lambda x: ', '.join([x.strip() for x in x.split(',')][:-1]))
 
 
 def split_state(df, col, suffix=None):
@@ -48,7 +48,7 @@ def split_state(df, col, suffix=None):
     """
     state_col = 'State' if suffix is None else '_'.join([col, suffix])
     # Create state column
-    df.loc[:, state_col] = df[col].map(x.split(',')[-1].strip())
+    df.loc[:, state_col] = df[col].map(lambda x: x.split(',')[-1].strip())
     df.loc[:, col] = remove_state(df[col])
 
     # readable order of city/county, state
@@ -77,7 +77,7 @@ def code_to_str(col, width):
     return col
 
 
-def read_fips_codes(fp=FIPS_CODES_FP):
+def read_fips_codes(fp):
     """Read 2010 Census County FIPS codes.
 
     Source: https://www.census.gov/geo/reference/codes/cou.html
@@ -117,6 +117,29 @@ def read_fips_codes(fp=FIPS_CODES_FP):
     df = df.set_index('FIPS')
 
     return df
+
+
+def fips_to_state_abbr(fips_col, fips_ref_fp):
+    """Convert 5-digit FIPS county codes to State Abbreviations.
+
+    Parameters
+    ----------
+    fips_col : Series of FIPS county codes.
+    fips_ref_fp : str
+        Filepath to 2010 Census County FIPS codes reference txt file.
+
+    Returns
+    -------
+    abbr_col = Series of state abbreviations.
+    """
+    fips_codes = (read_fips_codes(fips_ref_fp)
+                  .set_index('STATEFP')
+                  .drop_duplicates('STATE')
+                  .loc[:, 'STATE']
+                  )
+    abbr_col = fips_col.map(lambda x: fips_codes[x[:2]])
+
+    return abbr_col
 
 
 def is_outlier_val(col):

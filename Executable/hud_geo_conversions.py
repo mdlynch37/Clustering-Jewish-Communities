@@ -2,13 +2,8 @@ import pandas as pd
 
 from utilities import code_to_str
 
-DATA_DIR = '../Data/'
 
-ZIPS_TO_FIPS_FP = ''.join([DATA_DIR, 'ZIP_COUNTY_122016.xlsx'])
-FIPS_TO_ZIPS_FP = ''.join([DATA_DIR, 'COUNTY_ZIP_122016.xlsx'])
-
-
-def read_zips_to_fips(fp=ZIPS_TO_FIPS_FP, inverse=False):
+def read_zips_to_fips(fp, inverse=False):
     """
     Read 2010 Census counties to USPS Zips crosswalk file,
     updated for Q4 2016.
@@ -17,8 +12,8 @@ def read_zips_to_fips(fp=ZIPS_TO_FIPS_FP, inverse=False):
     derived from quarterly USPS Vacancy Data.
     Source: https://www.huduser.gov/portal/datasets/usps_crosswalk.html
 
-    Original filenames: 'ZIP_COUNTY_122016.xlsx',
-                        'COUNTY_ZIP_122016.xlsx'
+    Filenames: 'ZIP_COUNTY_122016.xlsx',
+               'COUNTY_ZIP_122016.xlsx'
 
     From the documentation: "HUD is unable to geocode a small number of
     records that we receive from the USPS.". A solution is to use the
@@ -48,12 +43,20 @@ def read_zips_to_fips(fp=ZIPS_TO_FIPS_FP, inverse=False):
     -------
     df : pandas.DataFrame
     """
-    fp = FIPS_TO_ZIPS_FP if inverse else fp
+    # Guard against inverse flag passed with wrong conversion table.
+    # This can be hard to notice otherwise since Zips and FIPS codes
+    # have same 5-digit string format.
+    if inverse and fp.split('/')[-1] != 'COUNTY_ZIP_122016.xlsx':
+        raise ValueError('Inverse should load file: COUNTY_ZIP_122016.xlsx')
+    if not inverse and fp.split('/')[-1] != 'ZIP_COUNTY_122016.xlsx':
+        raise ValueError('Should load file: ZIP_COUNTY_122016.xlsx')
+
     df = pd.read_excel(fp)
     df = df.rename(columns={'COUNTY': 'FIPS'})
 
     df.ZIP = code_to_str(df.ZIP, 5)
     df.FIPS = code_to_str(df.FIPS, 5)
+
     df = df.set_index('FIPS') if inverse else df.set_index('ZIP')
 
     return df

@@ -16,6 +16,8 @@ class JData:
     ---------
     COL_NAMES : dict
         Use to rename only the long column names.
+    ORDERED_COLS : list
+        Used to order DataFrame
     DENOM_NAMES : OrderedDict
         Use to rename all denomination values, and for reference.
         OrderedDict used so consistent output for get_miscats()
@@ -27,20 +29,23 @@ class JData:
         'Type of Organization': 'Type',
         'Denominations': 'Denom',
     }
-    DENOM_NAMES = OrderedDict([
-        ('Orthodox', 'Orth'),
-        ('Conservative', 'Consv'),
-        ('Reform', 'Ref'),
-        ('Reconstructionist', 'Recon'),
-        ('Community', 'Comm'),
-        ('Humanistic', 'Hum'),
-        ('Sephardic', 'Seph'),
-        ('Other', 'Oth'),
-        ('Secular', 'Sec'),
-        ('Traditional', 'Trad'),
-        ('Pluralist or Transdenominational', 'PlurTrans'),
-    ])
-
+    ORDERED_COLS = [
+        'Name', 'Addr', 'City', 'State', 'Zip', 'Country',
+        'Phone', 'URL', 'Type', 'Denom'
+    ]
+    DENOM_NAMES = {
+        'Orthodox': 'Orth',
+        'Conservative': 'Consv',
+        'Reform': 'Ref',
+        'Reconstructionist': 'Recon',
+        'Community': 'Comm',
+        'Humanistic': 'Hum',
+        'Sephardic': 'Seph',
+        'Other': 'Oth',
+        'Secular': 'Sec',
+        'Traditional': 'Trad',
+        'Pluralist or Transdenominational': 'PlurTrans',
+    }
     TYPE_NAMES = {
         'Day camp': 'DayCamp',
         'Day school': 'DaySch',
@@ -75,7 +80,6 @@ class JData:
         self.clean = clean
         self.only_usa = only_usa
 
-
         orgs_df = (pd.read_json(fp)
                    .rename(columns=self.COL_NAMES)
                    .reset_index(drop=True)
@@ -85,11 +89,7 @@ class JData:
             dict(Type=self.TYPE_NAMES, Denom=self.DENOM_NAMES)
         )
         # reorder columns
-        reordered = [
-            'Name', 'Addr', 'City', 'State', 'Zip', 'Country',
-            'Phone', 'URL', 'Type', 'Denom'
-        ]
-        orgs_df = orgs_df[reordered]
+        orgs_df = orgs_df.reindex(columns=self.ORDERED_COLS)
 
         if clean:
             orgs_df = self.clean_orgs(orgs_df)
@@ -101,9 +101,9 @@ class JData:
 
     def clean_orgs(self, orgs_df):
         """Clean, fix and filter out Canadian orgs."""
-        orgs_df = (orgs_df.pipe(self._manual_imputes)
-              .pipe(self._impute_denoms_with_miscats)
-              .pipe(self._correct_seph_miscats)
+        orgs_df = (orgs_df.pipe(self.manual_imputes)
+              .pipe(self.impute_denoms_with_miscats)
+              .pipe(self.correct_seph_miscats)
         )
         orgs_df = orgs_df.drop_duplicates(
                     ['Addr', 'City', 'State', 'Zip', 'Type', 'Denom']
@@ -138,14 +138,15 @@ class JData:
 
         return orgs_df
 
-    def _impute_denoms_with_miscats(self, orgs_df):
+    @classmethod
+    def impute_denoms_with_miscats(cls, orgs_df):
         """Impute missing denoms using clues from other features.
 
         This does not impute all missing denominations. Best left to
         other superclass JDataCounty that can proportionally distribute
         nans across other denoms in county.
         """
-        miscats_dict = self.get_denom_miscats(orgs_df)
+        miscats_dict = cls.get_denom_miscats(orgs_df)
 
         for type_, data in miscats_dict.items():
             missing = data[data.Denom.isnull() | (data.Denom == 'Oth')].index
@@ -153,15 +154,17 @@ class JData:
 
         return orgs_df
 
-    def _correct_seph_miscats(self, orgs_df):
+    @classmethod
+    def correct_seph_miscats(cls, orgs_df):
         """Correct any orgs with Sephardic in Name or URL."""
 
-        miscats_dict = self.get_denom_miscats(orgs_df)
+        miscats_dict = cls.get_denom_miscats(orgs_df)
 
         orgs_df.loc[miscats_dict['Seph'].index, 'Denom'] = 'Seph'
         return orgs_df
 
-    def get_denom_miscats(self, orgs_df, pretty_print=False):
+    @classmethod
+    def get_denom_miscats(cls, orgs_df, pretty_print=False):
         """Return organizations that may be mis-categorized.
 
         Whether its Denomination value appears in its other
@@ -183,29 +186,29 @@ class JData:
             print(
                 '{:<23}{:<23}\n'.format('FOUND ELSEWHERE', 'ACTUAL CATEGORY'))
 
-        miscats = {}
-        for full_denom, denom in self.DENOM_NAMES.items():
+        miscats_dict = {}
+        for full_denom, denom in sorted(cls.DENOM_NAMES.items()):
             if full_denom == 'Other':
-                continue  # too broad
+                continue  # too broad to be useful
 
             contains_cat = orgs_df[['Name', 'URL']].apply(
                 lambda x: x.str.contains(full_denom, case=False)
             )
-            miscat = orgs_df[
+            miscats_subset = orgs_df.loc[
                 contains_cat.any(1) & (orgs_df.Denom != denom)
                 ]
-
-            miscats[denom] = miscat
+            miscats_dict[denom] = miscats_subset
             if pretty_print:
                 # total of found categories
-                print('{:>3} {:<23}'.format(len(miscat), denom))
+                print('{:>3} {:<23}'.format(len(miscats_subset), denom))
                 # list of actual categories for that found one
-                for bad_cat, rows in miscat.fillna('None').groupby('Denom'):
+                for bad_cat, rows in (miscats_subset.fillna('nan')
+                                      .groupby('Denom')):
                     print('{}{:>3} {}'.format(' ' * 23, len(rows), bad_cat))
-        return miscats
+        return miscats_dict
 
     @staticmethod
-    def _manual_imputes(orgs_df):
+    def manual_imputes(orgs_df):
         """Manually impute missing location values.
 
         Level of detail is necessary for analysis of US counties that
